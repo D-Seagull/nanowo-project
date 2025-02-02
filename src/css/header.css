@@ -1,44 +1,171 @@
+/* ===================Modal==============*/
+.no-sctoll {
+  overflow: hidden;
+  flex-grow: 1;
+}
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.mob-menu {
+  position: fixed;
+  top: -100%; /* Спочатку модальне вікно знаходиться поза екраном */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8); /* Напівпрозорий фон */
+  color: white;
+  z-index: 999;
+  overflow-y: auto;
+  transition: top 0.5s ease-in-out; /* Плавне з'явлення зверху */
+}
+
+/* Клас для модального вікна, коли воно відкрито */
+.mob-menu.is-visible {
+  top: 0; /* Коли клас додано, модальне вікно випливає зверху */
+}
+.close-menu-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: transparent;
+  border-color: transparent;
+}
+#nav-icon2 {
+  width: 24px; /* Зменшена ширина контейнера */
+  height: 18px; /* Зменшена висота контейнера */
+  position: relative;
+  transform: rotate(0deg);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+#nav-icon2 span {
+  display: block;
+  position: absolute;
+  height: 3px; /* Зменшена висота ліній */
+  width: 50%; /* Ширина ліній */
+  background: var(--primary-text-color);
+  opacity: 1;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+
+#nav-icon2 span:nth-child(even) {
+  left: 50%;
+  border-radius: 0 9px 9px 0;
+}
+
+#nav-icon2 span:nth-child(odd) {
+  left: 0px;
+  border-radius: 9px 0 0 9px;
+}
+
+#nav-icon2 span:nth-child(1),
+#nav-icon2 span:nth-child(2) {
+  top: 0px; /* Відстань між лініями, якщо потрібно, можна відкоригувати */
+}
+
+#nav-icon2 span:nth-child(3),
+#nav-icon2 span:nth-child(4) {
+  top: 6px; /* Зменшено відстань між лініями */
+}
+
+#nav-icon2 span:nth-child(5),
+#nav-icon2 span:nth-child(6) {
+  top: 12px; /* Зменшено відстань між лініями */
+}
+
+#nav-icon2.open span:nth-child(1),
+#nav-icon2.open span:nth-child(6) {
+  transform: rotate(45deg);
+}
+
+#nav-icon2.open span:nth-child(2),
+#nav-icon2.open span:nth-child(5) {
+  transform: rotate(-45deg);
+}
+
+#nav-icon2.open span:nth-child(1) {
+  left: 3px; /* Відкориговано позицію */
+  top: 3px;
+}
+
+#nav-icon2.open span:nth-child(2) {
+  left: calc(50% - 3px); /* Відкориговано позицію */
+  top: 3px;
+}
+
+#nav-icon2.open span:nth-child(3) {
+  left: -50%;
+  opacity: 0;
+}
+
+#nav-icon2.open span:nth-child(4) {
+  left: 100%;
+  opacity: 0;
+}
+
+#nav-icon2.open span:nth-child(5) {
+  left: 3px; /* Відкориговано позицію */
+  top: 9px;
+}
+
+#nav-icon2.open span:nth-child(6) {
+  left: calc(50% - 3px); /* Відкориговано позицію */
+  top: 9px;
+}
+
+/* =======================================*/
+
 .header {
-  padding: 20px 0;
-}
-.nav {
   display: flex;
-  justify-content: space-between;
-}
-.nav-logo {
-  display: inline-flex;
-  align-items: center;
+  background-color: var(--second-background-color);
   justify-content: center;
 }
-.nav-list {
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-link {
+  cursor: pointer;
+}
+
+.logo-img {
+  width: 131px;
+  height: 79px;
+}
+
+.hamburder-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
-}
-.nav-link {
+  justify-content: center;
   position: relative;
-  display: block;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  transition: 200ms ease-in;
+  z-index: 1001;
 }
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+
+.icon-menu-burger {
+  fill: var(--primary-text-color);
+  width: 24px;
+  height: 12px;
 }
-.nav-link::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%) translateY(100%);
-  width: 110%;
-  height: 4px;
-  border-radius: 4px;
-  transform-origin: center;
-  animation: stretch 400ms cubic-bezier(0.68, -0.55, 0.27, 1.55) 200ms both;
+.nav-container {
+  display: none;
 }
-.nav-link.active::after {
-  background: #747bff;
+
+.no-sctoll {
+  overflow: hidden;
+  flex-grow: 1;
+}
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
