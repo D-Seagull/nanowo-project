@@ -10,6 +10,7 @@
   --section-text-color-dark: #2a3137;
   --section-text-color-white: #ffffff;
   --primary-svg-fill: #dddddd;
+ 
 }
 body {
   font-family: var(--font-family-base);

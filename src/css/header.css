@@ -1,38 +1,80 @@
+.header {
+  display: flex;
+  background-color: var(--second-background-color);
+  justify-content: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-link {
+  cursor: pointer;
+}
+
+.logo-img {
+  width: 131px;
+  height: 79px;
+}
+
 /* ===================Modal==============*/
 .no-sctoll {
   overflow: hidden;
   flex-grow: 1;
 }
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
 
 .mob-menu {
-  position: fixed;
-  top: -100%; /* Спочатку модальне вікно знаходиться поза екраном */
+  position: absolute;
+  top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.8); /* Напівпрозорий фон */
-  color: white;
-  z-index: 999;
-  overflow-y: auto;
-  transition: top 0.5s ease-in-out; /* Плавне з'явлення зверху */
+  height: 100vh;
+  background-color: #2a3137;
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  justify-content: center;
 }
 
-/* Клас для модального вікна, коли воно відкрито */
-.mob-menu.is-visible {
-  top: 0; /* Коли клас додано, модальне вікно випливає зверху */
+.is-hidden {
+  pointer-events: none;
+  top: -100vh;
 }
-.close-menu-button {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  background-color: transparent;
-  border-color: transparent;
+
+.mob-menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
 }
+
+.mob-menu-items {
+  color: #fff;
+  font-family: 'Poiret One';
+  font-size: 24px;
+  line-height: 24px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.hamburder-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 10;
+}
+
+.nav-container {
+  display: none;
+}
+
+/* ==============Burger animation=========================*/
+
 #nav-icon2 {
   width: 24px; /* Зменшена ширина контейнера */
   height: 18px; /* Зменшена висота контейнера */
@@ -119,53 +161,3 @@
 }
 
 /* =======================================*/
-
-.header {
-  display: flex;
-  background-color: var(--second-background-color);
-  justify-content: center;
-}
-
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.logo-link {
-  cursor: pointer;
-}
-
-.logo-img {
-  width: 131px;
-  height: 79px;
-}
-
-.hamburder-btn {
-  background: none;
-  border: none;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  z-index: 1001;
-}
-
-.icon-menu-burger {
-  fill: var(--primary-text-color);
-  width: 24px;
-  height: 12px;
-}
-.nav-container {
-  display: none;
-}
-
-.no-sctoll {
-  overflow: hidden;
-  flex-grow: 1;
-}
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
