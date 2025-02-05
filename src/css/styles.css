@@ -21,3 +21,9 @@
 @import url('./Home/about-us.css');
 @import url('./Home/whats-new.css');
 
+/* Page About style */
+@import url('./About/about-us.css');
+@import url('./About/attitude.css');
+@import url('./About/team.css');
+@import url('./About/services.css');
+@import url('./About/contact-us.css');
