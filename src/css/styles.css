@@ -13,3 +13,11 @@
 /* Sections style */
 @import url('./header.css');
 @import url('./footer.css');
+
+/* Page Home style */
+@import url('./Home/hero.css');
+@import url('./Home/projects.css');
+@import url('./Home/benefits.css');
+@import url('./Home/about-us.css');
+@import url('./Home/whats-new.css');
+
