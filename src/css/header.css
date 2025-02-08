@@ -60,6 +60,17 @@
   text-align: right;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.mob-menu-items:hover {
+  color: var(--hover-text-color);
+}
+.mob-menu-items:active {
+  color: var(--hover-text-color);
+}
+.mob-menu-items:focus {
+  color: var(--hover-text-color);
 }
 .hamburder-btn {
   background: none;
@@ -171,5 +182,33 @@
   }
   .logo-link {
     display: block;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .mob-menu,
+  .hamburder-btn {
+    display: none;
+  }
+  .nav-container {
+    display: flex;
+  }
+  .nav-menu {
+    display: flex;
+    color: var(--primary-text-color);
+    gap: 25px;
+  }
+  .nav-menu-item {
+    transition: color 0.3s ease-in-out;
+  }
+
+  .nav-menu-item:hover {
+    color: var(--hover-text-color);
+  }
+  .nav-menu-item:active {
+    color: var(--hover-text-color);
+  }
+  .nav-menu-item:focus {
+    color: var(--hover-text-color);
   }
 }
