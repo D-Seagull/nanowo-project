@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 :root {
   --font-family-base: 'Lato', sans-serif;
   --font-size-base: 20px;
@@ -10,7 +14,6 @@
   --section-text-color-dark: #2a3137;
   --section-text-color-white: #ffffff;
   --primary-svg-fill: #dddddd;
- 
 }
 body {
   font-family: var(--font-family-base);
@@ -18,9 +21,10 @@ body {
   line-height: var(--line-height-base);
   font-weight: var(--font-weight-base);
   background-color: var(--primary-background-color);
-  display: flex;
-  flex-direction: column;
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+}
+html {
+  scroll-behavior: smooth;
 }
