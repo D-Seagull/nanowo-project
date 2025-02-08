@@ -9,15 +9,18 @@
   justify-content: space-between;
   align-items: center;
 }
-.logo-link {
+.logo-link-mob {
   cursor: pointer;
 }
 
-.logo-img {
-  width: 131px;
-  height: 79px;
+.logo-img-mob {
+  width: 50px;
+  height: 50px;
+  padding: 10px 0;
 }
-
+.logo-link {
+  display: none;
+}
 /* ===================Modal==============*/
 .no-sctoll {
   overflow: hidden;
@@ -57,6 +60,17 @@
   text-align: right;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.mob-menu-items:hover {
+  color: var(--hover-text-color);
+}
+.mob-menu-items:active {
+  color: var(--hover-text-color);
+}
+.mob-menu-items:focus {
+  color: var(--hover-text-color);
 }
 .hamburder-btn {
   background: none;
@@ -161,3 +175,40 @@
 }
 
 /* =======================================*/
+/* ================ TABLET =======================*/
+@media only screen and (min-width: 768px) {
+  .logo-link-mob {
+    display: none;
+  }
+  .logo-link {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .mob-menu,
+  .hamburder-btn {
+    display: none;
+  }
+  .nav-container {
+    display: flex;
+  }
+  .nav-menu {
+    display: flex;
+    color: var(--primary-text-color);
+    gap: 25px;
+  }
+  .nav-menu-item {
+    transition: color 0.3s ease-in-out;
+  }
+
+  .nav-menu-item:hover {
+    color: var(--hover-text-color);
+  }
+  .nav-menu-item:active {
+    color: var(--hover-text-color);
+  }
+  .nav-menu-item:focus {
+    color: var(--hover-text-color);
+  }
+}
