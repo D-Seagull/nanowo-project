@@ -27,3 +27,17 @@
 @import url('./About/team.css');
 @import url('./About/services.css');
 @import url('./About/contact-us.css');
+
+/* Page Implementation style */
+@import url('./Implementation/implementation.css');
+@import url('./Implementation/projects.css');
+@import url('./Implementation/contact-us.css');
+
+/* Page Contact style */
+@import url('./Contact/location.css');
+@import url('./Contact/address.css');
+
+/* Page Updates style */
+@import url('./Updates/hero.css');
+@import url('./Updates/recent-releases.css');
+@import url('./Updates/contact-us.css');
