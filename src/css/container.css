@@ -12,7 +12,7 @@
 
 
     padding: 0 32px;
-
+  }
   
 }
 /* Styles for Desktop devices */
@@ -22,4 +22,4 @@
     max-width: 1582px;
     padding: 0 32px;
   }
-   
+}
