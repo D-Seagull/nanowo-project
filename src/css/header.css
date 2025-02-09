@@ -60,17 +60,6 @@
   text-align: right;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  transition: color 0.3s ease-in-out;
-}
-
-.mob-menu-items:hover {
-  color: var(--hover-text-color);
-}
-.mob-menu-items:active {
-  color: var(--hover-text-color);
-}
-.mob-menu-items:focus {
-  color: var(--hover-text-color);
 }
 .hamburder-btn {
   background: none;
@@ -208,9 +197,7 @@
   .nav-menu-item:active {
     color: var(--hover-text-color);
   }
-
-  .nav-menu-item:focus {
-
+  .nav-menu-item:active {
     color: var(--hover-text-color);
   }
 }
