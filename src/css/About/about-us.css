@@ -7,6 +7,11 @@
   background-repeat: no-repeat;
 }
 
+@media (min-resolution: 192dpi) {
+  .about-us-about {
+    background-image: url(../../img/About/about-hero-bg-2x-min.png);
+  }
+}
 .about-us-info {
   padding: 60px 82px;
   width: 963px;
@@ -15,7 +20,7 @@
 }
 
 .about-us-title {
-  font-family: var(--font-faamili-second);
+  font-family: var(--font-family-second);
   margin-bottom: 40px;
   font-weight: 400;
   font-size: 50px;
