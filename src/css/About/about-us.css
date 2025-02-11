@@ -1,10 +1,13 @@
 .about-us-about {
-  padding-top: 688px;
   height: 1112px;
   background-image: url(../../img/About/about-hero-bg-1x-min.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.about-us-about-container {
+  padding-top: 688px;
 }
 
 @media (min-resolution: 192dpi) {
