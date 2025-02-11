@@ -28,7 +28,7 @@
 }
 
 .hero-headline {
-  font-family: var(--font-faamili-second);
+  font-family: var(--font-family-base);
   font-size: 30px;
   font-weight: 700;
   color: var(--primary-text-color);
@@ -97,7 +97,6 @@
   }
 
   .hero-headline {
-    font-family: var(--font-faamili-second);
     font-size: 70px;
     font-weight: 400;
     color: var(--primary-text-color);
@@ -140,26 +139,25 @@
   }
   .hero-section {
     padding-top: 119px;
-    gap: 316px;
+    gap: 250px;
   }
   .hero-headline {
-    font-family: var(--font-faamili-second);
     color: var(--primary-text-color);
     font-weight: 400;
-    font-size: clamp(100px, 10vw, 133px);
+    font-size: clamp(70px, 10vw, 83px);
     line-height: 140.27px;
     margin-bottom: 23px;
   }
   .hero-undrer-text {
     font-family: Lato;
     font-weight: 400;
-    font-size: 55px;
+    font-size: 45px;
     line-height: 58.01px;
 
     margin-bottom: 4px;
   }
   .hero-list {
-    gap: 213px;
+    gap: 122px;
   }
   .helro-list-text {
     font-family: Lato;

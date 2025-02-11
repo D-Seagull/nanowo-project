@@ -4,8 +4,10 @@
 
 :root {
   --font-family-base: 'Lato', sans-serif;
-  --font-faamili-second: 'Poiret One', sans-serif;
-  --font-size-base: 18px;
+  --font-family-second: 'Poiret One', sans-serif;
+  --font-size-base: 24px;
+  --mobail-font-size: 18px;
+  --tablet-font-size: 20px;
   --line-height-base: 1.5;
   --font-weight-base: 400;
   --primary-background-color: #f6f6f6;
@@ -15,6 +17,10 @@
   --section-text-color-dark: #2a3137;
   --section-text-color-white: #ffffff;
   --primary-svg-fill: #dddddd;
+  --mob-container: 375px;
+  --tablet-container: 768px;
+  --desktop-conmtainer: 1440px;
+  --transition-effect: 0.3s ease-in-out;
 }
 body {
   font-family: var(--font-family-base);
