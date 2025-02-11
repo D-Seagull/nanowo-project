@@ -1,1 +1,30 @@
+.about-us-about {
+  padding-top: 688px;
+  height: 1112px;
+  background-image: url(../../img/About/about-hero-bg-1x-min.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
+.about-us-info {
+  padding: 60px 82px;
+  width: 963px;
+  min-height: 424px;
+  background: #2a3137;
+}
+
+.about-us-title {
+  font-family: var(--font-faamili-second);
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1;
+  color: #f6f6f6;
+}
+.about-us-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.39326;
+  color: #f6f6f6;
+}
