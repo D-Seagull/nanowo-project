@@ -1,4 +1,5 @@
 .about-us-about {
+  margin-bottom: 160px;
   height: 1112px;
   background-image: url(../../img/About/about-hero-bg-1x-min.png);
   background-position: center;
@@ -7,7 +8,9 @@
 }
 
 .about-us-about-container {
-  padding-top: 688px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 @media (min-resolution: 192dpi) {
@@ -16,8 +19,10 @@
   }
 }
 .about-us-info {
+  display: block;
+  margin-top: auto;
   padding: 60px 82px;
-  width: 963px;
+  max-width: 963px;
   min-height: 424px;
   background: #2a3137;
 }
