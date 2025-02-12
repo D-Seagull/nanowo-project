@@ -1,0 +1,47 @@
+.team-title {
+  margin-bottom: 40px;
+  font-family: var(--font-family-second);
+  font-weight: var(--font-weight-base);
+  font-size: 50px;
+  line-height: 1;
+  color: var(--section-text-color-dark);
+}
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 40px;
+}
+.team-list-item {
+  padding-left: 24px;
+  padding-bottom: 46px;
+  box-shadow: 0 3px 4px -5px rgba(0, 0, 0, 0.04),
+    0 7px 10px -5px rgba(0, 0, 0, 0.06), 0 18px 24px -5px rgba(0, 0, 0, 0.08),
+    0 60px 80px -5px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  max-width: calc((100% - 12px) / 3);
+  min-height: 480px;
+}
+.team-list-card-info-wrapper {
+  margin-top: 31px;
+}
+.team-list-card-name {
+  font-weight: var(--font-weight-base);
+  font-size: 20px;
+  color: var(--section-text-color-dark);
+}
+.team-list-card-position {
+  max-width: 260px;
+  margin-bottom: 46px;
+  font-weight: var(--font-weight-base);
+  font-size: 18px;
+  line-height: 1.1;
+  color: var(--section-text-color-dark);
+}
+.team-list-card-email {
+  font-weight: var(--font-weight-base);
+  font-size: 18px;
+  line-height: 1.1;
+  color: var(--section-text-color-dark);
+}
