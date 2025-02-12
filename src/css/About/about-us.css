@@ -24,7 +24,7 @@
   padding: 60px 82px;
   max-width: 963px;
   min-height: 424px;
-  background: #2a3137;
+  background: var(--second-background-color);
 }
 
 .about-us-title {
@@ -37,7 +37,7 @@
 }
 .about-us-text {
   font-weight: 400;
-  font-size: 24px;
+  font-size: var(--font-size-base);
   line-height: 1.39326;
   color: #f6f6f6;
 }
