@@ -37,4 +37,8 @@ const swiperProject = new Swiper('.projectSwiper', {
     el: '.swiper-pagination',
     clickable: true,
   },
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
 });

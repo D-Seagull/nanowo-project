@@ -10,6 +10,8 @@
   flex-wrap: wrap;
   gap: 15px;
   justify-content: space-around;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .exp-iteam {
   display: flex;
@@ -35,6 +37,8 @@
 @media only screen and (min-width: 768px) {
   .exp-list {
     gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .exp-head {
     font-size: 25px;
@@ -48,6 +52,8 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     gap: 0;
+    padding-top: 29px;
+    padding-bottom: 29px;
   }
   .exp-head {
     font-size: 50px;

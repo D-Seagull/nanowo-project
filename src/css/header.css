@@ -201,8 +201,8 @@
     gap: 25px;
   }
   .nav-menu-item {
-    font-size: 20px;
-    transition: color 0.3s ease-in-out;
+    font-size: var(--tablet-font-size);
+    transition: color var(--transition-effect);
   }
 
   .nav-menu-item:hover {
