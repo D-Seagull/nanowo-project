@@ -1,3 +1,6 @@
+import Swiper from 'swiper/bundle';
+
+import 'swiper/css/bundle';
 /*-------------modal script-------------*/
 (() => {
   const refs = {
@@ -22,4 +25,16 @@ document.addEventListener('DOMContentLoaded', function () {
   navIcon.addEventListener('click', function () {
     navIcon.classList.toggle('open');
   });
+});
+/*--------------------------------------*/
+
+/*=======================Swiper Projects======================*/
+const swiperProject = new Swiper('.projectSwiper', {
+  slidesPerView: 1,
+  spaceBetween: 10,
+  autoHeight: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
 });

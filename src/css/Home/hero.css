@@ -23,13 +23,13 @@
   font-size: 14px;
   margin-top: 20px;
   margin-bottom: 5px;
-  font-size: var(--font-size-base);
+  font-size: var(--mobail-font-size);
   color: var(--primary-text-color);
 }
 
 .hero-headline {
   font-family: var(--font-family-base);
-  font-size: 30px;
+  font-size: clamp(20px, 8vw, 30px);
   font-weight: 700;
   color: var(--primary-text-color);
 }
@@ -97,7 +97,7 @@
   }
 
   .hero-headline {
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 400;
     color: var(--primary-text-color);
     padding: 0;
