@@ -14,13 +14,14 @@
   row-gap: 40px;
 }
 .team-list-item {
+  width: 100%;
   padding-left: 24px;
   padding-bottom: 46px;
   box-shadow: 0 3px 4px -5px rgba(0, 0, 0, 0.04),
     0 7px 10px -5px rgba(0, 0, 0, 0.06), 0 18px 24px -5px rgba(0, 0, 0, 0.08),
     0 60px 80px -5px rgba(0, 0, 0, 0.1);
   background: #fff;
-  max-width: calc((100% - 12px) / 3);
+  max-width: calc((100% - 12px * 2) / 3);
   min-height: 480px;
 }
 .team-list-card-info-wrapper {
