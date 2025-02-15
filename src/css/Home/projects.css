@@ -151,6 +151,14 @@
   color: var(--hover-text-color);
   border-color: var(--hover-text-color);
 }
+.contact-btn:active {
+  color: var(--hover-text-color);
+  border-color: var(--hover-text-color);
+}
+.contact-btn:focus {
+  color: var(--hover-text-color);
+  border-color: var(--hover-text-color);
+}
 .more-link {
   color: var(--primary-text-color);
   font-size: 14px;
@@ -225,9 +233,7 @@
     font-size: 16px;
     padding: 14px 22px;
   }
-  .contact-btn:hover {
-    color: var(--hover-text-color);
-  }
+
   .more-link {
     font-size: 16px;
     gap: 12px;

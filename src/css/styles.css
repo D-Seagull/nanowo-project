@@ -16,6 +16,7 @@
 
 /* Page Home style */
 @import url('./Home/hero.css');
+@import url('./Home/turnkey.css');
 @import url('./Home/experience.css');
 @import url('./Home/projects.css');
 @import url('./Home/benefits.css');
