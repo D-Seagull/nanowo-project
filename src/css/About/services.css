@@ -1,0 +1,55 @@
+.services {
+  background-image: url(../../img/About/services-bg-1x-min.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 700px; для налаштувань, обов'язково видалити */
+}
+
+.services-container {
+  padding-left: 531px;
+}
+
+.services-title {
+  margin-bottom: 32px;
+  font-family: var(--font-family-second);
+  font-weight: var(--font-weight-base);
+  font-size: 50px;
+  line-height: 1;
+  color: var(--section-text-color-dark);
+}
+
+.services-list {
+}
+.services-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  height: 60px;
+}
+.services-list-item-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: var(--font-weight-base);
+  font-size: 50px;
+  line-height: 1;
+  color: #25abff;
+  border-bottom: 1px solid #25abff;
+  width: 76px;
+  height: 60px;
+}
+.services-list-item-text {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  border-right: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  width: 100%;
+  font-weight: var(--font-weight-base);
+  font-size: var(--font-size-base);
+  line-height: 1.4;
+  color: var(--section-text-color-dark);
+}
