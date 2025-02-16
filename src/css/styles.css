@@ -43,3 +43,7 @@
 @import url('./Updates/hero.css');
 @import url('./Updates/recent-releases.css');
 @import url('./Updates/contact-us.css');
+
+/* Page loading */
+
+@import url('./pageLoading/page-loding.css');

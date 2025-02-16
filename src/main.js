@@ -43,3 +43,32 @@ const swiperProject = new Swiper('.projectSwiper', {
   },
 });
 /*============================================================*/
+
+// * * * Page Loading animation
+
+const navMenu = document.querySelector('.nav-menu');
+const aboutLink = document.querySelector('.nav-menu-item');
+const loader = document.querySelector('.loader');
+const loaderTitle = document.querySelector('.loader-title');
+
+const handleClick = event => {
+  event.preventDefault();
+
+  const target = event.target;
+
+  if (target.nodeName !== 'A') {
+    return;
+  }
+
+  loader.classList.add('is-open');
+  loaderTitle.classList.add('is-open');
+
+  const href = target.href;
+  setTimeout(() => {
+    loader.classList.remove('is-open');
+    loaderTitle.classList.remove('is-open');
+    window.location.href = href;
+  }, 2000);
+};
+
+navMenu.addEventListener('click', handleClick);
