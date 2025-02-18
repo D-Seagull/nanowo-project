@@ -55,6 +55,12 @@ const handleClick = event => {
   event.preventDefault();
 
   const target = event.target;
+  const href = target.href;
+  const currentHref = window.location.href;
+
+  if (currentHref === href) {
+    return;
+  }
 
   if (target.nodeName !== 'A') {
     return;
@@ -63,12 +69,11 @@ const handleClick = event => {
   loader.classList.add('is-open');
   loaderTitle.classList.add('is-open');
 
-  const href = target.href;
   setTimeout(() => {
     loader.classList.remove('is-open');
     loaderTitle.classList.remove('is-open');
     window.location.href = href;
-  }, 2000);
+  }, 1750);
 };
 
 navMenu.addEventListener('click', handleClick);
