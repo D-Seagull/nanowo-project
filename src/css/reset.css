@@ -24,6 +24,7 @@ a {
 }
 
 button {
+  display: block;
   cursor: pointer;
 }
 
@@ -31,4 +32,11 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  display: block;
 }

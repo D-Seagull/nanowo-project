@@ -47,3 +47,6 @@
 /* Page loading */
 
 @import url('./pageLoading/page-loding.css');
+
+/* Form style */
+@import url('./Form/form.css');

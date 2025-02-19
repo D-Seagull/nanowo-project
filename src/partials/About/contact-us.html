@@ -1,0 +1,49 @@
+<section class="contact-us">
+  <div class="container contact-us-container">
+    <div class="form-wrapper">
+      <form class="contact-form" action="">
+        <label class="form-label" for="username">Imię</label>
+        <input
+          class="form-input"
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Text"
+        />
+        <label class="form-label" for="usere-email">Email</label>
+        <input
+          class="form-input"
+          type="email"
+          name="usere-email"
+          id="usere-email"
+          placeholder="Text"
+        />
+        <label class="form-label" for="user-comment">Informacja</label>
+        <textarea
+          class="user-comment form-input"
+          name="user-comment"
+          id="user-comment"
+          placeholder="Text"
+        ></textarea>
+        <div class="modal-checkbox">
+          <input
+            class="checkbox visually-hidden"
+            id="userPrivacy"
+            type="checkbox"
+            value="true"
+            name="user-privacy"
+            checked
+          />
+          <label class="checkbox-label" for="userPrivacy">
+            <span class="custom-checkbox"
+              ><svg class="checkbox-icon" width="13" height="13">
+                <use href=""></use></svg></span
+            >Wyrażam zgodę na przetwarzanie moich danych osobowych
+          </label>
+        </div>
+        <button class="form-btn" type="submit">Wyślij</button>
+      </form>
+    </div>
+    <div class="contact-info"></div>
+  </div>
+</section>
