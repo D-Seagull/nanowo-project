@@ -26,6 +26,7 @@ a {
 button {
   display: block;
   cursor: pointer;
+  padding: 0;
 }
 
 img {
