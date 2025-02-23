@@ -87,7 +87,7 @@
   .benefits {
     background-image: url('../../img/Home/benefits/Featuresection_backgr.jpg');
     padding: 0;
-    background-size: cover;
+    background-size: 200%;
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;

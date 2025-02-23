@@ -44,6 +44,27 @@ const swiperProject = new Swiper('.projectSwiper', {
 });
 /*============================================================*/
 
+/*=======================SwiperReviews======================*/
+const swiperReviews = new Swiper('.swiperReview', {
+  slidesPerView: 3,
+  spaceBetween: 12,
+  autoHeight: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
+  autoplay: {
+    delay: 3000, // 3 секунди між змінами слайдів
+    disableOnInteraction: false, // Продовжувати автоплей навіть після взаємодії
+  },
+  loop: true,
+});
+/*============================================================*/
+
 // * * * Page Loading animation
 
 const navMenu = document.querySelector('.nav-menu');
