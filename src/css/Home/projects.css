@@ -24,6 +24,7 @@
 }
 /*============projectSlider=============*/
 .project-slide {
+  z-index: 2;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -293,6 +294,7 @@
   .slider-container {
     gap: 0;
     justify-content: space-between;
+    margin-bottom: 100px;
   }
   .project-head {
     text-align: start;
