@@ -45,10 +45,12 @@
 .hero-about {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   background-color: rgba(42, 49, 55, 0.8);
   max-width: 350px;
   padding: 15px 0;
+  gap: 10px;
 }
 .hero-about-headline {
   font-family: var(--font-family-second);
@@ -67,6 +69,29 @@
 }
 .hero {
   position: relative;
+}
+.herro-btn {
+  color: var(--primary-text-color);
+  font-size: 14px;
+  line-height: 19.8px;
+  text-align: center;
+  padding: 12px 22px;
+  border: 1px solid var(--primary-text-color);
+  max-width: 300px;
+  transition: color, var(--transition-effect),
+    border-color var(--transition-effect);
+}
+.herro-btn:hover {
+  color: var(--hover-text-color);
+  border-color: var(--hover-text-color);
+}
+.herro-btn:active {
+  color: var(--hover-text-color);
+  border-color: var(--hover-text-color);
+}
+.herro-btn:focus {
+  color: var(--hover-text-color);
+  border-color: var(--hover-text-color);
 }
 /*--------------------Video-----------------------*/
 .background-video {
@@ -110,11 +135,13 @@
     color: var(--primary-text-color);
   }
   .hero-about {
+    align-items: start;
     background-color: rgba(42, 49, 55, 0.8);
-    padding-top: 40px;
-    padding-bottom: 70px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 500px;
   }
   .hero-about-headline {
     text-align: start;
@@ -126,9 +153,10 @@
   }
   .hero-about-text {
     text-align: start;
-    font-size: 14px;
+
     color: var(--primary-text-color);
     font-size: 16px;
+    max-width: 350px;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -136,30 +164,31 @@
     margin-bottom: 100px;
   }
   .hero-section {
+    position: relative;
     padding-top: 119px;
     gap: 250px;
   }
+
   .hero-headline {
     color: var(--primary-text-color);
-    font-weight: 400;
+    font-weight: 700;
     font-size: clamp(70px, 10vw, 83px);
-    line-height: 140.27px;
-    margin-bottom: 23px;
+    font-size: 83px;
+    line-height: 87.54px;
+    margin-bottom: 25px;
+    text-align: center;
   }
   .hero-undrer-text {
-    font-family: Lato;
     font-weight: 400;
-    font-size: 45px;
-    line-height: 58.01px;
-
-    margin-bottom: 4px;
+    font-size: 67px;
+    line-height: 70.66px;
   }
   .hero-list {
     gap: 122px;
   }
   .helro-list-text {
     font-family: var(--font-family-base);
-    font-weight: 400;
+    font-weight: 600;
     font-size: 32px;
     line-height: 37.72px;
 
@@ -168,11 +197,12 @@
   .hero-about {
     background-color: rgba(42, 49, 55, 0.8);
     gap: 27px;
-    padding-top: 44px;
-    padding-bottom: 139px;
+    padding-top: 60px;
+    padding-bottom: 38px;
     padding-left: 88px;
     padding-right: 88px;
     min-width: 698px;
+    margin-left: -90px;
   }
   .hero-about-headline {
     font-family: var(--font-family-second);
@@ -186,13 +216,26 @@
     color: var(--primary-text-color);
   }
   .hero-about-text {
-    text-align: start;
-
     color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33.44px;
+    max-width: 533px;
 
     font-family: Lato;
     font-weight: 400;
     font-size: 24px;
     line-height: 33.44px;
+  }
+  .herro-btn {
+    color: var(--primary-text-color);
+    font-size: 24px;
+
+    text-align: center;
+    padding: 20px 16px;
+    border: 1px solid var(--primary-text-color);
+    max-width: 310px;
+    transition: color, var(--transition-effect),
+      border-color var(--transition-effect);
   }
 }
