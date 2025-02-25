@@ -1,6 +1,5 @@
 .reviews-container {
-  background-size: 1920px 545px;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 8px 16px rgba(0, 0, 0, 0.08),
     0px 16px 32px rgba(0, 0, 0, 0.1);
 }
@@ -9,76 +8,75 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
-  padding-top: 223px;
+  padding-top: 50px;
   background-size: cover;
 }
-.review-header {
-  padding-top: 60px;
 
+.review-header {
+  padding-top: 30px;
   font-family: var(--font-family-second);
   font-weight: 400;
-  font-size: 70px;
-  line-height: 70px;
+  font-size: 25px;
+  line-height: 30px;
   color: var(--section-text-color-dark);
   text-align: center;
 }
 .review-header-name {
   font-family: var(--font-family-second);
   font-weight: 400;
-  font-size: 50px;
-  line-height: 50px;
+  font-size: 30px;
+  line-height: 30px;
   letter-spacing: 0%;
   text-align: center;
   color: var(--section-text-color-dark);
-  margin-bottom: 32px;
+  margin-bottom: 25px;
 }
-
 .reviews-img {
-  width: 76px;
-  height: 76px;
+  width: 25px;
+  height: 25px;
   margin: 0 auto;
   margin-bottom: 20px;
 }
+.reviews-pagination-container {
+  z-index: 15;
+  display: flex;
+  justify-content: center;
+}
+
 .slide-reviews {
   display: flex;
   background-color: #ffffff;
-  gap: 20px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  gap: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 8px 16px rgba(0, 0, 0, 0.08),
     0px 16px 32px rgba(0, 0, 0, 0.1);
 }
 .reviews-text {
   font-weight: 400;
-  font-size: 20px;
+  font-size: var(--mobail-font-size);
   line-height: 24px;
-  margin-bottom: 55px;
+  margin-bottom: 30px;
   text-align: center;
-  width: 430px;
+  max-width: 320px;
   margin-left: auto;
   margin-right: auto;
-  height: 120px;
   overflow: hidden;
 }
+
 .rev-investor-name {
   font-weight: 400;
-  font-size: 20px;
+  font-size: var(--mobail-font-size);
   line-height: 24px;
   color: #758285;
   text-align: center;
 }
 .review-investor {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 19.2px;
   text-align: center;
   color: #758285;
-}
-
-.reviews-pagination-container {
-  z-index: 15;
-  display: flex;
-  justify-content: center;
 }
 
 .reviews-pagination-container .swiper-pagination-bullet {
@@ -91,4 +89,87 @@
 .reviews-pagination-container .swiper-pagination-bullet-active {
   background-color: black;
   border: 1px solid black;
+}
+
+@media only screen and (min-width: 768px) {
+  .img-background-wrapper {
+    padding-top: 150px;
+  }
+  .review-header {
+    padding-top: 30px;
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .review-header-name {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 32px;
+  }
+
+  .reviews-img {
+    width: 50px;
+    height: 50px;
+  }
+  .slide-reviews {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .reviews-text {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 55px;
+    text-align: center;
+    max-width: 350px;
+    height: 120px;
+    overflow: hidden;
+  }
+  .rev-investor-name {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .review-investor {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .img-background-wrapper {
+    padding-top: 223px;
+  }
+  .review-header {
+    padding-top: 60px;
+    font-size: 70px;
+    line-height: 70px;
+  }
+  .review-header-name {
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 32px;
+  }
+
+  .reviews-img {
+    width: 76px;
+    height: 76px;
+  }
+  .slide-reviews {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .reviews-text {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 55px;
+    text-align: center;
+    max-width: 100%;
+    padding: 0 90px;
+    height: 120px;
+    overflow: hidden;
+  }
+  .rev-investor-name {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .review-investor {
+    font-size: 16px;
+  }
 }
