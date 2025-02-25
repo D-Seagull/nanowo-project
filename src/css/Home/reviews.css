@@ -1,8 +1,12 @@
+.review {
+}
 .reviews-container {
   background-image: url(../../img/svg/build2.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  overflow: hidden;
+  margin-bottom: 32px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 8px 16px rgba(0, 0, 0, 0.08),
+    0px 16px 32px rgba(0, 0, 0, 0.1);
 }
 .review-header {
   margin-bottom: 223px;
@@ -71,8 +75,23 @@
   color: #758285;
 }
 
-.reviews-pagination {
-  margin-top: 32px;
+.reviews-pagination-container {
+  z-index: 15;
   display: flex;
   justify-content: center;
+}
+
+.swiper-pagination-horizontal {
+}
+
+.reviews-pagination-container .swiper-pagination-bullet {
+  background-color: transparent;
+  border: 1px solid black;
+
+  border-radius: 50%;
+}
+
+.reviews-pagination-container .swiper-pagination-bullet-active {
+  background-color: black;
+  border: 1px solid black;
 }

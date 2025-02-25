@@ -50,7 +50,7 @@ const swiperReviews = new Swiper('.swiperReview', {
   spaceBetween: 12,
   autoHeight: true,
   pagination: {
-    el: ' .reviews-pagination',
+    el: ' .reviews-pagination-container',
     clickable: true,
   },
   keyboard: {

@@ -99,23 +99,23 @@
 .project-pagination .swiper-pagination-bullet-active::before {
   color: rgba(37, 171, 255, 1); /* Колір для активного елемента */
 }
-.swiper-pagination-bullet:nth-child(1)::before {
+.project-pagination .swiper-pagination-bullet:nth-child(1)::before {
   content: '2021';
 }
 
-.swiper-pagination-bullet:nth-child(2)::before {
+.project-pagination .swiper-pagination-bullet:nth-child(2)::before {
   content: '2022';
 }
 
-.swiper-pagination-bullet:nth-child(3)::before {
+.project-pagination .swiper-pagination-bullet:nth-child(3)::before {
   content: '2023';
 }
 
-.swiper-pagination-bullet:nth-child(4)::before {
+.project-pagination .swiper-pagination-bullet:nth-child(4)::before {
   content: '2024';
 }
 
-.swiper-pagination-bullet:nth-child(5)::before {
+.project-pagination .swiper-pagination-bullet:nth-child(5)::before {
   content: '2025';
 }
 
