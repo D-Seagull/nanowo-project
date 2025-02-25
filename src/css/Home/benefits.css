@@ -1,3 +1,8 @@
+.benefits-container {
+  background-color: var(--second-background-color);
+  display: flex;
+  flex-direction: column;
+}
 .benefits {
   background-color: var(--second-background-color);
   padding: 15px 0;
@@ -40,6 +45,9 @@
   text-align: center;
   font-size: var(--mobail-font-size);
 }
+.benefits-btn {
+  margin: 20px auto;
+}
 
 @media only screen and (min-width: 768px) {
   .benefits-container {
@@ -80,6 +88,9 @@
   }
   .benefits-item-head {
     margin-bottom: 24px;
+  }
+  .benefits-btn {
+    margin: 50px auto 0 auto;
   }
 }
 
@@ -139,5 +150,9 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 33.44px;
+  }
+  .benefits-btn {
+    margin: 50px auto 0 auto;
+    max-width: 158px;
   }
 }
