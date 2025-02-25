@@ -1,6 +1,6 @@
 /* Visualy hidden */
 
-/* .visually-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -12,7 +12,7 @@
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-} */
+}
 
 /* * * * * * * * * * * * * * */
 
@@ -116,11 +116,27 @@
 }
 
 .custom-checkbox {
-  display: block;
+  display: flex;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
   border: 1px solid #2a3137;
   border-radius: 2px;
   width: 13px;
   height: 13px;
+  transition: background-color var(--transition-effect),
+    fill var(--transition-effect), border var(--transition-effect);
+}
+
+.custom-checkbox {
+  fill: transparent;
+}
+
+.checkbox:checked + .checkbox-label > .custom-checkbox {
+  background-color: #2294db;
+  fill: #fff;
+  stroke: #fff;
+  border: none;
 }
 
 /* Have to be deleted */
@@ -170,9 +186,27 @@
 }
 .contacts-list-item-number {
 }
-.contacts-list-item-svg {
+
+.contacts-list-item-element-svg {
+  margin-right: 14px;
+  fill: transparent;
+  /* fill: #25abff; */
+  stroke: #25abff;
+  /* stroke: transparent; */
 }
-.contacts-list-item-link {
+
+/* * * * */
+.inst-svg {
+  fill: #25abff;
+  stroke-width: 0.5px;
 }
+/* * * * */
+
+.svg-wrapper {
+  display: block;
+}
+
 .contacts-list-item-address {
+  display: flex;
+  align-items: center;
 }
