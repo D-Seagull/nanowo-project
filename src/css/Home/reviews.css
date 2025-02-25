@@ -70,3 +70,9 @@
   text-align: center;
   color: #758285;
 }
+
+.reviews-pagination {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+}

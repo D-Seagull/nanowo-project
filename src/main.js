@@ -34,7 +34,7 @@ const swiperProject = new Swiper('.projectSwiper', {
   spaceBetween: 10,
   autoHeight: true,
   pagination: {
-    el: '.swiper-pagination',
+    el: '.project-pagination.swiper-pagination',
     clickable: true,
   },
   keyboard: {
@@ -50,19 +50,20 @@ const swiperReviews = new Swiper('.swiperReview', {
   spaceBetween: 12,
   autoHeight: true,
   pagination: {
-    el: '.swiper-pagination',
+    el: ' .reviews-pagination',
     clickable: true,
   },
   keyboard: {
     enabled: true,
     onlyInViewport: false,
   },
-  autoplay: {
-    delay: 3000, // 3 секунди між змінами слайдів
-    disableOnInteraction: false, // Продовжувати автоплей навіть після взаємодії
-  },
+  // autoplay: {
+  //   delay: 3000, // 3 секунди між змінами слайдів
+  //   disableOnInteraction: false, // Продовжувати автоплей навіть після взаємодії
+  // },
   loop: true,
 });
+console.log(swiperReviews);
 /*============================================================*/
 
 // * * * Page Loading animation

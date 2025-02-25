@@ -93,11 +93,11 @@
   background-color: rgba(117, 130, 133, 1);
   opacity: 1;
 }
-.swiper-pagination-bullet-active {
-  background-color: rgba(37, 171, 255, 1) !important;
+.project-pagination .swiper-pagination-bullet-active {
+  background-color: rgba(37, 171, 255, 1);
 }
-.swiper-pagination-bullet-active::before {
-  color: rgba(37, 171, 255, 1) !important; /* Колір для активного елемента */
+.project-pagination .swiper-pagination-bullet-active::before {
+  color: rgba(37, 171, 255, 1); /* Колір для активного елемента */
 }
 .swiper-pagination-bullet:nth-child(1)::before {
   content: '2021';
