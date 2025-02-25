@@ -46,24 +46,33 @@ const swiperProject = new Swiper('.projectSwiper', {
 
 /*=======================SwiperReviews======================*/
 const swiperReviews = new Swiper('.swiperReview', {
-  slidesPerView: 3,
+  slidesPerView: 1,
   spaceBetween: 12,
   autoHeight: true,
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+    },
+    1440: {
+      slidesPerView: 3,
+    },
+  },
+
   pagination: {
-    el: ' .reviews-pagination-container',
+    el: '.reviews-pagination-container',
     clickable: true,
   },
   keyboard: {
     enabled: true,
     onlyInViewport: false,
   },
-  // autoplay: {
-  //   delay: 3000, // 3 секунди між змінами слайдів
-  //   disableOnInteraction: false, // Продовжувати автоплей навіть після взаємодії
-  // },
-  loop: true,
+  speed: 5000, // Дуже плавний рух
+  autoplay: {
+    delay: 0, // Без затримки
+    disableOnInteraction: false, // Продовжувати автоплей навіть після взаємодії
+  },
+  loop: true, // Безкінечне прокручування
 });
-console.log(swiperReviews);
 /*============================================================*/
 
 // * * * Page Loading animation

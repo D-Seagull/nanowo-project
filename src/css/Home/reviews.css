@@ -1,15 +1,20 @@
-.review {
-}
 .reviews-container {
-  background-image: url(../../img/svg/build2.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: 1920px 545px;
   margin-bottom: 32px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 8px 16px rgba(0, 0, 0, 0.08),
     0px 16px 32px rgba(0, 0, 0, 0.1);
 }
+.img-background-wrapper {
+  background-image: url(../../img/svg/build2.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-top: 223px;
+  background-size: cover;
+}
 .review-header {
-  margin-bottom: 223px;
+  padding-top: 60px;
+
   font-family: var(--font-family-second);
   font-weight: 400;
   font-size: 70px;
@@ -40,13 +45,8 @@
   gap: 20px;
   padding-top: 40px;
   padding-bottom: 40px;
-  box-shadow: 0px 2.7px 3.6px -5px rgba(0, 0, 0, 0.04);
-
-  box-shadow: 0px 7.5px 10px -5px rgba(0, 0, 0, 0.06);
-
-  box-shadow: 0px 18px 24.1px -5px rgba(0, 0, 0, 0.08);
-
-  box-shadow: 0px 60px 80px -5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 8px 16px rgba(0, 0, 0, 0.08),
+    0px 16px 32px rgba(0, 0, 0, 0.1);
 }
 .reviews-text {
   font-weight: 400;
@@ -79,9 +79,6 @@
   z-index: 15;
   display: flex;
   justify-content: center;
-}
-
-.swiper-pagination-horizontal {
 }
 
 .reviews-pagination-container .swiper-pagination-bullet {
