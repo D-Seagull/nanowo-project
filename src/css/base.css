@@ -63,12 +63,6 @@ html {
   border-color: var(--hover-text-color);
 }
 @media only screen and (min-width: 768px) {
-  .contact-btn {
-    margin: 0;
-    color: var(--primary-text-color);
-    font-size: 16px;
-    padding: 14px 22px;
-  }
 }
 @media only screen and (min-width: 1200px) {
   .contact-btn {
