@@ -27,6 +27,7 @@
 
 .loader-title {
   /* width: 295px; */
+  font-family: var(--font-family-second);
   font-weight: 400;
   font-size: 44px;
   letter-spacing: 28px;

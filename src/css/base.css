@@ -38,6 +38,8 @@ html {
 }
 
 .contact-btn {
+  display: flex;
+  margin: 0 auto;
   color: var(--primary-text-color);
   font-size: 14px;
   line-height: 19.8px;
@@ -62,6 +64,7 @@ html {
 }
 @media only screen and (min-width: 768px) {
   .contact-btn {
+    margin: 0;
     color: var(--primary-text-color);
     font-size: 16px;
     padding: 14px 22px;
