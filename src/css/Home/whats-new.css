@@ -54,7 +54,7 @@
 .news-btn {
   color: var(--second-background-color);
   margin: 0 auto;
-  border: 2px solid var(--second-background-color);
+  border: 1px solid var(--second-background-color);
 }
 
 @media only screen and (min-width: 768px) {
