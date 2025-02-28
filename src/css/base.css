@@ -62,10 +62,3 @@ html {
   color: var(--hover-text-color);
   border-color: var(--hover-text-color);
 }
-@media only screen and (min-width: 768px) {
-}
-@media only screen and (min-width: 1200px) {
-  .contact-btn {
-    font-size: 18px;
-  }
-}

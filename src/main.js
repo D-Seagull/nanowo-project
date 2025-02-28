@@ -49,6 +49,10 @@ const swiperReviews = new Swiper('.swiperReview', {
   slidesPerView: 1,
   spaceBetween: 12,
   autoHeight: true,
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
   breakpoints: {
     768: {
       slidesPerView: 2,
