@@ -36,8 +36,68 @@
   color: #f6f6f6;
 }
 .about-us-text {
-  font-weight: 400;
+  font-weight: var(--font-weight-base);
   font-size: var(--font-size-base);
   line-height: 1.39326;
   color: #f6f6f6;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: var(--tablet-container);
+    padding: 0 32px;
+  }
+  .about-us-about {
+    margin-bottom: 100px;
+    height: 890px;
+  }
+
+  .about-us-info {
+    padding: 48px 65px;
+    max-width: 550px;
+    min-height: 340px;
+    background: var(--second-background-color);
+  }
+
+  .about-us-title {
+    margin-bottom: 24px;
+    font-size: 40px;
+    line-height: 1;
+    color: #f6f6f6;
+  }
+  .about-us-text {
+    font-size: var(--tablet-font-size);
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: var(--mob-container);
+    padding: 0 32px;
+  }
+
+  .about-us-about {
+    margin-bottom: 60px;
+    height: 712px;
+  }
+
+  .about-us-info {
+    padding: 36px 48px;
+    max-width: 550px;
+    height: 340px;
+    background: var(--second-background-color);
+    overflow: scroll;
+  }
+
+  .about-us-title {
+    margin-bottom: 18px;
+    font-size: 28px;
+    line-height: 1;
+    color: #f6f6f6;
+  }
+  .about-us-text {
+    font-size: var(--mobail-font-size);
+    line-height: 1.3;
+  }
 }
