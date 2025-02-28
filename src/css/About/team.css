@@ -50,3 +50,58 @@
   line-height: 1.1;
   color: var(--section-text-color-dark);
 }
+
+@media only screen and (max-width: 1200px) {
+  .team {
+    margin-bottom: 100px;
+  }
+
+  .team-title {
+    margin-bottom: 28px;
+    font-size: 40px;
+  }
+  .team-list {
+    row-gap: 28px;
+  }
+  .team-list-item {
+    padding-left: 18px;
+    padding-bottom: 36px;
+    max-width: calc((100% - 12px) / 2);
+    min-height: 100%;
+  }
+  .team-list-card-info-wrapper {
+    margin-top: 24px;
+  }
+  .team-list-card-name {
+    font-size: 16px;
+  }
+  .team-list-card-position {
+    margin-bottom: 34px;
+    font-size: 14px;
+  }
+  .team-list-card-email {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .team {
+    margin-bottom: 60px;
+  }
+
+  .team-title {
+    margin-bottom: 24px;
+    font-size: 28px;
+  }
+  .team-list {
+    row-gap: 20px;
+  }
+  .team-list-item {
+    padding-left: 16px;
+    padding-bottom: 32px;
+    max-width: 100%;
+  }
+  .team-list-card-info-wrapper {
+    margin-top: 24px;
+  }
+}
