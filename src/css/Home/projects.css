@@ -1,6 +1,8 @@
 .project-container {
   background-color: var(--second-background-color);
   display: flex;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 8px 16px rgba(0, 0, 0, 0.08),
+    0px 16px 32px rgba(0, 0, 0, 0.06);
 }
 .project-header {
   display: flex;

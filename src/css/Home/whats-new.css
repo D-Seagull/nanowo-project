@@ -1,3 +1,6 @@
+.whats-new {
+  margin-bottom: 20px;
+}
 .news-container {
   display: flex;
   flex-direction: column;
@@ -58,6 +61,9 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .whats-new {
+    margin-bottom: 30px;
+  }
   .news-header-container {
     margin-bottom: 25px;
   }
@@ -92,6 +98,9 @@
   }
 }
 @media only screen and (min-width: 1200px) {
+  .whats-new {
+    margin-bottom: 160px;
+  }
   .news-container {
     align-items: start;
   }

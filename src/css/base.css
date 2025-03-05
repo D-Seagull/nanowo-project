@@ -22,6 +22,7 @@
   --desktop-conmtainer: 1440px;
   --transition-effect: 0.3s ease-in-out;
 }
+
 body {
   font-family: var(--font-family-base);
   font-size: var(--font-size-base);

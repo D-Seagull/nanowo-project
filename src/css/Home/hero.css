@@ -1,6 +1,11 @@
 .hero {
   position: relative;
   overflow: hidden;
+  background: linear-gradient(
+    180deg,
+    rgba(29, 103, 120, 0.5) 0%,
+    rgba(36, 36, 36, 0) 60%
+  );
 }
 
 .hero-section {
@@ -39,6 +44,13 @@
 .helro-list-text {
   color: var(--primary-text-color);
   font-size: 14px;
+  transition: color var(--transition-effect);
+}
+
+.helro-list-text:hover,
+.helro-list-text:focus,
+.helro-list-text:active {
+  color: var(--hover-text-color);
 }
 
 .hero-about {
@@ -46,7 +58,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgba(42, 49, 55, 0.8);
+  background-color: var(--second-background-color);
   max-width: 350px;
   padding: 15px 0;
   gap: 10px;
@@ -57,7 +69,6 @@
   font-size: 14px;
   font-weight: 700;
   font-size: var(--font-size-base);
-  color: var(--font-size-base);
   color: var(--primary-text-color);
 }
 .hero-about-text {
@@ -106,9 +117,19 @@
 .video {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Відео адаптується під ширину і висоту hero-section */
+  object-fit: cover;
 }
 
+/* New overlay for the blur effect */
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 65%;
+  backdrop-filter: blur(2px); /* Apply the blur effect */
+  z-index: 1; /* Make sure it's above the video */
+}
 /*====================TABLET===================*/
 @media only screen and (min-width: 768px) {
   .hero {
@@ -135,7 +156,7 @@
   }
   .hero-about {
     align-items: start;
-    background-color: rgba(42, 49, 55, 0.8);
+
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
@@ -147,7 +168,7 @@
     font-size: 14px;
     font-weight: 700;
     font-size: var(--font-size-base);
-    color: var(--font-size-base);
+
     color: var(--primary-text-color);
   }
   .hero-about-text {
@@ -194,7 +215,6 @@
     text-align: center;
   }
   .hero-about {
-    background-color: rgba(42, 49, 55, 0.8);
     gap: 27px;
     padding-top: 60px;
     padding-bottom: 38px;

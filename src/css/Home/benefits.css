@@ -6,6 +6,8 @@
 .benefits {
   background-color: var(--second-background-color);
   padding: 15px 0;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 8px 16px rgba(0, 0, 0, 0.08),
+    0px 16px 32px rgba(0, 0, 0, 0.06);
 }
 .icon-benefits {
   margin: 0 auto;
