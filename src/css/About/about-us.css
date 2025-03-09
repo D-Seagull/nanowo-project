@@ -1,7 +1,7 @@
 .about-us-about {
   margin-bottom: 160px;
   height: 1112px;
-  background-image: url(../../img/About/about-hero-bg-1x-min.jpg);
+  background-image: url(../../img/About/main-bg-jpeg-1x-min.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,13 +15,13 @@
 
 @media (min-resolution: 192dpi) {
   .about-us-about {
-    background-image: url(../../img/About/about-hero-bg-2x-min.jpg);
+    background-image: url(../../img/About/main-bg-jpeg-2x-min.jpg);
   }
 }
 .about-us-info {
   display: block;
   margin-top: auto;
-  padding: 60px 82px;
+  padding: 60px 90px;
   max-width: 963px;
   min-height: 424px;
   background: var(--second-background-color);
@@ -29,7 +29,7 @@
 
 .about-us-title {
   font-family: var(--font-family-second);
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   font-weight: 400;
   font-size: 50px;
   line-height: 1;
@@ -83,11 +83,11 @@
   }
 
   .about-us-info {
-    padding: 36px 48px;
+    padding: 30px 30px;
     max-width: 550px;
-    height: 340px;
+    min-height: 340px;
     background: var(--second-background-color);
-    overflow: scroll;
+    /* overflow: scroll; */
   }
 
   .about-us-title {
@@ -97,6 +97,7 @@
     color: #f6f6f6;
   }
   .about-us-text {
+    max-width: 200px;
     font-size: var(--mobail-font-size);
     line-height: 1.3;
   }
