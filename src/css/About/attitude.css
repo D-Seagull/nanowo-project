@@ -7,18 +7,20 @@
 }
 .attitude-container {
   display: flex;
-
   padding-top: 40px;
   padding-bottom: 40px;
+  gap: 103px;
+}
 
-  gap: 56px;
+.attitude-video-wrapper {
+  max-width: 860px;
 }
 
 .attitude-video {
   display: block;
   padding: 0;
   margin: 0;
-  max-width: 895px; /*має бути 900 на 541, але контент не влазе*/
+  max-width: 896px; /*має бути 900 на 541, але контент не влазе*/
   aspect-ratio: 16 / 9;
 }
 .attitude-title {
@@ -30,7 +32,7 @@
   margin-bottom: 40px;
 }
 .attitude-text {
-  max-width: 519px;
+  width: 442px;
   font-weight: var(--font-weight-base);
   font-size: 24px;
   line-height: 1.39326;
@@ -41,6 +43,7 @@
   .attitude {
     margin-bottom: 80px;
   }
+
   .attitude-container {
     display: flex;
     flex-direction: column;
@@ -49,9 +52,7 @@
     padding-bottom: 32px;
     gap: 44px;
   }
-  .attitude-video {
-    max-width: 100%;
-  }
+
   .attitude-title {
     font-size: 40px;
     line-height: 1;
@@ -74,9 +75,7 @@
     padding-bottom: 24px;
     gap: 30px;
   }
-  .attitude-video {
-    max-width: 100%; /*має бути 900 на 541, але контент не влазе*/
-  }
+
   .attitude-title {
     font-size: 28px;
     line-height: 1;
