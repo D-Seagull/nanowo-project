@@ -1,7 +1,7 @@
 .about-us-about {
   margin-bottom: 160px;
   height: 1112px;
-  background-image: url(../../img/About/about-hero-bg-1x-min.png);
+  background-image: url(../../img/About/about-hero-bg-1x-min.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@
 
 @media (min-resolution: 192dpi) {
   .about-us-about {
-    background-image: url(../../img/About/about-hero-bg-2x-min.png);
+    background-image: url(../../img/About/about-hero-bg-2x-min.jpg);
   }
 }
 .about-us-info {
