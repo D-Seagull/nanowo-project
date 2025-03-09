@@ -81,10 +81,10 @@ const swiperReviews = new Swiper('.swiperReview', {
 
 // * * * Page Loading animation
 
-document.addEventListener('DOMContentLoaded', () => {
-  const logo = document.querySelectorAll('.logo-link, .logo-link-mob');
-  const loader = document.querySelector('.loader');
-  const loaderTitle = document.querySelector('.loader-title');
+const navMenu = document.querySelector('.nav-menu');
+const aboutLink = document.querySelector('.nav-menu-item');
+const loader = document.querySelector('.loader');
+const loaderTitle = document.querySelector('.loader-title');
 
   const handleClick = event => {
     event.preventDefault();
