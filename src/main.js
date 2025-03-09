@@ -86,36 +86,35 @@ const aboutLink = document.querySelector('.nav-menu-item');
 const loader = document.querySelector('.loader');
 const loaderTitle = document.querySelector('.loader-title');
 
-  const handleClick = event => {
-    event.preventDefault();
+const handleClick = event => {
+  event.preventDefault();
 
-    const target = event.target;
-    let link = target;
-    if (target.nodeName !== 'A') {
-      link = target.closest('a');
-    }
-    if (!link) return;
+  const target = event.target;
+  let link = target;
+  if (target.nodeName !== 'A') {
+    link = target.closest('a');
+  }
+  if (!link) return;
 
-    const href = link.href;
-    const currentHref = window.location.href;
+  const href = link.href;
+  const currentHref = window.location.href;
 
-    if (currentHref === href) {
-      return;
-    }
+  if (currentHref === href) {
+    return;
+  }
 
-    console.log('Поточний URL:', currentHref);
-    console.log('Цільовий URL:', href);
+  console.log('Поточний URL:', currentHref);
+  console.log('Цільовий URL:', href);
 
-    loader.classList.add('is-open');
-    loaderTitle.classList.add('is-open');
+  loader.classList.add('is-open');
+  loaderTitle.classList.add('is-open');
 
-    setTimeout(() => {
-      loader.classList.remove('is-open');
-      loaderTitle.classList.remove('is-open');
-      window.location.href = href;
-    }, 1500);
-  };
-  logo.forEach(item => {
-    item.addEventListener('click', handleClick);
-  });
+  setTimeout(() => {
+    loader.classList.remove('is-open');
+    loaderTitle.classList.remove('is-open');
+    window.location.href = href;
+  }, 1500);
+};
+logo.forEach(item => {
+  item.addEventListener('click', handleClick);
 });
