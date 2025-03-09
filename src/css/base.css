@@ -49,7 +49,7 @@ html {
   max-width: 158px;
   border: 1px solid var(--primary-text-color);
   transition: color, var(--transition-effect),
-    border-color var(--transition-effect);
+    border-clor var(--transition-effect);
 }
 .contact-btn:hover {
   color: var(--hover-text-color);
