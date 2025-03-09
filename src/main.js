@@ -82,7 +82,7 @@ const swiperReviews = new Swiper('.swiperReview', {
 // * * * Page Loading animation
 
 document.addEventListener('DOMContentLoaded', () => {
-  const navMenu = document.querySelectorAll('.logo-link, .logo-link-mob');
+  const logo = document.querySelectorAll('.logo-link, .logo-link-mob');
   const loader = document.querySelector('.loader');
   const loaderTitle = document.querySelector('.loader-title');
 
@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
       window.location.href = href;
     }, 1500);
   };
-  navMenu.forEach(item => {
+  logo.forEach(item => {
     item.addEventListener('click', handleClick);
   });
 });
