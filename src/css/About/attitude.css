@@ -18,7 +18,7 @@
   display: block;
   padding: 0;
   margin: 0;
-  max-width: 100px; /*має бути 900 на 541, але контент не влазе*/
+  max-width: 895px; /*має бути 900 на 541, але контент не влазе*/
   aspect-ratio: 16 / 9;
 }
 .attitude-title {

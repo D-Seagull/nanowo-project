@@ -81,34 +81,41 @@ const swiperReviews = new Swiper('.swiperReview', {
 
 // * * * Page Loading animation
 
-const navMenu = document.querySelector('.nav-menu');
-const aboutLink = document.querySelector('.nav-menu-item');
-const loader = document.querySelector('.loader');
-const loaderTitle = document.querySelector('.loader-title');
+document.addEventListener('DOMContentLoaded', () => {
+  const navMenu = document.querySelectorAll('.logo-link, .logo-link-mob');
+  const loader = document.querySelector('.loader');
+  const loaderTitle = document.querySelector('.loader-title');
 
-const handleClick = event => {
-  event.preventDefault();
+  const handleClick = event => {
+    event.preventDefault();
 
-  const target = event.target;
-  const href = target.href;
-  const currentHref = window.location.href;
+    const target = event.target;
+    let link = target;
+    if (target.nodeName !== 'A') {
+      link = target.closest('a');
+    }
+    if (!link) return;
 
-  if (currentHref === href) {
-    return;
-  }
+    const href = link.href;
+    const currentHref = window.location.href;
 
-  if (target.nodeName !== 'A') {
-    return;
-  }
+    if (currentHref === href) {
+      return;
+    }
 
-  loader.classList.add('is-open');
-  loaderTitle.classList.add('is-open');
+    console.log('Поточний URL:', currentHref);
+    console.log('Цільовий URL:', href);
 
-  setTimeout(() => {
-    loader.classList.remove('is-open');
-    loaderTitle.classList.remove('is-open');
-    window.location.href = href;
-  }, 1750);
-};
+    loader.classList.add('is-open');
+    loaderTitle.classList.add('is-open');
 
-navMenu.addEventListener('click', handleClick);
+    setTimeout(() => {
+      loader.classList.remove('is-open');
+      loaderTitle.classList.remove('is-open');
+      window.location.href = href;
+    }, 1500);
+  };
+  navMenu.forEach(item => {
+    item.addEventListener('click', handleClick);
+  });
+});

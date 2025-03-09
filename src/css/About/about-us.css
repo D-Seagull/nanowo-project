@@ -15,21 +15,21 @@
 
 @media (min-resolution: 192dpi) {
   .about-us-about {
-    background-image: url(../../img/About/about-hero-bg-2x-min.jpg);
+    background-image: url(../../img/About/about-hero-bg-2x-min.png);
   }
 }
 .about-us-info {
   display: block;
   margin-top: auto;
-  padding: 60px 82px;
-  max-width: 963px;
+  padding: 60px 90px;
+  max-width: 896px;
   min-height: 424px;
   background: var(--second-background-color);
 }
 
 .about-us-title {
   font-family: var(--font-family-second);
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   font-weight: 400;
   font-size: 50px;
   line-height: 1;
@@ -40,6 +40,8 @@
   font-size: var(--font-size-base);
   line-height: 1.39326;
   color: #f6f6f6;
+  max-width: 715px;
+  font-weight: 400;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -83,11 +85,10 @@
   }
 
   .about-us-info {
-    padding: 36px 48px;
+    padding: 30px 30px;
     max-width: 550px;
-    height: 340px;
+
     background: var(--second-background-color);
-    overflow: scroll;
   }
 
   .about-us-title {
