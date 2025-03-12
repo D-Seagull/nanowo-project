@@ -1,16 +1,14 @@
 .implementation {
+  display: flex;
+  justify-content: right;
   background-color: var(--second-background-color);
 }
 .implementation-wrapper {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  justify-content: center;
-  align-items: center;
-
   background-size: cover;
   background-position: center;
-  min-height: 500px;
 }
 .implementation-header {
   color: var(--primary-text-color);
@@ -27,4 +25,64 @@
   opacity: 0.7;
   text-align: center;
   font-size: var(--mobail-font-size);
+}
+
+@media only screen and (min-width: 768px) {
+  .implementation-container {
+    display: flex;
+    justify-content: end;
+    background-image: url('../../img/svg/build-3.svg');
+    background-repeat: no-repeat;
+    background-size: 47%;
+    background-position: left;
+  }
+  .implementation-wrapper {
+    max-width: 345px;
+    justify-content: right;
+    align-items: end;
+  }
+  .implementation-header {
+    text-align: start;
+  }
+  .implementation-text {
+    text-align: start;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .implementation-container {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 59px;
+    background-repeat: no-repeat;
+    background-size: 43%;
+    background-position: 50px bottom;
+  }
+  .implementation-wrapper {
+    position: relative;
+    margin-top: 104px;
+
+    max-width: 649px;
+    justify-content: right;
+    align-items: end;
+    gap: 53px;
+  }
+  .implementation-wrapper::before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 110%;
+    background-color: #758285;
+    top: 0;
+    left: -19px;
+  }
+  .implementation-header {
+    text-align: start;
+    font-size: 50px;
+  }
+  .implementation-text {
+    text-align: start;
+    font-size: var(--font-size-base);
+  }
 }
