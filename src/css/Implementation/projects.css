@@ -3,7 +3,9 @@
   flex-direction: column;
   gap: 20px;
   align-items: center;
+  margin-bottom: 20px;
 }
+
 .imp-project-list {
   display: flex;
   flex-direction: column-reverse;
@@ -102,6 +104,12 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .imp-projects-header {
+    margin: 40px auto;
+  }
+  .imp-project-wrapper {
+    margin-bottom: 40px;
+  }
   .imp-project-iteam {
     flex-direction: row;
     width: 100%;
@@ -141,6 +149,8 @@
 }
 
 @media only screen and (min-width: 1200px) {
+  .imp-projects-container {
+  }
   .imp-project-img-mob {
     display: none;
   }
@@ -152,8 +162,8 @@
   .imp-project-list {
     flex-direction: row;
     gap: 4px;
-    padding-top: 90px;
-    padding-left: 90px;
+    padding-top: clamp(10px, 5vw, 90px);
+    padding-left: clamp(10px, 5vw, 90px);
   }
   .imp-project-iteam {
     flex-direction: column;
@@ -167,8 +177,9 @@
     flex-wrap: wrap;
     gap: 40px 12px;
 
-    margin-bottom: 25px;
+    justify-content: center;
   }
+
   .imp-projects-header {
     font-size: 50px;
     text-align: start;
