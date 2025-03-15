@@ -109,7 +109,7 @@
     padding: 0 40px;
   }
   .imp-project-info {
-    width: 261px;
+    max-width: 261px;
   }
   .imp-project-list {
     gap: 20px;
@@ -141,4 +141,62 @@
 }
 
 @media only screen and (min-width: 1200px) {
+  .imp-project-img-mob {
+    display: none;
+  }
+  .imp-project-img {
+    display: block;
+    object-fit: cover;
+    max-width: 351px;
+  }
+  .imp-project-list {
+    flex-direction: row;
+    gap: 4px;
+    padding-top: 90px;
+    padding-left: 90px;
+  }
+  .imp-project-iteam {
+    flex-direction: column;
+    width: calc(50% - 12px);
+    justify-content: start;
+    padding: 0;
+  }
+  .imp-project-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px 12px;
+
+    margin-bottom: 25px;
+  }
+  .imp-projects-header {
+    font-size: 50px;
+    text-align: start;
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+  .imp-project-info-header {
+    font-size: 20px;
+  }
+  .imp-project-info-street {
+    font-size: 30px;
+  }
+  .imp-project-info-text {
+    font-size: var(--tablet-font-size);
+  }
+  .imp-project-count {
+    font-size: 50px;
+  }
+  .imp-project-count-text {
+    font-size: var(--tablet-font-size);
+  }
+  .imp-project-year {
+    font-size: 50px;
+  }
+  .imp-project-year-text {
+    font-size: var(--tablet-font-size);
+  }
+  .imp-project-after-wrapper::after {
+    margin-top: 25px;
+  }
 }
