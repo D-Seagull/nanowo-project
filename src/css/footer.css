@@ -26,6 +26,16 @@
   width: 20px;
   height: 20px;
   fill: var(--hover-text-color);
+  transition: fill var(--transition-effect);
+}
+.social-link-mob-footer:hover .social-img-mob-footer {
+  fill: var(--primary-text-color);
+}
+.social-link-mob-footer:focus .social-img-mob-footer {
+  fill: var(--primary-text-color);
+}
+.social-link-mob-footer:active .social-img-mob-footer {
+  fill: var(--primary-text-color);
 }
 
 .contact-img-footer {
@@ -34,11 +44,12 @@
   fill: transparent;
   width: 20px;
   height: 20px;
+  transition: fill var(--transition-effect);
 }
 .contact-text {
   font-weight: 400;
   font-size: 16px;
-
+  transition: color var(--transition-effect);
   color: var(--primary-text-color);
 }
 .mob-footer-list {
@@ -53,6 +64,21 @@
 .contact-iteam-mob {
   display: flex;
   gap: 5px;
+}
+.contact-iteam-mob:hover .contact-img-footer,
+.contact-iteam-mob:hover .contact-text {
+  fill: var(--hover-text-color); /* Для SVG */
+  color: var(--hover-text-color); /* Для тексту */
+}
+.contact-iteam-mob:active .contact-img-footer,
+.contact-iteam-mob:active .contact-text {
+  fill: var(--hover-text-color); /* Для SVG */
+  color: var(--hover-text-color); /* Для тексту */
+}
+.contact-iteam-mob:focus .contact-img-footer,
+.contact-iteam-mob:focus .contact-text {
+  fill: var(--hover-text-color); /* Для SVG */
+  color: var(--hover-text-color); /* Для тексту */
 }
 .mob-mebu-item {
   display: flex;
@@ -88,6 +114,16 @@
     width: 25px;
     height: 25px;
     fill: var(--hover-text-color);
+    transition: fill var(--transition-effect);
+  }
+  .footer-social-item:hover .social-img-footer {
+    fill: var(--primary-text-color);
+  }
+  .footer-social-item:focus .social-img-footer {
+    fill: var(--primary-text-color);
+  }
+  .footer-social-item:active .social-img-footer {
+    fill: var(--primary-text-color);
   }
   .footer-nav-list {
     display: flex;
@@ -99,9 +135,20 @@
     color: #dddddd;
     font-size: var(--tablet-font-size);
     line-height: 24px;
+    transition: color var(--transition-effect);
   }
   .footer-nav-item {
     display: flex;
+  }
+
+  .footer-nav-link:hover {
+    color: var(--hover-text-color);
+  }
+  .footer-nav-link:active {
+    color: var(--hover-text-color);
+  }
+  .footer-nav-link:focus {
+    color: var(--hover-text-color);
   }
   .footer-contacts-list {
     display: flex;
@@ -110,7 +157,19 @@
   .contact-iteam {
     display: flex;
     gap: 10px;
+    transition: color var(--transition-effect);
   }
+
+  .contact-iteam:hover .contact-text {
+    color: var(--hover-text-color);
+  }
+  .contact-iteam:focus .contact-text {
+    color: var(--hover-text-color);
+  }
+  .contact-iteam:active .contact-text {
+    color: var(--hover-text-color);
+  }
+
   .footer-contacts-list {
     display: flex;
     flex-direction: column;
@@ -119,6 +178,7 @@
   .contact-text {
     font-size: var(--tablet-font-size);
     line-height: 24px;
+    transition: color var(--transition-effect);
   }
   .footer-list {
     margin-bottom: 40px;

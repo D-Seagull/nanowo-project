@@ -82,7 +82,7 @@ const swiperReviews = new Swiper('.swiperReview', {
 // * * * Page Loading animation
 
 document.addEventListener('DOMContentLoaded', () => {
-  const logo = document.querySelectorAll('.logo-link, .logo-link-mob');
+  const logo = document.querySelectorAll('.js-logo');
   const loader = document.querySelector('.loader');
   const loaderTitle = document.querySelector('.loader-title');
 

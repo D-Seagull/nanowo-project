@@ -210,7 +210,7 @@
   .nav-menu-item:active {
     color: var(--hover-text-color);
   }
-  .nav-menu-item:active {
+  .nav-menu-item:focus {
     color: var(--hover-text-color);
   }
 }
