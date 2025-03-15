@@ -8,7 +8,6 @@
   display: flex;
   flex-direction: column-reverse;
   background-color: #ffffff;
-
   max-width: fit-content;
   gap: 12px;
   box-shadow: 0px 2.7px 3.6px -5px rgba(0, 0, 0, 0.04);
@@ -26,7 +25,7 @@
   font-family: var(--font-family-second);
   text-align: center;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 35px;
   line-height: 100%;
   margin: 20px auto;
 }
@@ -90,7 +89,7 @@
 }
 .imp-project-after-wrapper::after {
   content: '';
-  height: 2px;
+  height: 1px;
   width: 100%;
   background-color: rgba(221, 221, 221, 1);
   margin-top: 20px;
@@ -103,6 +102,42 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .imp-project-iteam {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 40px;
+  }
+  .imp-project-info {
+    width: 261px;
+  }
+  .imp-project-list {
+    gap: 20px;
+  }
+  .implementation-header {
+    font-size: var(--tablet-font-size);
+  }
+  .imp-project-info-street {
+    font-size: 30px;
+  }
+  .imp-project-info-city {
+    font-size: 18px;
+  }
+  .imp-project-info-text {
+    font-size: var(--tablet-font-size);
+  }
+  .imp-project-count {
+    font-size: 35px;
+  }
+  .imp-project-count-text {
+    font-size: 18px;
+  }
+  .imp-project-year {
+    font-size: 35px;
+  }
+  .imp-project-year-text {
+    font-size: var(--tablet-font-size);
+  }
 }
 
 @media only screen and (min-width: 1200px) {

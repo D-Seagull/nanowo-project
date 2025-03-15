@@ -15,10 +15,9 @@
   font-family: var(--font-family-second);
   text-align: center;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 100%;
   margin-top: 20px;
-  vertical-align: middle;
 }
 .implementation-text {
   color: #ffffff;
