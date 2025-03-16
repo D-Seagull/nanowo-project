@@ -29,13 +29,13 @@
   transition: fill var(--transition-effect);
 }
 .social-link-mob-footer:hover .social-img-mob-footer {
-  fill: var(--primary-text-color);
+  fill: #2294db;
 }
 .social-link-mob-footer:focus .social-img-mob-footer {
-  fill: var(--primary-text-color);
+  fill: #2294db;
 }
 .social-link-mob-footer:active .social-img-mob-footer {
-  fill: var(--primary-text-color);
+  fill: #2294db;
 }
 
 .contact-img-footer {
@@ -117,13 +117,13 @@
     transition: fill var(--transition-effect);
   }
   .footer-social-item:hover .social-img-footer {
-    fill: var(--primary-text-color);
+    fill: #2294db;
   }
   .footer-social-item:focus .social-img-footer {
-    fill: var(--primary-text-color);
+    fill: #2294db;
   }
   .footer-social-item:active .social-img-footer {
-    fill: var(--primary-text-color);
+    fill: #2294db;
   }
   .footer-nav-list {
     display: flex;

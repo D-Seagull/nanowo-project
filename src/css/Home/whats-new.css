@@ -49,6 +49,7 @@
 .news-iteam-text {
   font-size: var(--mobail-font-size);
   text-align: center;
+  margin-bottom: 15px;
 }
 .iteam-text-content {
   display: flex;
@@ -58,6 +59,11 @@
   color: var(--second-background-color);
   margin: 0 auto;
   border: 1px solid var(--second-background-color);
+}
+.more-link-news {
+  color: rgba(42, 49, 55, 1);
+  fill: rgba(42, 49, 55, 1);
+  justify-content: center;
 }
 
 @media only screen and (min-width: 768px) {
@@ -147,8 +153,14 @@
     font-weight: 400;
     font-size: var(--font-size-base);
     line-height: 33.44px;
+    margin-bottom: 0;
   }
   .news-btn {
     font-size: 18px;
+  }
+  .more-link-news {
+    color: rgba(42, 49, 55, 1);
+    fill: rgba(42, 49, 55, 1);
+    justify-content: end;
   }
 }
