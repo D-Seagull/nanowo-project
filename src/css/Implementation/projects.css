@@ -1,3 +1,6 @@
+.imp-projects-container {
+  padding: 0;
+}
 .imp-project-wrapper {
   display: flex;
   flex-direction: column;
