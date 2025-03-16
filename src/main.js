@@ -121,6 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /*=============================================================*/
+/*============== Pade changer UPDATES==================*/
 
 const releases = document.querySelector('.js-releases');
 const archive = document.querySelector('.js-arhive');
@@ -146,3 +147,4 @@ function handleChangePage(page) {
     releases.classList.remove('active');
   }
 }
+/*=============================================================*/
