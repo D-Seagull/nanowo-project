@@ -1,7 +1,7 @@
-.updates-reliase-container {
-  background-color: #ffff;
-  padding: 0;
+.updates-reliases {
+  margin-bottom: 100px;
 }
+
 .more-relises {
   color: rgba(42, 49, 55, 1);
   fill: rgba(42, 49, 55, 1);
@@ -11,36 +11,44 @@
 .updates-reliase-list {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 12px;
 }
 .updates-reliase-item {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  background-color: #ffff;
+  padding: 0;
+  box-shadow: 0px 2.7px 3.6px -5px rgba(0, 0, 0, 0.04);
+
+  box-shadow: 0px 7.5px 10px -5px rgba(0, 0, 0, 0.06);
+
+  box-shadow: 0px 18px 24.1px -5px rgba(0, 0, 0, 0.08);
+
+  box-shadow: 0px 60px 80px -5px rgba(0, 0, 0, 0.1);
 }
 .updates-reliase-text-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 15px;
+  padding: 15px;
 }
 .updates-reliase-herro-wrapper {
   display: flex;
   flex-direction: column;
   align-items: start;
   gap: 4px;
+  width: 100%;
 }
 .updates-reliase-herro {
   font-family: var(--font-family-second);
   font-weight: 400;
-  font-size: 32px;
   line-height: 100%;
   font-size: 30px;
   color: rgba(42, 49, 55, 1);
+  margin: 0 auto;
 }
-.updates-reliase-text-content {
-  padding: 15px;
-}
+
 .reliase-herro-text {
   font-weight: 400;
   font-size: 16px;
@@ -49,11 +57,61 @@
   text-align: left;
 }
 .updates-reliase-text {
-  text-align: center;
+  text-align: start;
   font-size: var(--mobail-font-size);
   color: rgba(42, 49, 55, 1);
 }
 .updates-reliase-img {
   object-fit: cover;
   object-position: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .updates-reliase-text-content {
+    padding: 30px;
+    align-items: start;
+    gap: 30px;
+  }
+  .updates-reliase-herro {
+    font-size: 32px;
+    margin: 0;
+  }
+  .updates-reliase-text {
+    font-size: var(--tablet-font-size);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .updates-reliase-item {
+    flex-direction: row;
+
+    justify-content: space-between;
+    padding: 81px 61px;
+  }
+  .updates-reliase-herro-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .updates-reliase-text-content {
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 520px;
+    gap: 0;
+    justify-content: space-between;
+  }
+  .updates-reliase-text {
+    font-size: var(--font-size-base);
+  }
+  .updates-reliase-img {
+    object-fit: contain;
+  }
+  .more-relises {
+    margin-left: auto;
+  }
+  .updates-reliase-herro {
+    margin-bottom: 20px;
+  }
+  .updates-reliase-text {
+    margin-bottom: 20px;
+  }
 }
