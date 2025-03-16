@@ -121,3 +121,28 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /*=============================================================*/
+
+const releases = document.querySelector('.js-releases');
+const archive = document.querySelector('.js-arhive');
+const releasesPage = document.querySelector('#updates-reliases');
+const archivePage = document.querySelector('#arhive-reliases');
+
+releases.addEventListener('click', () => handleChangePage('releases'));
+archive.addEventListener('click', () => handleChangePage('archive'));
+
+function handleChangePage(page) {
+  if (page === 'releases') {
+    console.log(releases);
+    archivePage.classList.add('hidden');
+    releasesPage.classList.remove('hidden');
+    releases.classList.add('active');
+    archive.classList.remove('active');
+  }
+  if (page === 'archive') {
+    console.log(archive);
+    releasesPage.classList.add('hidden');
+    archivePage.classList.remove('hidden');
+    archive.classList.add('active');
+    releases.classList.remove('active');
+  }
+}

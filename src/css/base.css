@@ -37,6 +37,9 @@ body {
 html {
   scroll-behavior: smooth;
 }
+.hidden {
+  display: none;
+}
 
 .contact-btn {
   display: flex;

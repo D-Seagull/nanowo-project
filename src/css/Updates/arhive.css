@@ -1,0 +1,119 @@
+.arhive-reliases {
+  margin-bottom: 100px;
+}
+
+.more-relises {
+  color: rgba(42, 49, 55, 1);
+  fill: rgba(42, 49, 55, 1);
+  justify-content: center;
+}
+
+.arhive-reliase-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.arhive-reliase-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffff;
+  padding: 0;
+  box-shadow: 0px 2.7px 3.6px -5px rgba(0, 0, 0, 0.04);
+
+  box-shadow: 0px 7.5px 10px -5px rgba(0, 0, 0, 0.06);
+
+  box-shadow: 0px 18px 24.1px -5px rgba(0, 0, 0, 0.08);
+
+  box-shadow: 0px 60px 80px -5px rgba(0, 0, 0, 0.1);
+}
+.arhive-reliase-text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+}
+.arhive-reliase-herro-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 4px;
+  width: 100%;
+}
+.arhive-reliase-herro {
+  font-family: var(--font-family-second);
+  font-weight: 400;
+  line-height: 100%;
+  font-size: 30px;
+  color: rgba(42, 49, 55, 1);
+  margin: 0 auto;
+}
+
+.arhive-herro-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 110%;
+  color: rgba(42, 49, 55, 1);
+  text-align: left;
+}
+.arhive-reliase-text {
+  text-align: start;
+  font-size: var(--mobail-font-size);
+  color: rgba(42, 49, 55, 1);
+}
+.arhive-reliase-img {
+  object-fit: cover;
+  object-position: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .arhive-reliase-text-content {
+    padding: 30px;
+    align-items: start;
+    gap: 30px;
+  }
+  .arhive-reliase-herro {
+    font-size: 32px;
+    margin: 0;
+  }
+  .arhive-reliase-text {
+    font-size: var(--tablet-font-size);
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .arhive-reliase-item {
+    flex-direction: row;
+
+    justify-content: space-between;
+    padding: 81px 61px;
+  }
+  .arhive-reliase-herro-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .arhive-reliase-text-content {
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 520px;
+    gap: 0;
+    justify-content: space-between;
+  }
+  .arhive-reliase-text {
+    font-size: var(--font-size-base);
+  }
+  .arhive-reliase-img {
+    object-fit: cover;
+    width: 697px;
+    max-height: 384px;
+  }
+  .more-relises {
+    margin-left: auto;
+  }
+  .arhive-reliase-herro {
+    margin-bottom: 20px;
+  }
+  .arhive-reliase-text {
+    margin-bottom: 20px;
+  }
+}

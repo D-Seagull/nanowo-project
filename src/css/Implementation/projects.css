@@ -152,8 +152,6 @@
 }
 
 @media only screen and (min-width: 1200px) {
-  .imp-projects-container {
-  }
   .imp-project-img-mob {
     display: none;
   }
