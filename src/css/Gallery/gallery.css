@@ -44,3 +44,11 @@
 .gallry-img {
   object-fit: cover;
 }
+
+@media only screen and (min-width: 768px) {
+  .gallery-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Дві колонки однакової ширини */
+    gap: 20px; /* Відступ між елементами */
+  }
+}
