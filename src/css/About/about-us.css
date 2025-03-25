@@ -87,9 +87,8 @@
   .about-us-info {
     padding: 30px 30px;
     max-width: 550px;
-    height: 340px;
+    height: 400px;
     background: var(--second-background-color);
-    overflow: scroll;
   }
 
   .about-us-title {

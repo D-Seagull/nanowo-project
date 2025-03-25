@@ -70,6 +70,10 @@
   .attitude {
     margin-bottom: 60px;
   }
+  .attitude-text {
+    max-width: 300px;
+    text-align: center;
+  }
   .attitude-container {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -80,8 +84,13 @@
     font-size: 28px;
     line-height: 1;
     margin-bottom: 18px;
+    text-align: center;
   }
   .attitude-text {
     font-size: var(--mobail-font-size);
+  }
+  .attitude-video {
+    max-width: 300px;
+    aspect-ratio: 16 / 9;
   }
 }
