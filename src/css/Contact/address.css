@@ -3,9 +3,6 @@
   margin-bottom: 160px;
 }
 
-.location-container {
-  padding: 0 64px;
-}
 .location-title {
   margin-bottom: 40px;
   font-family: var(--font-family-second);
@@ -20,7 +17,6 @@
   padding: 80px 90px;
   background-color: #fff;
   width: 100%;
-  min-height: 702px;
   box-shadow: 0 3px 4px -5px rgba(0, 0, 0, 0.04),
     0 7px 10px -5px rgba(0, 0, 0, 0.06), 0 18px 24px -5px rgba(0, 0, 0, 0.08),
     0 60px 80px -5px rgba(0, 0, 0, 0.1);
@@ -48,7 +44,6 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
-  max-width: 261px;
 }
 .info-title {
   font-family: var(--font-family-second);
@@ -63,6 +58,10 @@
 }
 .info-list-item {
   font-size: 0;
+}
+.location-map-wrapper {
+  width: 100%;
+  display: flex;
 }
 
 .info-svg {
@@ -85,10 +84,6 @@
   .location {
     margin-top: 100px;
     margin-bottom: 100px;
-  }
-
-  .location-container {
-    padding: 0 48px;
   }
 
   .location-title {
@@ -128,48 +123,33 @@
   .info-element {
     font-size: 16px;
   }
-
-  .location-map-img {
-    width: 100%;
-    height: 100%;
-  }
 }
 
 /* Mobile */
 @media only screen and (max-width: 768px) {
   .location {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
-  .location-container {
-    padding: 0 26px;
-  }
+
   .location-title {
-    margin-bottom: 20px;
     font-size: 24px;
+    text-align: center;
   }
   .location-wrapper {
     flex-direction: column;
     gap: 24px;
-    padding: 24px 32px;
-    min-height: 500px;
+    padding: 24px 0;
   }
   .location-info-wrapper {
     gap: 30px;
     padding: 16px 24px;
-  }
-  .location-info-wrapper::after {
-    bottom: -10px;
   }
   .info-title {
     font-size: 14px;
   }
   .info-element {
     font-size: 14px;
-  }
-  .info-link {
-    display: flex;
-    align-items: center;
   }
 
   .info-svg-wrapper {
@@ -186,5 +166,13 @@
     margin-right: 8px;
     fill: transparent;
     stroke: #25abff;
+  }
+  .location-map-img {
+    width: 100%;
+    height: 200px;
+  }
+  .location-map-wrapper {
+    align-items: center;
+    justify-content: center;
   }
 }

@@ -1,6 +1,6 @@
 /* .imp-projects-container {
 } */
-.imp-project-wrapper {
+.imp-project-list {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -8,7 +8,7 @@
   margin-bottom: 20px;
 }
 
-.imp-project-list {
+.imp-project-main-item {
   display: flex;
   flex-direction: column-reverse;
   background-color: #ffffff;
@@ -109,7 +109,7 @@
   .imp-projects-header {
     margin: 40px auto;
   }
-  .imp-project-wrapper {
+  .imp-project-list {
     margin-bottom: 40px;
   }
   .imp-project-iteam {
@@ -121,7 +121,7 @@
   .imp-project-info {
     max-width: 261px;
   }
-  .imp-project-list {
+  .imp-project-main-item {
     gap: 20px;
   }
   .implementation-header {
@@ -159,11 +159,12 @@
     object-fit: cover;
     max-width: 351px;
   }
-  .imp-project-list {
+  .imp-project-main-item {
+    flex: 1 1 calc(50% - 12px);
     flex-direction: row;
     gap: 4px;
-    padding-top: clamp(10px, 5vw, 90px);
-    padding-left: clamp(10px, 5vw, 90px);
+    padding-top: clamp(10px, 3vw, 90px);
+    padding-left: clamp(10px, 3vw, 90px);
   }
   .imp-project-iteam {
     flex-direction: column;
@@ -171,7 +172,7 @@
     justify-content: start;
     padding: 0;
   }
-  .imp-project-wrapper {
+  .imp-project-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
