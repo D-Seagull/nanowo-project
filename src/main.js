@@ -1,4 +1,6 @@
 import Swiper from 'swiper/bundle';
+import SimpleLightbox from 'simplelightbox';
+import 'simplelightbox/dist/simple-lightbox.min.css';
 
 import 'swiper/css/bundle';
 /*-------------modal script-------------*/
@@ -29,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
 /*--------------------------------------*/
 
 /*=======================Swiper Projects======================*/
-const swiperProject = new Swiper('.projectSwiper', {
+new Swiper('.projectSwiper', {
   slidesPerView: 1,
   spaceBetween: 10,
   autoHeight: true,
@@ -45,7 +47,7 @@ const swiperProject = new Swiper('.projectSwiper', {
 /*============================================================*/
 
 /*=======================SwiperReviews======================*/
-const swiperReviews = new Swiper('.swiperReview', {
+new Swiper('.swiperReview', {
   slidesPerView: 1,
   spaceBetween: 12,
   autoHeight: true,
@@ -148,4 +150,11 @@ function handleChangePage(page) {
     releases.classList.remove('active');
   }
 }
+
+/*===================simplelightbox===========================*/
+new SimpleLightbox('.gallery-list a', {
+  captionsData: 'alt',
+  captionDelay: 250,
+  cuptions: true,
+});
 /*=============================================================*/
