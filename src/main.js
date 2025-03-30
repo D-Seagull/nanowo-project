@@ -157,4 +157,10 @@ new SimpleLightbox('.gallery-list a', {
   captionDelay: 250,
   cuptions: true,
 });
+
+document.querySelectorAll('.gallery-item').forEach(item => {
+  const img = item.querySelector('img');
+  const link = item.querySelector('a');
+  link.href = img.src;
+});
 /*=============================================================*/
