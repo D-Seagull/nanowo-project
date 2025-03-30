@@ -53,15 +53,9 @@
   transition: color var(--transition-effect);
 }
 
-.helro-list-text:hover,
-.helro-list-text:focus,
-.helro-list-text:active {
-  color: var(--hover-text-color);
-}
-
 .hero-about {
   position: absolute;
-  bottom: -150px;
+  bottom: 0;
   display: flex;
 
   align-items: center;
@@ -69,10 +63,10 @@
   max-width: 350px;
   padding: 15px 0;
   gap: 10px;
-  background-color: var(--second-background-color);
+  background-color: transparent;
   transition: bottom var(--transition-effect);
 }
-.hero-about:hover {
+/* .hero-about:hover {
   bottom: 0;
 }
 .hero-about:focus {
@@ -80,7 +74,7 @@
 }
 .hero-about:active {
   bottom: 0;
-}
+} */
 .hero-about-headline {
   font-family: var(--font-family-second);
   text-align: center;
@@ -104,10 +98,11 @@
   line-height: 19.8px;
   text-align: center;
   padding: 12px 22px;
-  border: 1px solid var(--primary-text-color);
+
   max-width: 300px;
   transition: color, var(--transition-effect),
     border-color var(--transition-effect);
+  background-color: var(--second-background-color);
 }
 .herro-btn:hover {
   color: var(--hover-text-color);
@@ -183,7 +178,7 @@
   }
   .hero-about {
     align-items: start;
-    bottom: -180px;
+    bottom: 0;
     left: 32px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -244,12 +239,12 @@
 
   .hero-about {
     gap: 27px;
-    padding-top: 60px;
-    padding-bottom: 38px;
-    padding-left: 88px;
-    padding-right: 88px;
-    min-width: 698px;
-    bottom: -240px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 35px;
+    padding-right: 35px;
+    min-width: 550px;
+    bottom: 0;
   }
   .hero-about-headline {
     font-family: var(--font-family-second);
@@ -280,7 +275,7 @@
 
     text-align: center;
     padding: 20px 16px;
-    border: 1px solid var(--primary-text-color);
+
     max-width: 310px;
     transition: color, var(--transition-effect),
       border-color var(--transition-effect);
