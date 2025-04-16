@@ -1,5 +1,7 @@
 .turnkey-section {
   background-color: #ffffff;
+  margin-top: 40px;
+  margin-bottom: 35px;
 }
 .turnkey-wrapper {
   display: flex;
@@ -45,11 +47,13 @@
   font-size: 30px;
   text-align: center;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 .turnkey-text {
   font-size: var(--mobail-font-size);
   max-width: 320px;
-  text-align: justify;
+  text-align: start;
+  color: rgba(42, 49, 55, 1);
 }
 .turnkey-img {
   height: 100%;
@@ -69,13 +73,14 @@
   }
   .turnkey-img-wrap {
     width: 320px;
-    height: 270px;
+    height: 300px;
   }
   .turnkey-header {
+    margin-top: 0;
     font-family: var(--font-family-second);
-    font-size: 30px;
+    font-weight: 400;
+    font-size: 35px;
     text-align: start;
-    margin-bottom: 20px;
   }
   .turnkey-text {
     font-size: var(--mobail-font-size);
@@ -86,32 +91,34 @@
 
 @media only screen and (min-width: 1200px) {
   .turnkey-section {
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 8px 16px rgba(0, 0, 0, 0.08),
-      0px 16px 32px rgba(0, 0, 0, 0.06);
-
     margin-bottom: 100px;
   }
   .turnkey-wrapper {
-    justify-content: center;
+    justify-content: sp;
     align-items: start;
     gap: 102px;
-    padding-top: 40px;
-    padding-bottom: 40px;
   }
   .turnkey-text-content {
-    max-width: 400px;
+    max-width: 440px;
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 139%;
+    letter-spacing: 0%;
+    vertical-align: middle;
   }
   .turnkey-img-wrap {
-    width: 895px;
-    height: 541px;
+    width: 750px;
+    height: 100%;
   }
   .turnkey-header {
+    margin-top: 0;
     font-size: 50px;
     line-height: 50px;
     margin-bottom: 20px;
   }
   .turnkey-text {
-    max-width: 400px;
+    max-width: 450px;
     font-size: var(--font-size-base);
     padding-left: 10px;
     line-height: 33.44px;

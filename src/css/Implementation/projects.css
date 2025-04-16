@@ -124,9 +124,7 @@
   .imp-project-main-item {
     gap: 20px;
   }
-  .implementation-header {
-    font-size: var(--tablet-font-size);
-  }
+
   .imp-project-info-street {
     font-size: 30px;
   }

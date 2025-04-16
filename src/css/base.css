@@ -6,11 +6,11 @@
   --font-family-base: 'Lato', sans-serif;
   --font-family-second: 'Poiret One';
   --font-size-base: 24px;
-  --mobail-font-size: 18px;
+  --mobail-font-size: 16px;
   --tablet-font-size: 20px;
   --line-height-base: 1.5;
   --font-weight-base: 400;
-  --primary-background-color: #f6f6f6;
+  --primary-background-color: white;
   --second-background-color: #2a3137;
   --primary-text-color: #f6f6f6;
   --hover-text-color: #25abff;

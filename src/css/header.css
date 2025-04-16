@@ -208,6 +208,7 @@
     gap: 10px;
     font-size: var(--tablet-font-size);
     transition: color var(--transition-effect);
+    align-items: last baseline;
   }
   .nav-menu li:last-child {
     margin-left: 30px;
@@ -223,10 +224,21 @@
     color: var(--hover-text-color);
   }
 
+  .nav-menu-item:hover .contact-img-header {
+    fill: var(--hover-text-color);
+  }
+  .nav-menu-item:active .contact-img-header {
+    fill: var(--hover-text-color);
+  }
+  .nav-menu-item:focus .contact-img-header {
+    fill: var(--hover-text-color);
+  }
+
   .contact-img-header {
+    display: block;
     stroke: var(--primary-background-color);
     stroke-width: 2px;
-    fill: transparent;
+
     width: 20px;
     height: 20px;
     transition: fill var(--transition-effect);

@@ -23,6 +23,7 @@
   line-height: 24px;
   text-align: center;
   color: rgba(117, 130, 133, 1);
+  font-weight: 400;
 }
 .news-list {
   display: flex;
@@ -44,6 +45,7 @@
   font-family: var(--font-family-second);
   font-size: 25px;
   text-align: center;
+  font-weight: 400;
 }
 
 .news-iteam-text {
@@ -54,16 +56,19 @@
 .iteam-text-content {
   display: flex;
   flex-direction: column;
+  padding: 0 25px;
 }
 .news-btn {
   color: var(--second-background-color);
   margin: 0 auto;
   border: 1px solid var(--second-background-color);
+  margin-bottom: 20px;
 }
 .more-link-news {
   color: rgba(42, 49, 55, 1);
   fill: rgba(42, 49, 55, 1);
-  justify-content: center;
+  justify-content: right;
+  margin: 10px 0;
 }
 
 @media only screen and (min-width: 768px) {
@@ -105,7 +110,7 @@
 }
 @media only screen and (min-width: 1200px) {
   .whats-new {
-    margin-bottom: 160px;
+    margin-bottom: 30px;
   }
   .news-container {
     align-items: start;
@@ -128,7 +133,6 @@
   }
   .news-list {
     gap: 8px;
-    margin-bottom: 118px;
   }
   .news-iteam {
     display: flex;
@@ -141,7 +145,8 @@
     max-height: 384px;
   }
   .iteam-text-content {
-    gap: 71px;
+    justify-content: space-between;
+    padding: 0;
   }
 
   .news-iteam-header {
@@ -153,7 +158,6 @@
     font-weight: 400;
     font-size: var(--font-size-base);
     line-height: 33.44px;
-    margin-bottom: 0;
   }
   .news-btn {
     font-size: 18px;

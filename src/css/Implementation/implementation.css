@@ -61,10 +61,10 @@
   .implementation-wrapper {
     position: relative;
     margin-top: 104px;
-
+    text-align: start;
     max-width: 649px;
     justify-content: right;
-    align-items: end;
+    align-items: start;
     gap: 53px;
   }
   .implementation-wrapper::before {
@@ -78,7 +78,7 @@
   }
   .implementation-header {
     text-align: start;
-    font-size: 50px;
+    font-size: 45px;
   }
   .implementation-text {
     text-align: start;
