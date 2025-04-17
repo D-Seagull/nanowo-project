@@ -42,8 +42,8 @@
   stroke: var(--primary-background-color);
   stroke-width: 2px;
   fill: transparent;
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   transition: fill var(--transition-effect);
 }
 .contact-text {
