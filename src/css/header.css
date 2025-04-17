@@ -12,16 +12,9 @@
   justify-content: space-between;
   align-items: center;
 }
-.logo-link-mob {
-  cursor: pointer;
-}
 
-.logo-img-mob {
-  width: 50px;
-  height: 50px;
-}
 .logo-link {
-  display: none;
+  width: 100px;
 }
 
 /* ===================Modal==============*/
@@ -182,11 +175,8 @@
 /* =======================================*/
 /* ================ TABLET =======================*/
 @media only screen and (min-width: 768px) {
-  .logo-link-mob {
-    display: none;
-  }
   .logo-link {
-    display: block;
+    width: 300px;
   }
 }
 

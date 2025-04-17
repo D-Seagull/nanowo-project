@@ -7,20 +7,20 @@
 }
 .attitude-container {
   display: flex;
-  padding-top: 40px;
+
   padding-bottom: 40px;
   gap: 103px;
 }
 
 .attitude-video-wrapper {
-  max-width: 860px;
+  max-width: px;
 }
 
 .attitude-video {
   display: block;
   padding: 0;
   margin: 0;
-  max-width: 896px; /*має бути 900 на 541, але контент не влазе*/
+  max-width: 550px; /*має бути 900 на 541, але контент не влазе*/
   aspect-ratio: 16 / 9;
 }
 .attitude-title {
@@ -32,7 +32,6 @@
   margin-bottom: 40px;
 }
 .attitude-text {
-  width: 442px;
   font-weight: var(--font-weight-base);
   font-size: 24px;
   line-height: 1.39326;
