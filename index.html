@@ -4,21 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Nanowo</title>
+
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poiret+One&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+    />
     <link rel="icon" type="image/svg+xml" href="/nanowo-project/assets/logo_black-DQVudkYP.png" />
     <script type="module" crossorigin src="/nanowo-project/assets/vendor-CJQ4xZaB.js"></script>
-    <script type="module" crossorigin src="/nanowo-project/assets/main-CmDsH16R.js"></script>
-    <link rel="stylesheet" crossorigin href="/nanowo-project/assets/main-BXOkGC3D.css">
+    <script type="module" crossorigin src="/nanowo-project/assets/main-CLzBleHi.js"></script>
+    <link rel="stylesheet" crossorigin href="/nanowo-project/assets/main-LlfRfMsM.css">
     <link rel="stylesheet" crossorigin href="/nanowo-project/assets/vendor-DWx5-A5E.css">
   </head>
   <body>
     <header class="header">
   <div class="mob-menu is-hidden" data-mob>
-    <ul class="mob-menu-list">
+    <ul class="mob-menu-list no-sctoll">
       <li>
         <a class="link mob-menu-items" id="about-page-link" href="./about.html"
           >O Nanowo</a
@@ -109,9 +114,7 @@
       </ul>
     </div>
 
-    <a class="herro-btn" href="././implementation.html#imp-projects"
-      >Zamów darmową wycenę</a
-    >
+    <button class="herro-btn" id="openModalBtn">Zamów darmową wycenę</button>
   </div>
 </section>
 
@@ -412,7 +415,9 @@
       </li>
     </ul>
 
-    <a class="contact-btn benefits-btn" href="#">Skontaktuj się</a>
+    <a class="contact-btn benefits-btn open-modal-btn" data-open-modal>
+      Skontaktuj się
+    </a>
   </div>
 </section>
 
@@ -517,7 +522,9 @@
       <section id="whats-new" class="whats-new">
   <div class="container news-container">
     <p>text</p>
-    <a class="contact-btn news-btn" href="#">Skontaktuj się</a>
+    <a class="contact-btn news-btn open-modal-btn" data-open-modal>
+      Skontaktuj się
+    </a>
     <div class="news-header-container">
       <h2 class="news-header">Nasze aktualności</h2>
     </div>
@@ -672,6 +679,67 @@
     </div>
   </div>
 </footer>
+
+    <section id="modalContactForm">
+  <div class="modal">
+    <div class="modal__overlay">
+      <div class="modal__container">
+        <button class="modal__close" data-close-modal aria-label="Закрити">
+          ×
+        </button>
+
+        <!-- Твоя форма -->
+        <form class="contact-form l" action="">
+          <label class="form-label" for="username">Imię</label>
+          <input
+            class="form-input"
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Text"
+          />
+
+          <label class="form-label" for="user-email">Email</label>
+          <input
+            class="form-input"
+            type="email"
+            name="user-email"
+            id="user-email"
+            placeholder="Text"
+          />
+
+          <label class="form-label" for="user-comment">Informacja</label>
+          <textarea
+            class="user-comment form-input"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Text"
+          ></textarea>
+
+          <div class="modal-checkbox">
+            <input
+              class="checkbox visually-hidden"
+              id="userPrivacy"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+            />
+            <label class="checkbox-label" for="userPrivacy">
+              <span class="custom-checkbox">
+                <svg class="checkbox-icon" width="10" height="10">
+                  <use href="/nanowo-project/assets/spreg-nanowo-BYOTD6h1.svg#icon-checkmark"></use>
+                </svg>
+              </span>
+              Wyrażam zgodę na przetwarzanie moich danych osobowych
+            </label>
+          </div>
+
+          <button class="form-btn" type="submit">Wyślij</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
 
     <div class="loader">
   <div class="loading-content">

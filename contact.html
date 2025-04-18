@@ -11,14 +11,14 @@
     />
     <link rel="icon" type="image/svg+xml" href="/nanowo-project/assets/logo_black-DQVudkYP.png" />
     <script type="module" crossorigin src="/nanowo-project/assets/vendor-CJQ4xZaB.js"></script>
-    <script type="module" crossorigin src="/nanowo-project/assets/main-CmDsH16R.js"></script>
-    <link rel="stylesheet" crossorigin href="/nanowo-project/assets/main-BXOkGC3D.css">
+    <script type="module" crossorigin src="/nanowo-project/assets/main-CLzBleHi.js"></script>
+    <link rel="stylesheet" crossorigin href="/nanowo-project/assets/main-LlfRfMsM.css">
     <link rel="stylesheet" crossorigin href="/nanowo-project/assets/vendor-DWx5-A5E.css">
   </head>
   <body>
     <header class="header">
   <div class="mob-menu is-hidden" data-mob>
-    <ul class="mob-menu-list">
+    <ul class="mob-menu-list no-sctoll">
       <li>
         <a class="link mob-menu-items" id="about-page-link" href="./about.html"
           >O Nanowo</a
@@ -231,7 +231,6 @@
 </section>
 
     </main>
-
     <footer class="footer">
   <div class="container footer__container">
     <div class="footer__column footer__logo-social">
@@ -358,12 +357,66 @@
   </div>
 </footer>
 
-    <div class="loader">
-  <div class="loading-content">
-    <p class="loader-title">nanowo</p>
-  </div>
-</div>
+    <section id="modalContactForm">
+  <div class="modal">
+    <div class="modal__overlay">
+      <div class="modal__container">
+        <button class="modal__close" data-close-modal aria-label="Закрити">
+          ×
+        </button>
 
+        <!-- Твоя форма -->
+        <form class="contact-form l" action="">
+          <label class="form-label" for="username">Imię</label>
+          <input
+            class="form-input"
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Text"
+          />
+
+          <label class="form-label" for="user-email">Email</label>
+          <input
+            class="form-input"
+            type="email"
+            name="user-email"
+            id="user-email"
+            placeholder="Text"
+          />
+
+          <label class="form-label" for="user-comment">Informacja</label>
+          <textarea
+            class="user-comment form-input"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Text"
+          ></textarea>
+
+          <div class="modal-checkbox">
+            <input
+              class="checkbox visually-hidden"
+              id="userPrivacy"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+            />
+            <label class="checkbox-label" for="userPrivacy">
+              <span class="custom-checkbox">
+                <svg class="checkbox-icon" width="10" height="10">
+                  <use href="/nanowo-project/assets/spreg-nanowo-BYOTD6h1.svg#icon-checkmark"></use>
+                </svg>
+              </span>
+              Wyrażam zgodę na przetwarzanie moich danych osobowych
+            </label>
+          </div>
+
+          <button class="form-btn" type="submit">Wyślij</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
 
   </body>
 </html>
