@@ -53,6 +53,7 @@ html {
   border: 1px solid var(--primary-text-color);
   transition: color, var(--transition-effect),
     border-clor var(--transition-effect);
+  cursor: pointer;
 }
 .contact-btn:hover {
   color: var(--hover-text-color);

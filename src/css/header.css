@@ -18,7 +18,7 @@
 }
 
 /* ===================Modal==============*/
-.no-sctoll {
+.no-scroll {
   overflow: hidden;
   flex-grow: 1;
 }

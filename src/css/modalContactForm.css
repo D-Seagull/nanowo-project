@@ -1,0 +1,60 @@
+/* Заборона скролінгу */
+.no-sctoll {
+  overflow: hidden;
+  flex-grow: 1;
+}
+
+/* Модальне вікно */
+.modal {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+/* При відкритті */
+.modal.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+/* Обробка для накладки на весь екран */
+.modal__overlay {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Клас для відображення модального вікна */
+.modal.is-open .modal__container {
+  transform: translateY(0); /* Плавно переміщається на своє місце */
+}
+
+/* Кнопка закриття */
+.modal__close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Візуально прихований елемент */
+.visually-hidden {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}

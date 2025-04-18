@@ -63,6 +63,7 @@
   margin: 0 auto;
   border: 1px solid var(--second-background-color);
   margin-bottom: 20px;
+  background-color: transparent;
 }
 .more-link-news {
   color: rgba(42, 49, 55, 1);

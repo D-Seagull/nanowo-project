@@ -49,3 +49,6 @@
 /* Page loading */
 
 @import url('./pageLoading/page-loding.css');
+
+/* modalContact Pop up*/
+@import url('./modalContactForm.css');
