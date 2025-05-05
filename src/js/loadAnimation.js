@@ -22,9 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    console.log('Поточний URL:', currentHref);
-    console.log('Цільовий URL:', href);
-
     loader.classList.add('is-open');
     loaderTitle.classList.add('is-open');
 
