@@ -1,5 +1,6 @@
 'use strict';
 import { closeModal } from './modalForm';
+import { sendMail } from './sendMail';
 let formData = {
   name: '',
   email: '',
@@ -71,6 +72,7 @@ function toSubmit(evt) {
     checkPrivacy.focus();
     document.querySelector('.custom-checkbox').style.border = '1px solid red';
   } else {
+    sendMail(formData);
     console.log(formData);
     document.querySelector('.custom-checkbox').style.border = '1px solid black';
     localStorage.removeItem('contact-form-state');

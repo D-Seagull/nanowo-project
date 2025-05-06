@@ -22,6 +22,17 @@
     <load src="./partials/footer.html" />
     <load src="./partials/modalContactForm.html" />
     <load src="./partials/PageLoading/page-loading.html" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: 'WfwuYGLBQ1Q_uC7jX',
+        });
+      })();
+    </script>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
