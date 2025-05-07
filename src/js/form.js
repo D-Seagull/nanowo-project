@@ -57,7 +57,7 @@ function toSubmit(evt) {
     const errorMessage = `<p class="errorMsg">Wpisz imie</p>`;
     form.insertAdjacentHTML('beforeend', errorMessage);
     userName.style.border = '2px solid red';
-  } else if (!formData.email) {
+  } else if (!formData.email.length) {
     const errorMessage = `<p class="errorMsg">wpisz email !!!</p>`;
     form.insertAdjacentHTML('beforeend', errorMessage);
     userMail.style.border = '2px solid red';
@@ -73,7 +73,6 @@ function toSubmit(evt) {
     document.querySelector('.custom-checkbox').style.border = '1px solid red';
   } else {
     sendMail(formData);
-    console.log(formData);
     document.querySelector('.custom-checkbox').style.border = '1px solid black';
     localStorage.removeItem('contact-form-state');
 
