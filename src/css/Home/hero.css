@@ -60,21 +60,17 @@
   padding: 12px 22px;
   margin-bottom: 30px;
   max-width: 300px;
-  transition: color, var(--transition-effect),
-    border-color var(--transition-effect);
+  transition: color, var(--transition-effect);
   background-color: var(--second-background-color);
 }
 .herro-btn:hover {
   color: var(--hover-text-color);
-  border-color: var(--hover-text-color);
 }
 .herro-btn:active {
   color: var(--hover-text-color);
-  border-color: var(--hover-text-color);
 }
 .herro-btn:focus {
   color: var(--hover-text-color);
-  border-color: var(--hover-text-color);
 }
 
 /*====================TABLET===================*/
