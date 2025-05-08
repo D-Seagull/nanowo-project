@@ -28,7 +28,6 @@
 }
 .form-wrapper {
   width: 864px;
-  margin-right: 140px;
 }
 
 .contact-form {
@@ -199,6 +198,11 @@
 .contacts-list-item-address {
   display: flex;
   align-items: center;
+}
+.errorMsg {
+  color: red;
+  font-size: var(--mobail-font-size);
+  margin-top: 15px;
 }
 
 @media only screen and (max-width: 1200px) {
