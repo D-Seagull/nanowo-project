@@ -52,3 +52,4 @@ switch (window.location.pathname) {
 
   default:
 }
+console.log(window.location.pathname);
