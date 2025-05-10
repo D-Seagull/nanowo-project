@@ -13,9 +13,9 @@
   margin: 0 auto;
   width: 83px;
   height: 65px;
-  fill: none; /* Не заповнюємо іконку кольором */
-  stroke: var(--primary-svg-fill); /* Колір бордеру */
-  stroke-width: 2; /* Товщина бордеру */
+  fill: none;
+  stroke: var(--primary-svg-fill);
+  stroke-width: 2;
 }
 
 .benefits-head {

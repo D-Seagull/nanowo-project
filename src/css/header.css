@@ -84,7 +84,31 @@
 .nav-container {
   display: none;
 }
+.home-modal-button {
+  top: 10px;
+  left: 50px;
+}
 
+.icon-home {
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  fill: none;
+  stroke: white;
+  stroke-width: 1;
+}
+.active-page {
+  display: flex;
+  align-items: center;
+}
+.active-page::before {
+  content: '';
+  width: 5px;
+  height: 5px;
+  border: 1px solid var(--primary-text-color);
+  border-radius: 50%;
+  margin-right: 10px;
+}
 /* ==============Burger animation=========================*/
 
 #nav-icon2 {

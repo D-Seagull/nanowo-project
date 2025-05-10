@@ -23,3 +23,32 @@ document.addEventListener('DOMContentLoaded', function () {
     navIcon.classList.toggle('open');
   });
 });
+
+/*-------------home-link------------*/
+const homeModalLink = document.querySelector('#home-page-link-modal');
+if (window.location.pathname === '/index.html') {
+  homeModalLink.style.display = 'none';
+}
+const aboutModalLink = document.querySelector('#about-page-link-modal');
+const implModalLink = document.querySelector('#impl-page-link-modal');
+const updatesModalLink = document.querySelector('#updates-page-link-modal');
+const contactModalLink = document.querySelector('#contact-page-link-modal');
+
+switch (window.location.pathname) {
+  case '/about.html':
+    aboutModalLink.classList.add('active-page');
+    break;
+
+  case '/implementation.html':
+    implModalLink.classList.add('active-page');
+    break;
+
+  case '/updates.html':
+    updatesModalLink.classList.add('active-page');
+    break;
+  case '/contact.html':
+    contactModalLink.classList.add('active-page');
+    break;
+
+  default:
+}
