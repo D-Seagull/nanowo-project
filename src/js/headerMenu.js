@@ -31,22 +31,23 @@ const implModalLink = document.querySelector('#impl-page-link-modal');
 const updatesModalLink = document.querySelector('#updates-page-link-modal');
 const contactModalLink = document.querySelector('#contact-page-link-modal');
 
-switch (window.location.pathname) {
-  case '/index.html':
+const filename = window.location.pathname.split('/').pop();
+switch (filename) {
+  case 'index.html':
     homeModalLink.style.display = 'none';
     break;
-  case '/about.html':
+  case 'about.html':
     aboutModalLink.classList.add('active-page');
     break;
 
-  case '/implementation.html':
+  case 'implementation.html':
     implModalLink.classList.add('active-page');
     break;
 
-  case '/updates.html':
+  case 'updates.html':
     updatesModalLink.classList.add('active-page');
     break;
-  case '/contact.html':
+  case 'contact.html':
     contactModalLink.classList.add('active-page');
     break;
 
