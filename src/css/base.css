@@ -21,6 +21,8 @@
   --tablet-container: 768px;
   --desktop-conmtainer: 1370px;
   --transition-effect: 0.3s ease-in-out;
+  --transition-duration: 0.3s;
+  --transition-timing-function: ease-in-out;
 }
 
 body {
