@@ -17,22 +17,21 @@
 /* * * * * * * * * * * * * * */
 
 .contact-us {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   background-color: var(--second-background-color);
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .contact-us-container {
   display: flex;
 }
 .form-wrapper {
-  width: 864px;
 }
 
 .contact-form {
-  max-width: 864px;
-  padding: 80px 64px;
+  max-width: 650px;
+  padding: 80px 50px;
   background-color: #fff;
 }
 
