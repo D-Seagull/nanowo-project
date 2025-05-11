@@ -146,7 +146,7 @@
   position: absolute;
   content: '';
   top: 0;
-  left: -100px;
+  left: -50px;
   width: 1px;
 
   height: 100%;
@@ -252,9 +252,9 @@
 
 @media only screen and (max-width: 768px) {
   .contact-us {
-    margin-top: 64px;
-    margin-bottom: 64px;
-    padding: 48px 0;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding: 15px 0;
   }
 
   .contact-us-container {
@@ -308,7 +308,7 @@
 
   .contact-info {
     position: relative;
-    padding: 14px 24px;
+    padding: 0 24px;
   }
 
   .contact-info::before {
