@@ -179,8 +179,8 @@
 .swiper-navigation-bottom .project-button-prev,
 .swiper-navigation-bottom .project-button-next {
   position: static;
-  width: 5px;
-  height: 5px;
+  width: 10px;
+  height: 10px;
   color: var(--primary-text-color);
 }
 
