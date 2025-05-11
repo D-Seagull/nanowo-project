@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px 0;
+  padding: 15px 0;
 }
 .update-hero-list {
   display: flex;
@@ -33,7 +33,7 @@
 @media only screen and (min-width: 768px) {
   .updates-hero-wrapper {
     align-items: start;
-    padding: 30px 0;
+    padding: 25px 0;
   }
   .update-hero-list {
     gap: 20px;
@@ -59,7 +59,7 @@
 @media only screen and (min-width: 1200px) {
   .updates-hero-wrapper {
     align-items: start;
-    padding-top: 179px;
+    padding-top: 50px;
     padding-bottom: 40px;
   }
   .update-hero-list {

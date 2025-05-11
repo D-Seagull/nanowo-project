@@ -1,5 +1,5 @@
 .updates-reliases {
-  margin-bottom: 100px;
+  margin-bottom: 15px;
 }
 
 .more-relises {
@@ -67,6 +67,10 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .updates-reliases {
+  margin-bottom: 25px;
+}
+
   .updates-reliase-text-content {
     padding: 30px;
     align-items: start;
@@ -82,11 +86,14 @@
 }
 
 @media only screen and (min-width: 1200px) {
+  .updates-reliases {
+  margin-bottom: 50px;
+}
   .updates-reliase-item {
     flex-direction: row;
 
     justify-content: space-between;
-    padding: 81px 61px;
+    padding: 50px 61px;
   }
   .updates-reliase-herro-wrapper {
     flex-direction: row;
