@@ -105,7 +105,7 @@
 }
 @media only screen and (min-width: 1200px) {
   .hero {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     background-size: 150%;
     background-position: -200px center;
 

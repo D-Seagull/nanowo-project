@@ -1,7 +1,7 @@
 .turnkey-section {
   background-color: #ffffff;
-  margin-top: 40px;
-  margin-bottom: 35px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .turnkey-wrapper {
   display: flex;
@@ -47,7 +47,6 @@
   font-size: 30px;
   text-align: center;
   margin-bottom: 20px;
-  margin-top: 20px;
 }
 .turnkey-text {
   font-size: var(--mobail-font-size);
@@ -61,6 +60,10 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .turnkey-section {
+    margin-top: 0;
+    margin-bottom: 25px;
+  }
   .turnkey-wrapper {
     flex-direction: row;
 

@@ -5,9 +5,7 @@
 }
 .benefits {
   background-color: var(--second-background-color);
-  padding: 15px 0;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 8px 16px rgba(0, 0, 0, 0.08),
-    0px 16px 32px rgba(0, 0, 0, 0.06);
+  padding-bottom: 15px;
 }
 .icon-benefits {
   margin: 0 auto;
@@ -48,11 +46,15 @@
   font-size: var(--mobail-font-size);
 }
 .benefits-btn {
-  margin: 20px auto;
+  margin-top: 15px;
   background-color: transparent;
 }
 
 @media only screen and (min-width: 768px) {
+  .benefits {
+    padding-bottom: 25px;
+    padding-top: 20px;
+  }
   .benefits-container {
     padding: 60px 90px;
     background-color: var(--second-background-color);
@@ -107,11 +109,11 @@
     overflow: hidden;
   }
   .benefits-container {
-    padding: 60px 90px;
+    padding: 50px 90px;
     background-color: var(--second-background-color);
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 50px;
   }
   .benefits-head {
     font-family: var(--font-family-second);
