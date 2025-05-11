@@ -25,12 +25,13 @@
 
 .contact-us-container {
   display: flex;
+  justify-content: space-between;
 }
 .form-wrapper {
 }
 
 .contact-form {
-  max-width: 650px;
+  max-width: 720px;
   padding: 80px 50px;
   background-color: #fff;
 }
@@ -145,11 +146,11 @@
   position: absolute;
   content: '';
   top: 0;
-  left: -40px;
+  left: -100px;
   width: 1px;
 
   height: 100%;
-  background: #ddd;
+  background: #acacac;
 }
 
 .contacts-list {
@@ -206,9 +207,9 @@
 
 @media only screen and (max-width: 1200px) {
   .contact-us {
-    margin-top: 80px;
-    margin-bottom: 80px;
-    padding: 78px 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 25px 0;
   }
 
   .contact-us-container {
@@ -229,13 +230,13 @@
 
   .contact-info {
     position: relative;
-    padding: 18px 32px;
+    padding: 0 32px;
   }
 
   .contact-info::before {
     position: absolute;
     content: '';
-    top: -30px;
+    top: -50px;
     left: 0;
     width: 100%;
     height: 1px;

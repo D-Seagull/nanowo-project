@@ -59,4 +59,8 @@
     font-size: var(--tablet-font-size);
     line-height: 24px;
   }
+  .about-text {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }

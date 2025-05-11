@@ -40,15 +40,14 @@
 
 @media only screen and (max-width: 1200px) {
   .attitude {
-    margin-bottom: 80px;
+    margin-bottom: 25px;
   }
 
   .attitude-container {
     display: flex;
     flex-direction: column;
 
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 25px;
     gap: 44px;
   }
 
