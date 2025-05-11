@@ -166,22 +166,29 @@
 .smal-project-list {
   display: none;
 }
+.projectSwiper {
+  position: relative;
+}
 .swiper-navigation-bottom {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
-  gap: 30px;
-  margin-top: 30px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 15px;
+  padding: 0 30px; /* Горизонтальний відступ стрілок */
+  z-index: 10;
 }
 
 .swiper-navigation-bottom .project-button-prev,
 .swiper-navigation-bottom .project-button-next {
-  position: static;
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
   color: var(--primary-text-color);
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 30px !important;
 }
 
 @media only screen and (min-width: 768px) {
@@ -205,6 +212,7 @@
   }
   .slide-text {
     text-align: start;
+
     font-size: var(--tablet-font-size);
   }
   .slider-container {
