@@ -184,12 +184,6 @@
   color: var(--primary-text-color);
 }
 
-/* Видалити дефолтні стрілки Swiper */
-.swiper-button-prev::after,
-.swiper-button-next::after {
-  content: '';
-}
-
 @media only screen and (min-width: 768px) {
   .project-pagination {
     display: flex;
@@ -269,6 +263,7 @@
     padding: 14px 22px;
   }
   .swiper-navigation-bottom {
+    display: none;
   }
 }
 @media only screen and (min-width: 1200px) {
