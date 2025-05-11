@@ -32,7 +32,7 @@
   font-weight: 400;
   font-size: 35px;
   line-height: 100%;
-  margin: 0 auto;
+ margin-bottom: 15px;
 }
 .imp-project-iteam {
   display: flex;
@@ -112,7 +112,8 @@
   margin-bottom: 25px;
 }
 
-  .imp-project-list {
+  .imp-projects-header {
+    margin-bottom: 25px;
 
   }
   .imp-project-iteam {
@@ -189,6 +190,7 @@
   .imp-projects-header {
     font-size: 50px;
     text-align: start;
+    margin-bottom: 15px;
 
     margin-bottom: 40px;
   }

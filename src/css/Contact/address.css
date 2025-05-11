@@ -1,5 +1,5 @@
 .contact-form-contact {
-  margin-bottom: 160px;
+  margin-bottom: 15px;
 }
 
 .contact-form-contact-container {
@@ -14,4 +14,16 @@
 }
 .contact-form .errorColor {
   border-color: red;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-form-contact {
+  margin-bottom: 25px;
+}
+}
+@media only screen and (min-width: 1200px) {
+  .contact-form-contact {
+  margin-bottom: 50px;
+}
+
 }
