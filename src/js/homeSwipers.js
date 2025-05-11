@@ -1,10 +1,16 @@
 import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
+import { Navigation } from 'swiper/modules';
+import 'swiper/css/navigation';
 /*=======================Swiper Projects======================*/
 new Swiper('.projectSwiper', {
   slidesPerView: 1,
   spaceBetween: 10,
   autoHeight: true,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
   pagination: {
     el: '.project-pagination.swiper-pagination',
     clickable: true,
