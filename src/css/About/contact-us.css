@@ -33,7 +33,7 @@
   justify-content: space-between;
 }
 .about-contact-header-text {
-  font-family: 'Poiret One';
+  font-family: var(--font-family-second);
   text-align: center;
   line-height: 1.1;
   margin-bottom: 50px;

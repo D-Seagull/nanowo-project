@@ -1,29 +1,28 @@
-.implementation-contact {
-  background-color: var(--second-background-color);
-}
+
 .implementation-contact-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+
+  margin-bottom: 15px;
   gap: 15px;
 }
 .implementation-contact-text {
   font-family: var(--font-family-second);
-  font-weight: 400;
+  font-weight: 500;
   font-size: 20px;
   line-height: 100%;
   text-align: center;
-  color: rgba(246, 246, 246, 1);
+  color: var(--section-text-color-dark);
   max-width: 532px;
+}
+.contact-btn-impl{
+  color: var(--section-text-color-dark);
+  border-color:var(--section-text-color-dark) ;
 }
 @media only screen and (min-width: 768px) {
   .implementation-contact-container {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    margin-bottom: 40px;
+margin-bottom: 25px;
     gap: 20px;
   }
   .implementation-contact-text {
@@ -36,9 +35,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 48px;
-    padding-bottom: 40px;
-    margin-bottom: 93px;
+margin-bottom: 50px;
     gap: 32px;
   }
   .implementation-contact-text {
