@@ -1,8 +1,8 @@
 .about-us-about {
   margin-bottom: 50px;
-  height: 1112px;
+  height: 850px;
   background-image: url(../../img/About/main-bg-jpeg-1x-min.jpg);
-  background-position: center;
+  background-position: center 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -18,31 +18,8 @@
     background-image: url(../../img/About/main-bg-jpeg-2x-min.jpg);
   }
 }
-.about-us-info {
-  display: block;
-  margin-top: auto;
-  padding: 60px 90px;
-  max-width: 896px;
-  max-height: 444px;
-  background: var(--second-background-color);
-}
 
-.about-us-title {
-  font-family: var(--font-family-second);
-  margin-bottom: 20px;
-  font-weight: 400;
-  font-size: 50px;
-  line-height: 1;
-  color: #f6f6f6;
-}
-.about-us-text {
-  font-weight: var(--font-weight-base);
-  font-size: var(--font-size-base);
-  line-height: 1.39326;
-  color: #f6f6f6;
-  max-width: 715px;
-  font-weight: 400;
-}
+
 
 @media only screen and (max-width: 1200px) {
   .container {
@@ -61,15 +38,7 @@
     background: var(--second-background-color);
   }
 
-  .about-us-title {
-    margin-bottom: 24px;
-    font-size: 40px;
-    line-height: 1;
-    color: #f6f6f6;
-  }
-  .about-us-text {
-    font-size: var(--tablet-font-size);
-  }
+
 }
 
 /* Mobile */
@@ -91,15 +60,5 @@
     background: var(--second-background-color);
   }
 
-  .about-us-title {
-    margin-bottom: 18px;
-    font-size: 28px;
-    line-height: 1;
-    color: #f6f6f6;
-  }
-  .about-us-text {
-    max-width: 200px;
-    font-size: var(--mobail-font-size);
-    line-height: 1.3;
-  }
+
 }

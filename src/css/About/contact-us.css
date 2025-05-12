@@ -25,9 +25,22 @@
 
 .contact-us-container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
+.about-contact-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+.about-contact-header-text {
+  font-family: 'Poiret One';
+  text-align: center;
+  line-height: 1.1;
+  margin-bottom: 50px;
+  font-size: 50px;
+  color: var(--primary-text-color);
+  font-weight: var(--font-weight-base);
+}
 
 .contact-form {
   max-width: 720px;
@@ -193,7 +206,6 @@
 .svg-wrapper {
   display: block;
 }
-
 .contacts-list-item-address {
   display: flex;
   align-items: center;
@@ -218,7 +230,6 @@
   .form-wrapper {
     width: 100%;
     margin-right: 0;
-
   }
 
   .contact-form {
@@ -228,8 +239,14 @@
   }
 
   .contact-info {
+    display: none;
     position: relative;
     padding: 0 32px;
+  }
+
+  .about-contact-header-text {
+    margin-bottom: 25px;
+    font-size: 30px;
   }
 
   .contact-info::before {
@@ -263,13 +280,15 @@
   .form-wrapper {
     width: 100%;
     margin-right: 0;
-
-
   }
 
   .contact-form {
     padding: 36px 24px;
     background-color: #fff;
+  }
+  .about-contact-header-text {
+    margin-bottom: 15px;
+    font-size: 18px;
   }
 
   .form-label {
