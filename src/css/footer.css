@@ -155,10 +155,18 @@
     justify-content: space-between;
     align-items: flex-start;
   }
+  .footer__logo-img{
+    width: 120px;
+  }
 
   .footer__bottom {
     flex-direction: row;
     justify-content: space-between;
     padding-top: 25px;
+  }
+}
+@media (min-width: 1200px) {
+  .footer__logo-img{
+    width: 130px;
   }
 }

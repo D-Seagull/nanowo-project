@@ -13,7 +13,7 @@
   align-items: center;
 }
 
-.logo-link {
+.logo-img{
   width: 100px;
 }
 
@@ -203,9 +203,13 @@
   .logo-link {
     width: 300px;
   }
+  .logo-img{
+    width: 120px;
+  }
 }
-
 @media only screen and (min-width: 1200px) {
+  .logo-img{
+    width: 130px;}
   .mob-menu,
   .hamburder-btn {
     display: none;
