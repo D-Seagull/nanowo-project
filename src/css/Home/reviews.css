@@ -48,6 +48,7 @@
 
 .slide-reviews {
   display: flex;
+  flex-direction: column;
   background-color: #ffffff;
   gap: 10px;
   padding-top: 20px;
@@ -173,7 +174,7 @@
   .reviews-text {
     font-size: 18px;
     line-height: 24px;
-    margin-bottom: 30px;
+    margin-bottom: px;
     text-align: center;
     max-width: 100%;
     padding: 0 90px;
