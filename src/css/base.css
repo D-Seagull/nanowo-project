@@ -3,9 +3,10 @@
 }
 
 :root {
+  --fonnt-size-header-block: 30px;
   --font-family-base: 'Lato', sans-serif;
   --font-family-second: 'Poiret One';
-  --font-size-base: 24px;
+  --font-size-base: 20px;
   --mobail-font-size: 16px;
   --tablet-font-size: 20px;
   --line-height-base: 1.5;
@@ -19,7 +20,7 @@
   --primary-svg-fill: #dddddd;
   --mob-container: 375px;
   --tablet-container: 768px;
-  --desktop-conmtainer: 1370px;
+  --desktop-conmtainer: 1280px;
   --transition-effect: 0.3s ease-in-out;
   --transition-duration: 0.3s;
   --transition-timing-function: ease-in-out;

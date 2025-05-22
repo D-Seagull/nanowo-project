@@ -120,12 +120,12 @@
   .news-header {
     text-align: left;
     font-family: var(--font-family-second);
-    font-size: 50px;
+    font-size: 40px;
     line-height: 50px;
     margin-bottom: 12px;
   }
   .news-header-text {
-    font-size: 20px;
+    font-size: var(--font-size-base);
     line-height: 24px;
     text-align: start;
     color: rgba(117, 130, 133, 1);
@@ -140,7 +140,7 @@
     padding: 81px 61px;
   }
   .news-img {
-    max-width: 697px;
+    max-width: 657px;
     max-height: 384px;
   }
   .iteam-text-content {
@@ -150,7 +150,7 @@
 
   .news-iteam-header {
     font-weight: 400;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 32px;
   }
   .news-iteam-text {

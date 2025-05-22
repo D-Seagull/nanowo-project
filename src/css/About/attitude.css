@@ -7,14 +7,11 @@
 }
 .attitude-container {
   display: flex;
-
   padding-bottom: 40px;
   gap: 103px;
 }
 
-.attitude-video-wrapper {
-  max-width: px;
-}
+
 
 .attitude-video {
   display: block;
@@ -26,14 +23,14 @@
 .attitude-title {
   font-family: var(--font-family-second);
   font-weight: var(--font-weight-base);
-  font-size: 50px;
+  font-size: 40px;
   line-height: 1;
   color: var(--section-text-color-dark);
   margin-bottom: 40px;
 }
 .attitude-text {
   font-weight: var(--font-weight-base);
-  font-size: 24px;
+  font-size: var(--font-size-base);
   line-height: 1.39326;
   color: var(--section-text-color-dark);
 }

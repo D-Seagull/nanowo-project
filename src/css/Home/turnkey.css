@@ -99,42 +99,42 @@
   .turnkey-wrapper {
     justify-content: sp;
     align-items: start;
-    gap: 102px;
+    gap: 100px;
   }
   .turnkey-text-content {
     max-width: 440px;
 
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 139%;
     letter-spacing: 0%;
     vertical-align: middle;
   }
   .turnkey-img-wrap {
-    width: 750px;
+    width: 650px;
     height: 100%;
   }
   .turnkey-header {
     margin-top: 0;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 50px;
     margin-bottom: 20px;
   }
   .turnkey-text {
     max-width: 450px;
     font-size: var(--font-size-base);
-    padding-left: 10px;
+    padding-left: 5px;
     line-height: 33.44px;
   }
   .turnkey-iteam::before {
     content: '';
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    width: 5px;
+    height: 5px;
     border-radius: 50%;
     background-color: var(--second-background-color);
     position: absolute;
-    top: 13px;
+    top: 15px;
     left: 0px;
   }
   .turnkey-text-content {

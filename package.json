@@ -19,6 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
+    "accordion-js": "^3.4.1",
     "izitoast": "^1.4.0",
     "swiper": "^11.2.2",
     "vite-plugin-full-reload": "^1.2.0",

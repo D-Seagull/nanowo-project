@@ -152,12 +152,12 @@
     padding-top: 50px;
   }
   .review-header {
-    font-size: 60px;
+    font-size: 40px;
     line-height: 70px;
     padding: 0;
   }
   .review-header-name {
-    font-size: 50px;
+    font-size: 30px;
     line-height: 50px;
     margin-bottom: 32px;
   }
@@ -171,13 +171,13 @@
     padding-bottom: 40px;
   }
   .reviews-text {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 24px;
     margin-bottom: 55px;
     text-align: center;
     max-width: 100%;
-    padding: 0 90px;
-    height: 120px;
+    padding: 0 50px;
+    height: 100px;
     overflow: hidden;
   }
   .rev-investor-name {

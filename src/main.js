@@ -5,3 +5,4 @@ import './js/modalForm';
 import './js/updatePage';
 import './js/form';
 import './js/sendMail';
+import './js/AboutAccordion';
