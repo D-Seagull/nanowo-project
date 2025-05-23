@@ -106,6 +106,15 @@
   object-fit: cover;
 }
 
+.impl-btn{
+  display: flex;
+  color: rgba(42, 49, 55, 1);
+  fill: rgba(42, 49, 55, 1);
+justify-content: start;
+margin-bottom: 20px;
+
+}
+
 @media only screen and (min-width: 768px) {
   .imp-projects-container {
   padding-top: 25px;
@@ -163,7 +172,7 @@
   .imp-project-img {
     display: block;
     object-fit: cover;
-    max-width: 300px;
+    max-width:280px;
   }
   .imp-project-main-item {
     flex: 1 1 calc(50% - 12px);

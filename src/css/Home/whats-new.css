@@ -68,9 +68,12 @@
   color: rgba(42, 49, 55, 1);
   fill: rgba(42, 49, 55, 1);
   justify-content: center;
-  margin: 0 auto;
+  margin-left: 0;
   border-color: rgba(42, 49, 55, 1);
+  font-size: var(--mobail-font-size);
+
 }
+
 
 @media only screen and (min-width: 768px) {
   .whats-new {
