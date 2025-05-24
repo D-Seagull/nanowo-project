@@ -7,5 +7,5 @@ import{S as E,i as S}from"./vendor-YoumVFmm.js";(function(){const t=document.cre
 			/>
 	</a>
 </li>
-`).join("")}
-//# sourceMappingURL=main-BSp5d0WD.js.map
+`)}
+//# sourceMappingURL=main-SlSksIRX.js.map
