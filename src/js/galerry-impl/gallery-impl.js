@@ -16,6 +16,7 @@ function createHtmlEl(arr) {
   return arr
     .map(
       (item) =>
+
         `<li class="gallery-item">
 	<a class="gallery-link" href="${item}">
 		<img
@@ -28,6 +29,7 @@ function createHtmlEl(arr) {
 `
     )
     .join("");
+
 }
 
 }
