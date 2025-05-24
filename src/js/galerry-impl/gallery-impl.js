@@ -18,13 +18,13 @@ function createHtmlEl(arr) {
       (item) =>
 
         `<li class="gallery-item">
-	<a class="gallery-link" href="${item}">
+
 		<img
 			class="gallery-image"
 			src="${item}"
 			alt="img" width="360"
 			/>
-	</a>
+
 </li>
 `
     )
