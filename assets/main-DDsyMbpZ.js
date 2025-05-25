@@ -6,9 +6,10 @@ import{S as q,i as v}from"./vendor-YoumVFmm.js";(function(){const r=document.cre
               src="${r["1x"]}"
               srcset="${r["1x"]} 1x, ${r["2x"]} 2x"
               alt="img"
+
               loading="lazy"
             />
           </a>
         </li>
       `).join("")}function I(){const l=G.slice(d,d+M);C.insertAdjacentHTML("beforeend",K(l)),d+=M,d>=G.length&&x.classList.add("hidden")}x.addEventListener("click",I);
-//# sourceMappingURL=main-DaT5byS4.js.map
+//# sourceMappingURL=main-DDsyMbpZ.js.map
