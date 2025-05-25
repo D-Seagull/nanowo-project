@@ -11,7 +11,7 @@ const loadMoreBtn = document.querySelector('#load-more');
 let currentGallery = [];
 let loadedCount = 0;
 const ITEMS_PER_PAGE = 6;
-
+let isLoading = false;
 impBackBtn.addEventListener('click', () => {
   impProjectsPage.classList.remove('hidden');
   impGalleryPage.classList.add('hidden');
@@ -42,6 +42,7 @@ function handleCreateGallery(evt) {
 
     loadMoreBtn.classList.remove('hidden');
   } else {
+    let isLoading = false;
     galleryList.innerHTML = '<p> 🏗️ Zdjęcia tej realizacji już wkrótce!</p>';
     loadMoreBtn.classList.add('hidden');
   }
@@ -67,7 +68,7 @@ function createHtmlEl(arr) {
     .join('');
 }
 
-let isLoading = false;
+
 
 async function renderNextImages() {
   if (isLoading) return;
