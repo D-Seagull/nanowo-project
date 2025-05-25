@@ -39,7 +39,7 @@ function handleCreateGallery(evt) {
     loadedCount = 0;
 
     renderNextImages();
-    lightbox.refresh();
+
     loadMoreBtn.classList.remove('hidden');
   } else {
     galleryList.innerHTML = '<p> 🏗️ Zdjęcia tej realizacji już wkrótce!</p>';
@@ -67,18 +67,48 @@ function createHtmlEl(arr) {
     .join('');
 }
 
-function renderNextImages() {
+let isLoading = false;
+
+async function renderNextImages() {
+  if (isLoading) return;
+  isLoading = true;
+
+  const loader = document.querySelector('.loader-imp');
+  loader.classList.remove('hidden');
+
   const nextItems = currentGallery.slice(
     loadedCount,
     loadedCount + ITEMS_PER_PAGE
   );
-  galleryList.insertAdjacentHTML('beforeend', createHtmlEl(nextItems));
+
+  const htmlString = createHtmlEl(nextItems);
+  galleryList.insertAdjacentHTML('beforeend', htmlString); // ВСТАВКА ДО ЗАВАНТАЖЕННЯ
+
+  const newImages = Array.from(
+    galleryList.querySelectorAll('img')
+  ).slice(-nextItems.length); // беремо тільки нові зображення
+
+  await Promise.all(
+    newImages.map(img =>
+      new Promise(resolve => {
+        if (img.complete) return resolve(); // уже кешоване
+        img.onload = img.onerror = () => resolve();
+      })
+    )
+  );
+
   loadedCount += ITEMS_PER_PAGE;
-lightbox.refresh();
+  lightbox.refresh();
+
   if (loadedCount >= currentGallery.length) {
     loadMoreBtn.classList.add('hidden');
   }
+
+  loader.classList.add('hidden');
+  isLoading = false;
 }
+
+
 
 loadMoreBtn.addEventListener('click', renderNextImages);
 
