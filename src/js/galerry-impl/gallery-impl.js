@@ -1,4 +1,4 @@
-import galleriesList from './gallery-db';
+import galleriesList from './gallery-db.js';
 
 const galleryList = document.querySelector('.gallery');
 const implLinkBtn = document.querySelectorAll('.js-impl-gallery');
@@ -54,7 +54,6 @@ function createHtmlEl(arr) {
             <img
               class="gallery-image"
               src="${item['1x']}"
-              srcset="${item['1x']} 1x, ${item['2x']} 2x"
               alt="img"
             />
           </a>
