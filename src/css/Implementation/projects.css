@@ -172,8 +172,9 @@ cursor: pointer;
 }
   .imp-project-img {
     display: block;
-    object-fit: cover;
+    object-fit:cover;
     max-width:280px;
+    height: 100%;
   }
   .imp-project-main-item {
     flex: 1 1 calc(50% - 12px);
