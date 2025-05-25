@@ -1,5 +1,6 @@
 import galleriesList from './gallery-db.js';
-
+import SimpleLightbox from "simplelightbox";
+import 'simplelightbox/dist/simple-lightbox.min.css';
 const galleryList = document.querySelector('.gallery');
 const implLinkBtn = document.querySelectorAll('.js-impl-gallery');
 const impProjectsPage = document.querySelector('.hidden-wrap');
@@ -38,6 +39,7 @@ function handleCreateGallery(evt) {
     loadedCount = 0;
 
     renderNextImages();
+    lightbox.refresh();
     loadMoreBtn.classList.remove('hidden');
   } else {
     galleryList.innerHTML = '<p> 🏗️ Zdjęcia tej realizacji już wkrótce!</p>';
@@ -54,7 +56,9 @@ function createHtmlEl(arr) {
             <img
               class="gallery-image"
               src="${item['1x']}"
+
               alt="img"
+               loading="lazy"
             />
           </a>
         </li>
@@ -70,10 +74,13 @@ function renderNextImages() {
   );
   galleryList.insertAdjacentHTML('beforeend', createHtmlEl(nextItems));
   loadedCount += ITEMS_PER_PAGE;
-
+lightbox.refresh();
   if (loadedCount >= currentGallery.length) {
     loadMoreBtn.classList.add('hidden');
   }
 }
 
 loadMoreBtn.addEventListener('click', renderNextImages);
+
+
+let lightbox = new SimpleLightbox('.gallery a');
