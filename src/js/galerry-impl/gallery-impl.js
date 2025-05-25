@@ -20,7 +20,6 @@ impBackBtn.addEventListener('click', () => {
   loadMoreBtn.classList.add('hidden');
 });
 
-
 implLinkBtn.forEach(btn => {
   btn.addEventListener('click', handleCreateGallery);
 });
@@ -57,8 +56,6 @@ function createHtmlEl(arr) {
               src="${item['1x']}"
               srcset="${item['1x']} 1x, ${item['2x']} 2x"
               alt="img"
-
-              loading="lazy"
             />
           </a>
         </li>
