@@ -21,7 +21,7 @@
   display: none;
 }
   .gallery-item{
-width: 320px;
+width:320px;
 }
 
 .back-button {
@@ -41,7 +41,7 @@ width: 320px;
   backdrop-filter: blur(4px);
 }
 .load-more-btn {
-  max-width: 200px;
+  max-width: 230px;
   margin-top: 20px;
   padding: 10px 20px;
   font-size: 16px;
@@ -57,7 +57,11 @@ width: 320px;
 }
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
+
+  .gallery-item{
+width:200px;
+}
   .imp-gallery {
 flex-wrap: wrap;
     flex-direction: row;
@@ -98,56 +102,3 @@ width: 360px;
   }
 }
 
-/*-----------------Loader------------*/
-
-.loader-imp {
-  position: relative;
-  width: 100px;
-  height: 16px;
-}
-.loader-imp:before , .loader-imp:after{
-  content: "";
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  background: #6f99b4;
-  box-shadow: 32px 0 #6f99b4;
-  left: 0;
-  top: 0;
-  animation: ballMoveX 2s linear infinite;
-}
-.loader-imp:after {
-  box-shadow: none;
-  transform: translateX(64px) scale(1);
-  z-index: 2;
-  animation: none;
-  animation: trfLoader 2s linear infinite;
-}
-
-@keyframes trfLoader {
-  0% , 5%{
-    transform: translateX(64px) scale(1);
-    background: #6f99b4;
-  }
-  10%{
-    transform: translateX(64px) scale(1);
-    background: #2a3137;
-  }
-  40%{
-      transform: translateX(32px) scale(1.5);
-      background: #2a3137;
-    }
-  90%, 95% {
-    transform: translateX(0px) scale(1);
-    background: #2a3137;
-  }
-  100% {
-    transform: translateX(0px) scale(1);
-    background: 6f99b4;
-  }
-}
-@keyframes ballMoveX {
-  0% , 10%{  transform: translateX(0) }
-  90%, 100% { transform: translateX(32px) }
-}

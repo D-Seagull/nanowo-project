@@ -80,7 +80,7 @@
   font-weight: 400;
   font-size: 30px;
   line-height: 100%;
-}   
+}
 .imp-project-year-text {
   font-weight: 400;
   font-size: var(--mobail-font-size);
@@ -169,6 +169,10 @@ cursor: pointer;
   .imp-projects-container {
   padding-top: 50px;
   margin-bottom: 50px;
+}
+.imp-project-img-item{
+  position: relative;
+  overflow:hidden;
 }
   .imp-project-img {
     display: block;
