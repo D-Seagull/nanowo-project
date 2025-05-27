@@ -180,6 +180,10 @@ cursor: pointer;
     max-width:280px;
     height: 100%;
   }
+  .picture-link{
+     height: 100%;
+
+  }
   .imp-project-main-item {
     flex: 1 1 calc(50% - 12px);
     flex-direction: row;

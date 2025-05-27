@@ -19,6 +19,17 @@ impBackBtn.addEventListener('click', () => {
   currentGallery = [];
   loadedCount = 0;
   loadMoreBtn.classList.add('hidden');
+  const target = document.querySelector('#imp-projects');
+if (target) {
+  const headerOffset = 60;
+  const elementPosition = target.getBoundingClientRect().top;
+  const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+  window.scrollTo({
+    top: offsetPosition,
+    behavior: 'smooth',
+  });
+}
 });
 
 implLinkBtn.forEach(btn => {
@@ -26,6 +37,7 @@ implLinkBtn.forEach(btn => {
 });
 
 function handleCreateGallery(evt) {
+  evt.preventDefault();
   impProjectsPage.classList.add('hidden');
   impGalleryPage.classList.remove('hidden');
 
@@ -45,6 +57,10 @@ function handleCreateGallery(evt) {
     galleryList.innerHTML = '<p> 🏗️ Zdjęcia tej realizacji już wkrótce!</p>';
     loadMoreBtn.classList.add('hidden');
   }
+   document.querySelector('#implementation-gallery').scrollIntoView({
+    behavior: 'smooth',
+    block: 'start',
+  });
 }
 
 function createHtmlEl(arr) {
