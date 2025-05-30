@@ -11,4 +11,4 @@ import{S as v,i as _,a as P}from"./vendor-DplawMm5.js";(function(){const l=docum
           </a>
         </li>
       `).join("")}function q(){const e=w.slice(x,x+S);$.insertAdjacentHTML("beforeend",Z(e)),x+=S,E.refresh(),x>=w.length&&y.classList.add("hidden")}y&&y.addEventListener("click",q);let E=new P(".gallery a");
-//# sourceMappingURL=main-BEVP19Y8.js.map
+//# sourceMappingURL=main-C4-PX5Y6.js.map
