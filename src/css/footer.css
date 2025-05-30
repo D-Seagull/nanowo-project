@@ -158,6 +158,10 @@
   .footer__logo-img{
     width: 120px;
   }
+  .footer__social {
+
+  justify-content: space-between;
+}
 
   .footer__bottom {
     flex-direction: row;
