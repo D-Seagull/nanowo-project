@@ -12,25 +12,28 @@ let currentGallery = [];
 let loadedCount = 0;
 const ITEMS_PER_PAGE = 6;
 
-impBackBtn.addEventListener('click', () => {
-  impProjectsPage.classList.remove('hidden');
-  impGalleryPage.classList.add('hidden');
-  galleryList.innerHTML = '';
-  currentGallery = [];
-  loadedCount = 0;
-  loadMoreBtn.classList.add('hidden');
-  const target = document.querySelector('#imp-projects');
-if (target) {
-  const headerOffset = 60;
-  const elementPosition = target.getBoundingClientRect().top;
-  const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+if (impBackBtn) {
+  impBackBtn.addEventListener('click', () => {
+    impProjectsPage.classList.remove('hidden');
+    impGalleryPage.classList.add('hidden');
+    galleryList.innerHTML = '';
+    currentGallery = [];
+    loadedCount = 0;
+    loadMoreBtn.classList.add('hidden');
 
-  window.scrollTo({
-    top: offsetPosition,
-    behavior: 'smooth',
+    const target = document.querySelector('#imp-projects');
+    if (target) {
+      const headerOffset = 60;
+      const elementPosition = target.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth',
+      });
+    }
   });
 }
-});
 
 implLinkBtn.forEach(btn => {
   btn.addEventListener('click', handleCreateGallery);
@@ -95,7 +98,9 @@ function renderNextImages() {
     loadMoreBtn.classList.add('hidden');
   }
 }
-
+if(loadMoreBtn){
 loadMoreBtn.addEventListener('click', renderNextImages);
+}
+
 
 let lightbox = new SimpleLightbox('.gallery a');
