@@ -105,13 +105,12 @@ if (loadMoreBtn) {
 
 let lightbox = new SimpleLightbox('.gallery a');
 
+//-------------------come back to project from gallery list-----//
 if (galleryList) {
-
   history.pushState({ section: 'gallery' }, '', '?gallery');
-
-  // Слухаємо popstate
   window.addEventListener('popstate', (event) => {
    impProjectsPage.classList.remove('hidden');
   impGalleryPage.classList.add('hidden');
   });
+
 }
