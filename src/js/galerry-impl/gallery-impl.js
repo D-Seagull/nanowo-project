@@ -20,8 +20,13 @@ if (impBackBtn) {
     currentGallery = [];
     loadedCount = 0;
     loadMoreBtn.classList.add('hidden');
+toScrollProject()
 
-    const target = document.querySelector('#imp-projects');
+  });
+}
+
+function toScrollProject(){
+  const target = document.querySelector('#imp-projects');
     if (target) {
       const headerOffset = 60;
       const elementPosition = target.getBoundingClientRect().top;
@@ -33,8 +38,9 @@ if (impBackBtn) {
         behavior: 'smooth',
       });
     }
-  });
-}
+  }
+
+
 
 implLinkBtn.forEach(btn => {
   btn.addEventListener('click', handleCreateGallery);
@@ -111,6 +117,7 @@ if (galleryList) {
   window.addEventListener('popstate', (event) => {
    impProjectsPage.classList.remove('hidden');
   impGalleryPage.classList.add('hidden');
+  toScrollProject();
   });
 
 }
