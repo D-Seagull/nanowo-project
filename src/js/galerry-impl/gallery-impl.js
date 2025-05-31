@@ -25,7 +25,8 @@ if (impBackBtn) {
     if (target) {
       const headerOffset = 60;
       const elementPosition = target.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+      const offsetPosition =
+        elementPosition + window.pageYOffset - headerOffset;
 
       window.scrollTo({
         top: offsetPosition,
@@ -60,7 +61,7 @@ function handleCreateGallery(evt) {
     galleryList.innerHTML = '<p> 🏗️ Zdjęcia tej realizacji już wkrótce!</p>';
     loadMoreBtn.classList.add('hidden');
   }
-   document.querySelector('#implementation-gallery').scrollIntoView({
+  document.querySelector('#implementation-gallery').scrollIntoView({
     behavior: 'smooth',
     block: 'start',
   });
@@ -98,9 +99,19 @@ function renderNextImages() {
     loadMoreBtn.classList.add('hidden');
   }
 }
-if(loadMoreBtn){
-loadMoreBtn.addEventListener('click', renderNextImages);
+if (loadMoreBtn) {
+  loadMoreBtn.addEventListener('click', renderNextImages);
 }
 
-
 let lightbox = new SimpleLightbox('.gallery a');
+
+if (galleryList) {
+
+  history.pushState({ section: 'gallery' }, '', '?gallery');
+
+  // Слухаємо popstate
+  window.addEventListener('popstate', (event) => {
+   impProjectsPage.classList.remove('hidden');
+  impGalleryPage.classList.add('hidden');
+  });
+}
