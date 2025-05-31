@@ -12,6 +12,25 @@ let currentGallery = [];
 let loadedCount = 0;
 const ITEMS_PER_PAGE = 6;
 
+
+function toScrollProject() {
+ const target = document.querySelector('#imp-projects');
+  if (target) {
+
+    const headerOffset = 60; //
+    const elementPosition = target.getBoundingClientRect().top;
+    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+console.log(target);
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth',
+    });
+  }else {
+    console.warn('⚠️ Елемент #imp-projects не знайдено!');
+  }
+
+}
+
 if (impBackBtn) {
   impBackBtn.addEventListener('click', () => {
     impProjectsPage.classList.remove('hidden');
@@ -24,21 +43,6 @@ toScrollProject()
 
   });
 }
-
-function toScrollProject(){
-  const target = document.querySelector('#imp-projects');
-    if (target) {
-      const headerOffset = 60;
-      const elementPosition = target.getBoundingClientRect().top;
-      const offsetPosition =
-        elementPosition + window.pageYOffset - headerOffset;
-
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth',
-      });
-    }
-  }
 
 
 
@@ -71,6 +75,26 @@ function handleCreateGallery(evt) {
     behavior: 'smooth',
     block: 'start',
   });
+
+   if (history.state?.section !== 'gallery') {
+    history.pushState({ section: 'imp-projects', scrollTo: 'imp-projects' }, '', '?gallery');
+  }
+
+  const onPopState = (event) => {
+    impProjectsPage.classList.remove('hidden');
+    impGalleryPage.classList.add('hidden');
+    galleryList.innerHTML = '';
+    currentGallery = [];
+    loadedCount = 0;
+    loadMoreBtn.classList.add('hidden');
+
+  setTimeout(() => {
+    toScrollProject()
+  },100)
+    window.removeEventListener('popstate', onPopState);
+  };
+
+  window.addEventListener('popstate', onPopState);
 }
 
 function createHtmlEl(arr) {
@@ -111,13 +135,5 @@ if (loadMoreBtn) {
 
 let lightbox = new SimpleLightbox('.gallery a');
 
-//-------------------come back to project from gallery list-----//
-if (galleryList) {
-  history.pushState({ section: 'gallery' }, '', '?gallery');
-  window.addEventListener('popstate', (event) => {
-   impProjectsPage.classList.remove('hidden');
-  impGalleryPage.classList.add('hidden');
-  toScrollProject();
-  });
 
-}
+
