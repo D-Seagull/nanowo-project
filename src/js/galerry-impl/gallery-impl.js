@@ -12,39 +12,34 @@ let currentGallery = [];
 let loadedCount = 0;
 const ITEMS_PER_PAGE = 6;
 
-
-function toScrollProject() {
- const target = document.querySelector('#imp-projects');
+function toScrollProject(id) {
+  const target = document.querySelector(`#${id}`);
   if (target) {
-
     const headerOffset = 60; //
     const elementPosition = target.getBoundingClientRect().top;
     const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-console.log(target);
+    console.log(target);
     window.scrollTo({
       top: offsetPosition,
       behavior: 'smooth',
     });
-  }else {
-    console.warn('⚠️ Елемент #imp-projects не знайдено!');
   }
-
+}
+function backToProjects() {
+  impProjectsPage.classList.remove('hidden');
+  impGalleryPage.classList.add('hidden');
+  galleryList.innerHTML = '';
+  currentGallery = [];
+  loadedCount = 0;
+  loadMoreBtn.classList.add('hidden');
 }
 
 if (impBackBtn) {
   impBackBtn.addEventListener('click', () => {
-    impProjectsPage.classList.remove('hidden');
-    impGalleryPage.classList.add('hidden');
-    galleryList.innerHTML = '';
-    currentGallery = [];
-    loadedCount = 0;
-    loadMoreBtn.classList.add('hidden');
-toScrollProject()
-
+    backToProjects();
+    toScrollProject("imp-projects");
   });
 }
-
-
 
 implLinkBtn.forEach(btn => {
   btn.addEventListener('click', handleCreateGallery);
@@ -71,26 +66,27 @@ function handleCreateGallery(evt) {
     galleryList.innerHTML = '<p> 🏗️ Zdjęcia tej realizacji już wkrótce!</p>';
     loadMoreBtn.classList.add('hidden');
   }
-  document.querySelector('#implementation-gallery').scrollIntoView({
-    behavior: 'smooth',
-    block: 'start',
-  });
+  setTimeout(()=>{
+     document.querySelector('#implementation-gallery')
+    toScrollProject("implementation-gallery");
 
-   if (history.state?.section !== 'gallery') {
-    history.pushState({ section: 'imp-projects', scrollTo: 'imp-projects' }, '', '?gallery');
+
+  }, 100)
+
+  if (history.state?.section !== 'gallery') {
+    history.pushState(
+      { section: 'imp-projects', scrollTo: 'imp-projects' },
+      '',
+      '?gallery'
+    );
   }
 
-  const onPopState = (event) => {
-    impProjectsPage.classList.remove('hidden');
-    impGalleryPage.classList.add('hidden');
-    galleryList.innerHTML = '';
-    currentGallery = [];
-    loadedCount = 0;
-    loadMoreBtn.classList.add('hidden');
+  const onPopState = event => {
+    backToProjects();
 
-  setTimeout(() => {
-    toScrollProject()
-  },100)
+    setTimeout(() => {
+      toScrollProject("imp-projects");
+    }, 100);
     window.removeEventListener('popstate', onPopState);
   };
 
@@ -134,6 +130,3 @@ if (loadMoreBtn) {
 }
 
 let lightbox = new SimpleLightbox('.gallery a');
-
-
-
