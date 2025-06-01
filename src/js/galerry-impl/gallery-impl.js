@@ -19,7 +19,7 @@ function toScrollProject(id) {
     const headerOffset = 60; //
     const elementPosition = target.getBoundingClientRect().top;
     const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-    console.log(target);
+
     window.scrollTo({
       top: offsetPosition,
       behavior: 'smooth',
@@ -129,6 +129,15 @@ if (loadMoreBtn) {
   loadMoreBtn.addEventListener('click', renderNextImages);
 }
 
-let lightbox = new SimpleLightbox('.gallery a',{
-history: false
+let lightbox = new SimpleLightbox('.gallery a', {
+  history: false,
 });
+
+// lightbox.on('show.simplelightbox', function () {
+// console.log(1);
+
+// });
+// lightbox.on('show.simplelightbox', function () {
+// console.log(2);
+
+// });
