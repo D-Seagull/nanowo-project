@@ -133,6 +133,8 @@ let lightbox = new SimpleLightbox('.gallery a', {
   history: false,
 });
 
+
+
 // lightbox.on('show.simplelightbox', function () {
 // console.log(1);
 
