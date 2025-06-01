@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nanowo</title>
+    <title>Gallery</title>
+    <link
+      rel="preload"
+      as="image"
+      href="/nanowo-project/assets/main-bg-jpeg-1x-min-BjutFpOI.jpg"
+      type="image/png"
+    />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poiret+One&display=swap"
       rel="stylesheet"
@@ -12,8 +19,8 @@
     <link rel="icon" type="image/svg+xml" href="/nanowo-project/assets/logo_black-DQVudkYP.png" />
     <script type="module" crossorigin src="/nanowo-project/assets/vendor-DplawMm5.js"></script>
     <script type="module" crossorigin src="/nanowo-project/assets/main-C7J-pSnO.js"></script>
-    <link rel="stylesheet" crossorigin href="/nanowo-project/assets/vendor-DRVOCv0V.css">
     <link rel="stylesheet" crossorigin href="/nanowo-project/assets/main-BEf83xzj.css">
+    <link rel="stylesheet" crossorigin href="/nanowo-project/assets/vendor-DRVOCv0V.css">
   </head>
   <body>
     <header class="header">
@@ -124,137 +131,20 @@
   </div>
 </header>
 
-
     <main>
-      <section id="updates-hero" class="updates-hero">
-  <div class="container updates-hero-container">
-    <div class="updates-hero-wrapper">
-      <ul class="update-hero-list">
-        <li class="update-hero-item">
-          <a class="update-herro-link js-releases active" href="#"
-            >Nasze aktualności</a
-          >
-        </li>
-        <li class="update-hero-item">
-          <a class="update-herro-link js-arhive archiwun-display" href="#">Archiwum</a>
-        </li>
-      </ul>
-      <p>Bądź na bieżąco – sprawdź aktualności</p>
-    </div>
-  </div>
+      <section id="implementation-gallery" class="implementation-gallery hidden">
+  <div class="container imp-gallery-container ">
+
+<button class=" back-button " id="imp-gallery-back">←<span class="powrot" >powrot</span></button>
+
+<ul class="gallery imp-gallery">
+</ul>
+
+<button id="load-more" class="load-more-btn hidden">Pokaż więcej</button>
+</div>
+
 </section>
 
-      <section id="updates-reliases" class="updates-reliases">
-  <div class="container updates-reliase-container">
-    <ul class="updates-reliase-list">
-      <li class="updates-reliase-item">
-        <img
-          class="updates-reliase-img"
-          src="/nanowo-project/assets/HOMES-APT-Cannon-2-.jpg-D3hJ9MUq.jpg"
-          alt="Homes-Art"
-        />
-        <div class="updates-reliase-text-content">
-          <div class="updates-reliase-herro-wrapper">
-            <h1 class="updates-reliase-herro">Homes and Apartments</h1>
-            <p class="reliase-herro-text">Wrocław,<br />20.03.2025</p>
-          </div>
-          <p class="updates-reliase-text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia rerum
-            modi a vel atque ab dolores quod doloribus, ea sit maiores
-            voluptatibus, quaerat, accusamus consequuntur est! Itaque vitae
-            officia quaerat!
-          </p>
-          <a class="more-link more-relises contact-btn" href="#"
-            >Więcej
-            <svg class="arrow-icon more-relises">
-              <use href="/nanowo-project/assets/spreg-nanowo-BYOTD6h1.svg#icon-arrow"></use></svg
-          ></a>
-        </div>
-      </li>
-      <li class="updates-reliase-item">
-        <img
-          class="updates-reliase-img"
-          src="/nanowo-project/assets/HOMES-APT-Cannon-2-.jpg-D3hJ9MUq.jpg"
-          alt="Homes-Art"
-        />
-        <div class="updates-reliase-text-content">
-          <div class="updates-reliase-herro-wrapper">
-            <h1 class="updates-reliase-herro">Homes and Apartments</h1>
-            <p class="reliase-herro-text">Wrocław,<br />20.03.2025</p>
-          </div>
-          <p class="updates-reliase-text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia rerum
-            modi a vel atque ab dolores quod doloribus, ea sit maiores
-            voluptatibus, quaerat, accusamus consequuntur est! Itaque vitae
-            officia quaerat!
-          </p>
-          <a class="more-link more-relises contact-btn" href="#"
-            >Więcej
-            <svg class="arrow-icon more-relises">
-              <use href="/nanowo-project/assets/spreg-nanowo-BYOTD6h1.svg#icon-arrow"></use></svg
-          ></a>
-        </div>
-      </li>
-      <li class="updates-reliase-item">
-        <img
-          class="updates-reliase-img"
-          src="/nanowo-project/assets/HOMES-APT-Cannon-2-.jpg-D3hJ9MUq.jpg"
-          alt="Homes-Art"
-        />
-        <div class="updates-reliase-text-content">
-          <div class="updates-reliase-herro-wrapper">
-            <h1 class="updates-reliase-herro">Homes and Apartments</h1>
-            <p class="reliase-herro-text">Wrocław,<br />20.03.2025</p>
-          </div>
-          <p class="updates-reliase-text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia rerum
-            modi a vel atque ab dolores quod doloribus, ea sit maiores
-            voluptatibus, quaerat, accusamus consequuntur est! Itaque vitae
-            officia quaerat!
-          </p>
-          <a class="more-link more-relises contact-btn" href="#"
-            >Więcej
-            <svg class="arrow-icon more-relises">
-              <use href="/nanowo-project/assets/spreg-nanowo-BYOTD6h1.svg#icon-arrow"></use></svg
-          ></a>
-        </div>
-      </li>
-    </ul>
-  </div>
-</section>
-
-      <section id="arhive-reliases" class="arhive-reliases hidden">
-  <div class="container arhive-reliase-container">
-    <ul class="arhive-reliase-list">
-      <li class="arhive-reliase-item">
-        <img
-          class="arhive-reliase-img"
-          src="/nanowo-project/assets/project-1-CgoSwsen.jpg"
-          alt="Homes-Art"
-        />
-        <div class="arhive-reliase-text-content">
-          <div class="arhive-reliase-herro-wrapper">
-            <h1 class="arhive-reliase-herro">Homes and Apartments</h1>
-            <p class="reliase-herro-text">Wrocław,<br />20.03.2025</p>
-          </div>
-          <p class="arhive-reliase-text">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia rerum
-            modi a vel atque ab dolores quod doloribus, ea sit maiores
-            voluptatibus, quaerat, accusamus consequuntur est! Itaque vitae
-            officia quaerat!
-          </p>
-          <a class="more-link more-relises" href="#"
-            >Więcej
-            <svg class="arrow-icon more-relises">
-              <use href="/nanowo-project/assets/spreg-nanowo-BYOTD6h1.svg#icon-arrow"></use></svg
-          ></a>
-        </div>
-      </li>
-    </ul>
-  </div>
-</section>
-
-      
     </main>
 
     <footer class="footer">
@@ -384,6 +274,16 @@
   </div>
 </footer>
 
-
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: 'WfwuYGLBQ1Q_uC7jX',
+        });
+      })();
+    </script>
   </body>
 </html>
