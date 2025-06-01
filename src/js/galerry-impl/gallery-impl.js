@@ -10,6 +10,7 @@ const loadMoreBtn = document.querySelector('#load-more');
 
 let currentGallery = [];
 let loadedCount = 0;
+
 const ITEMS_PER_PAGE = 6;
 
 function toScrollProject(id) {
@@ -32,12 +33,13 @@ function backToProjects() {
   currentGallery = [];
   loadedCount = 0;
   loadMoreBtn.classList.add('hidden');
+
 }
 
 if (impBackBtn) {
   impBackBtn.addEventListener('click', () => {
     backToProjects();
-    toScrollProject("imp-projects");
+    toScrollProject('imp-projects');
   });
 }
 
@@ -52,7 +54,7 @@ function handleCreateGallery(evt) {
 
   const buttonData = evt.currentTarget.dataset.implgallery;
   const gallery = galleriesList[buttonData];
-
+history.pushState({ section: 'imp-projects' }, '', '?gallery');
   galleryList.innerHTML = '';
 
   if (gallery && gallery.length > 0) {
@@ -66,12 +68,10 @@ function handleCreateGallery(evt) {
     galleryList.innerHTML = '<p> 🏗️ Zdjęcia tej realizacji już wkrótce!</p>';
     loadMoreBtn.classList.add('hidden');
   }
-  setTimeout(()=>{
-     document.querySelector('#implementation-gallery')
-    toScrollProject("implementation-gallery");
+  setTimeout(() => {
 
-
-  }, 100)
+    toScrollProject('implementation-gallery');
+  }, 100);
 
   if (history.state?.section !== 'gallery') {
     history.pushState(
@@ -80,18 +80,18 @@ function handleCreateGallery(evt) {
       '?gallery'
     );
   }
-
-  const onPopState = event => {
-    backToProjects();
-
-    setTimeout(() => {
-      toScrollProject("imp-projects");
-    }, 100);
-    window.removeEventListener('popstate', onPopState);
-  };
-
-  window.addEventListener('popstate', onPopState);
 }
+window.addEventListener('popstate', event => {
+
+
+  if (event.state?.section === 'imp-projects') {
+    backToProjects();
+    lightbox.close()
+    setTimeout(() => {
+      toScrollProject('imp-projects');
+    }, 100);
+  }
+});
 
 function createHtmlEl(arr) {
   return arr
@@ -129,4 +129,6 @@ if (loadMoreBtn) {
   loadMoreBtn.addEventListener('click', renderNextImages);
 }
 
-let lightbox = new SimpleLightbox('.gallery a');
+let lightbox = new SimpleLightbox('.gallery a',{
+history: false
+});
