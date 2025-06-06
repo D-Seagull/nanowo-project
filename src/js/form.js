@@ -68,7 +68,7 @@ function toSubmit(evt) {
   if (errorMsg) {
     errorMsg.remove();
   }
-  if (!formData.name) {
+  if (!formData.name || Number(formData.name)) {
     const errorMessage = `<p class="errorMsg">Wpisz imie</p>`;
     form.insertAdjacentHTML('beforeend', errorMessage);
     userName.style.border = '2px solid red';
@@ -89,9 +89,9 @@ function toSubmit(evt) {
     document.querySelector('.custom-checkbox').style.border = '1px solid black';
     localStorage.removeItem('contact-form-state');
 
-    userName.style.border = '2px solid black';
-    userMail.style.border = '2px solid black';
-    texArea.style.border = '2px solid black';
+    userName.style.border = '1px solid #ddd';
+    userMail.style.border = '1px solid #ddd';
+    texArea.style.border = '1px solid #ddd';
     closeModal();
     this.reset();
     formData.name = '';

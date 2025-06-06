@@ -3,6 +3,9 @@
   overflow: hidden;
   flex-grow: 1;
 }
+.required-input{
+  color: red;
+}
 
 /* Модальне вікно */
 .modal {
