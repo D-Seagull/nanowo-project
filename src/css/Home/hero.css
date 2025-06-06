@@ -4,11 +4,25 @@
       rgba(29, 103, 120, 0.5) 0%,
       rgba(36, 36, 36, 0) 60%
     ),
-    url('../../img/Home/hero-video/nanowo-hero.jpg');
+    url('../../img/Home/hero-video/backgroundimg-1x.jpg');
   background-size: cover;
   background-position: center;
-  object-fit: cover;
+
   background-repeat: no-repeat;
+}
+@media (-webkit-min-device-pixel-ratio: 2),
+       (min-resolution: 192dpi) {
+  .hero {
+    background: linear-gradient(
+      180deg,
+      rgba(29, 103, 120, 0.5) 0%,
+      rgba(36, 36, 36, 0) 60%
+    ),
+    url('../../img/Home/hero-video/backgroundimg-2x.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
 }
 
 .hero-section {
