@@ -1,6 +1,9 @@
 .imp-projects-container {
   padding-top: 15px;
 }
+#year2021, #year2022, #year2023, #year2024, #year2025{
+  scroll-margin-top: 80px;
+}
 .imp-project-list {
   display: flex;
   flex-direction: column;
@@ -117,6 +120,9 @@ cursor: pointer;
 }
 
 @media only screen and (min-width: 768px) {
+  #year2021, #year2022, #year2023, #year2024, #year2025{
+  scroll-margin-top: 90px;
+}
   .imp-projects-container {
   padding-top: 25px;
   margin-bottom: 25px;
