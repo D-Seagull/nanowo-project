@@ -11,8 +11,8 @@
     />
     <link rel="icon" type="image/svg+xml" href="/nanowo-project/assets/logo_black-DQVudkYP.png" />
     <script type="module" crossorigin src="/nanowo-project/assets/vendor-DplawMm5.js"></script>
-    <script type="module" crossorigin src="/nanowo-project/assets/main-WRNd38eB.js"></script>
-    <link rel="stylesheet" crossorigin href="/nanowo-project/assets/main-7vR6scl1.css">
+    <script type="module" crossorigin src="/nanowo-project/assets/main-6FW_XHUG.js"></script>
+    <link rel="stylesheet" crossorigin href="/nanowo-project/assets/main-CvRecV3S.css">
     <link rel="stylesheet" crossorigin href="/nanowo-project/assets/vendor-DRVOCv0V.css">
   </head>
   <body>
@@ -406,9 +406,8 @@
           ×
         </button>
 
-        <!-- Твоя форма -->
         <form class="contact-form" action="">
-          <label class="form-label" for="username">Imię</label>
+          <label class="form-label" for="username">Imię<span class="required-input">*</span></label>
           <input
             class="form-input"
             type="text"
@@ -416,8 +415,15 @@
             id="username"
             placeholder="Text"
           />
-
-          <label class="form-label" for="user-email">Email</label>
+          <label class="form-label" for="usercompany">Firma</label>
+          <input
+            class="form-input"
+            type="text"
+            name="usercompany"
+            id="usercompany"
+            placeholder="Text"
+          />
+          <label class="form-label" for="user-email">Email <span class="required-input">*</span></label>
           <input
             class="form-input"
             type="email"
@@ -425,8 +431,15 @@
             id="user-email"
             placeholder="Text"
           />
-
-          <label class="form-label" for="user-comment">Informacja</label>
+          <label class="form-label" for="usercompany">Telefon</label>
+          <input
+            class="form-input"
+            type="number"
+            name="Telefon"
+            id="Telefon"
+            placeholder="Numer telefonu"
+          />
+          <label class="form-label" for="user-comment">Informacja<span class="required-input">*</span></label>
           <textarea
             class="user-comment form-input"
             name="user-comment"
