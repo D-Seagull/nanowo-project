@@ -625,7 +625,9 @@
         </button>
 
         <form class="contact-form" action="">
-          <label class="form-label" for="username">Imię<span class="required-input">*</span></label>
+          <label class="form-label" for="username"
+            >Imię<span class="required-input">*</span></label
+          >
           <input
             class="form-input"
             type="text"
@@ -633,7 +635,9 @@
             id="username"
             placeholder="Text"
           />
-          <label class="form-label" for="usercompany">Firma<span class="optional-span">(opcionalne)</span></label>
+          <label class="form-label" for="usercompany"
+            >Firma<span class="optional-span">(opcionalne)</span></label
+          >
           <input
             class="form-input"
             type="text"
@@ -641,7 +645,9 @@
             id="usercompany"
             placeholder="Text"
           />
-          <label class="form-label" for="user-email">Email <span class="required-input">*</span></label>
+          <label class="form-label" for="user-email"
+            >Email <span class="required-input">*</span></label
+          >
           <input
             class="form-input"
             type="email"
@@ -649,15 +655,21 @@
             id="user-email"
             placeholder="Text"
           />
-          <label class="form-label" for="telephone">Telefon<span class="optional-span">(opcionalne)</span></label>
+          <label class="form-label" for="telephone"
+            >Telefon<span class="optional-span">(opcionalne)</span></label
+          >
           <input
             class="form-input"
             type="number"
             name="telephone"
             id="telephone"
+            inputmode="numeric"
+            pattern="[0-9]*"
             placeholder="Numer telefonu"
           />
-          <label class="form-label" for="user-comment">Informacja<span class="required-input">*</span></label>
+          <label class="form-label" for="user-comment"
+            >Informacja<span class="required-input">*</span></label
+          >
           <textarea
             class="user-comment form-input"
             name="user-comment"
