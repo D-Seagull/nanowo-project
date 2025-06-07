@@ -6,6 +6,10 @@
 .required-input{
   color: red;
 }
+.optional-span{
+  font-size: 10px;
+  margin-left: 5px;
+}
 
 /* Модальне вікно */
 .modal {

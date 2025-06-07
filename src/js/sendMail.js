@@ -1,9 +1,11 @@
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
-export const sendMail = async ({ name, email, message }) => {
+export const sendMail = async ({ name,company, email,telephone, message }) => {
   let params = {
     name,
+    company,
     email,
+    telephone,
     message,
   };
   await emailjs
