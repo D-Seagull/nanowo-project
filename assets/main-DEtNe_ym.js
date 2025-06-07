@@ -11,4 +11,4 @@ import{S as h,i as N,a as O}from"./vendor-DplawMm5.js";(function(){const e=docum
           </a>
         </li>
       `).join("")}function P(){const l=$.slice(p,p+v);z.insertAdjacentHTML("beforeend",F(l)),p+=v,V.refresh(),p>=$.length&&m.classList.add("hidden")}m&&m.addEventListener("click",P);let V=new O(".gallery a",{history:!1});
-//# sourceMappingURL=main-CK1uLKsp.js.map
+//# sourceMappingURL=main-DEtNe_ym.js.map
