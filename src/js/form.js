@@ -176,5 +176,5 @@ function toSubmit(evt) {
 
 function setError(input, message) {
   input.insertAdjacentHTML('afterend', `<p class="errorMsg">${message}</p>`);
-  input.style.border = '2px solid red';
+  input.style.border = '1px solid red';
 }
