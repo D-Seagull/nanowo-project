@@ -25,6 +25,13 @@
   font-size: var(--mobail-font-size);
   color: rgba(42, 49, 55, 1);
 }
+.release-gallery {
+  display: flex;
+  flex-direction: column;
+}
+.gallery-item-release {
+  object-fit: fill;
+}
 
 @media only screen and (min-width: 768px) {
   .release-name-wrapper,
@@ -40,6 +47,11 @@
     text-align: start;
     font-size: var(--tablet-font-size);
     color: rgba(42, 49, 55, 1);
+  }
+  .release-gallery {
+    flex-direction: row;
+    gap:10px;
+    margin-bottom: 30px;
   }
 }
 
@@ -57,5 +69,10 @@
     text-align: start;
     font-size: var(--font-size-base);
     color: rgba(42, 49, 55, 1);
+  }
+  .release-gallery {
+    flex-direction: row;
+    gap:15px;
+    margin-bottom: 50px;
   }
 }
