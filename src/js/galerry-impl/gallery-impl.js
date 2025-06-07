@@ -16,7 +16,7 @@ const ITEMS_PER_PAGE = 6;
 function toScrollProject(id) {
   const target = document.querySelector(`#${id}`);
   if (target) {
-    const headerOffset = 60; //
+    const headerOffset = 60;
     const elementPosition = target.getBoundingClientRect().top;
     const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
@@ -135,11 +135,3 @@ let lightbox = new SimpleLightbox('.gallery a', {
 
 
 
-// lightbox.on('show.simplelightbox', function () {
-// console.log(1);
-
-// });
-// lightbox.on('show.simplelightbox', function () {
-// console.log(2);
-
-// });

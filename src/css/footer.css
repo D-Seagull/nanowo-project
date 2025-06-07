@@ -1,7 +1,7 @@
 .footer {
   background-color: var(--second-background-color);
   color: var(--primary-text-color);
-  padding: 15px 20px;
+  padding: 15px 0;
   font-family: inherit;
 }
 

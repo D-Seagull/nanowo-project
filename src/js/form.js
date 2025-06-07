@@ -39,7 +39,6 @@ function toCheckBorderColor(evt) {
   const value = input.value.trim();
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-
   const next = input.nextElementSibling;
   if (next && next.classList.contains('errorMsg')) {
     next.remove();
@@ -59,20 +58,22 @@ function toCheckBorderColor(evt) {
     errorMessage = 'Dodaj krótki opis *';
   }
   if (input.name === 'usercompany' && value) {
-      input.style.border = '1px solid #7DE2D1';
+    input.style.border = '1px solid #7DE2D1';
   }
-   if (input.name === 'telephone' && value) {
-      input.style.border = '1px solid #7DE2D1';
+  if (input.name === 'telephone' && value) {
+    input.style.border = '1px solid #7DE2D1';
   }
 
   if (errorMessage) {
-    input.insertAdjacentHTML('afterend', `<p class="errorMsg">${errorMessage}</p>`);
+    input.insertAdjacentHTML(
+      'afterend',
+      `<p class="errorMsg">${errorMessage}</p>`
+    );
     input.style.border = '1px solid red';
-  } else if (input.name !=="usercompany" && input.name !=="telephone") {
+  } else if (input.name !== 'usercompany' && input.name !== 'telephone') {
     input.style.border = '1px solid #7DE2D1';
   }
 }
-
 
 function isText() {
   const inputMessage = localStorage.getItem(localStorageKey);
@@ -127,7 +128,6 @@ function onInput(evt) {
 function toSubmit(evt) {
   evt.preventDefault();
 
-
   document.querySelectorAll('.errorMsg').forEach(el => el.remove());
 
   let hasError = false;
@@ -150,8 +150,10 @@ function toSubmit(evt) {
   }
 
   if (!checkPrivacy.checked) {
-
-    form.insertAdjacentHTML('beforeend', `<p class="errorMsg">Zaznacz zgodę na przetwarzanie danych</p>`);
+    form.insertAdjacentHTML(
+      'beforeend',
+      `<p class="errorMsg">Zaznacz zgodę na przetwarzanie danych</p>`
+    );
     hasError = true;
   }
 
@@ -163,15 +165,15 @@ function toSubmit(evt) {
   form.reset();
   closeModal();
   userName.style.border = '1px solid #ddd';
-    userMail.style.border = '1px solid #ddd';
-    texArea.style.border = '1px solid #ddd';
-    userCompany.style.border = '1px solid #ddd';
-    userPhone.style.border = '1px solid #ddd';
-     formData.name = '';
-    formData.company = '';
-    formData.email = '';
-    formData.telephone = '';
-    formData.message = '';
+  userMail.style.border = '1px solid #ddd';
+  texArea.style.border = '1px solid #ddd';
+  userCompany.style.border = '1px solid #ddd';
+  userPhone.style.border = '1px solid #ddd';
+  formData.name = '';
+  formData.company = '';
+  formData.email = '';
+  formData.telephone = '';
+  formData.message = '';
 }
 
 function setError(input, message) {
