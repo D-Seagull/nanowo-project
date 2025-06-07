@@ -26,13 +26,20 @@ userCompany.addEventListener('blur', toCheckBorderColor);
 userMail.addEventListener('blur', toCheckBorderColor);
 userPhone.addEventListener('blur', toCheckBorderColor);
 texArea.addEventListener('blur', toCheckBorderColor);
-
+checkPrivacy.addEventListener('change', function () {
+  if (this.checked) {
+    const errorMsg = document.querySelector('.errorMsg');
+    if (errorMsg && errorMsg.textContent.includes('Zaznacz zgodę')) {
+      errorMsg.remove();
+    }
+  }
+});
 function toCheckBorderColor(evt) {
   const input = evt.target;
   const value = input.value.trim();
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-  // Видаляємо попередню помилку саме біля цього input'а
+
   const next = input.nextElementSibling;
   if (next && next.classList.contains('errorMsg')) {
     next.remove();
@@ -51,11 +58,17 @@ function toCheckBorderColor(evt) {
   if (input.name === 'user-comment' && !value) {
     errorMessage = 'Dodaj krótki opis *';
   }
+  if (input.name === 'usercompany' && value) {
+      input.style.border = '1px solid #7DE2D1';
+  }
+   if (input.name === 'telephone' && value) {
+      input.style.border = '1px solid #7DE2D1';
+  }
 
   if (errorMessage) {
     input.insertAdjacentHTML('afterend', `<p class="errorMsg">${errorMessage}</p>`);
     input.style.border = '1px solid red';
-  } else {
+  } else if (input.name !=="usercompany" && input.name !=="telephone") {
     input.style.border = '1px solid #7DE2D1';
   }
 }
@@ -114,42 +127,54 @@ function onInput(evt) {
 function toSubmit(evt) {
   evt.preventDefault();
 
-  const errorMsg = document.querySelector('.errorMsg');
-  if (errorMsg) {
-    errorMsg.remove();
-  }
+
+  document.querySelectorAll('.errorMsg').forEach(el => el.remove());
+
+  let hasError = false;
+
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
   if (!formData.name.trim() || /\d/.test(formData.name)) {
-    const errorMessage = `<p class="errorMsg">Wpisz imie</p>`;
-    form.insertAdjacentHTML('beforeend', errorMessage);
-    userName.style.border = '2px solid red';
-  } else if (!formData.email.length) {
-    const errorMessage = `<p class="errorMsg">wpisz email !!!</p>`;
-    form.insertAdjacentHTML('beforeend', errorMessage);
-    userMail.style.border = '2px solid red';
-  } else if (!formData.message) {
-    const errorMessage = `<p class="errorMsg">Dodaj krotki opis !!!</p>`;
-    form.insertAdjacentHTML('beforeend', errorMessage);
-    texArea.style.border = '2px solid red';
-  } else if (!checkPrivacy.checked) {
-    const errorMessage = `<p class="errorMsg">Zaznacz zgodę na przetwarzanie danych</p>`;
+    setError(userName, 'Nie poprawnie wpisane imię');
+    hasError = true;
+  }
 
-    form.insertAdjacentHTML('beforeend', errorMessage);
-  } else {
-    console.log(formData);
+  if (!formData.email.trim() || !emailRegex.test(formData.email)) {
+    setError(userMail, 'Nie poprawnie wpisany email');
+    hasError = true;
+  }
 
-    sendMail(formData);
-    document.querySelector('.custom-checkbox').style.border = '1px solid black';
-    localStorage.removeItem('contact-form-state');
+  if (!formData.message.trim()) {
+    setError(texArea, 'Dodaj krótki opis');
+    hasError = true;
+  }
 
-    userName.style.border = '1px solid #ddd';
+  if (!checkPrivacy.checked) {
+
+    form.insertAdjacentHTML('beforeend', `<p class="errorMsg">Zaznacz zgodę na przetwarzanie danych</p>`);
+    hasError = true;
+  }
+
+  if (hasError) return;
+
+  console.log(formData);
+  sendMail(formData);
+  localStorage.removeItem('contact-form-state');
+  form.reset();
+  closeModal();
+  userName.style.border = '1px solid #ddd';
     userMail.style.border = '1px solid #ddd';
     texArea.style.border = '1px solid #ddd';
-    closeModal();
-    this.reset();
-    formData.name = '';
+    userCompany.style.border = '1px solid #ddd';
+    userPhone.style.border = '1px solid #ddd';
+     formData.name = '';
     formData.company = '';
     formData.email = '';
     formData.telephone = '';
     formData.message = '';
-  }
+}
+
+function setError(input, message) {
+  input.insertAdjacentHTML('afterend', `<p class="errorMsg">${message}</p>`);
+  input.style.border = '2px solid red';
 }
