@@ -11,4 +11,4 @@ import{S as H,i as S,a as B}from"./vendor-DplawMm5.js";(function(){const e=docum
           </a>
         </li>
       `).join("")}function G(){const l=$.slice(p,p+h);z.insertAdjacentHTML("beforeend",aa(l)),p+=h,L.refresh(),p>=$.length&&x.classList.add("hidden")}x&&x.addEventListener("click",G);let L=new B(".gallery a",{history:!1});const C=document.querySelector("#release-content"),J=document.querySelector("#release-page1"),ea=document.querySelectorAll(".js-release-link"),A=document.querySelector("#release-gallery-back");function _(){C.classList.remove("hidden"),J.classList.add("hidden")}function R(){C.classList.add("hidden"),J.classList.remove("hidden")}ea.forEach(l=>l.addEventListener("click",e=>{e.preventDefault(),l.dataset.release==="1"&&(R(),history.pushState({section:"release-page"},"","#release1"))}));A&&A.addEventListener("click",_);window.addEventListener("popstate",l=>{l.state?l.state.section==="main-updates"&&_():window.location.hash==="#release1"?R():_()});new B(".release-gallery a");
-//# sourceMappingURL=main-GzTcoQB-.js.map
+//# sourceMappingURL=main-C_BLPDBA.js.map
