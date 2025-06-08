@@ -1,4 +1,4 @@
-
+import SimpleLightbox from 'simplelightbox';
   const releasesPage = document.querySelector("#release-content");
   const release1 = document.querySelector("#release-page1");
   const releasesLink = document.querySelectorAll(".js-release-link");
