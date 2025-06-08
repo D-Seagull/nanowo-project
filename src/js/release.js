@@ -51,4 +51,10 @@ function showMainReleases() {
     }
   });
 
-  const releaseLightbox = new SimpleLightbox('.release-gallery a');
+document.querySelectorAll('.gallery-item-release').forEach(item => {
+    const link = item.querySelector('a.gallery-link');
+    const img = item.querySelector('img.gallery-image-release');
+    if (link && img) {
+      link.href = img.src;
+    }
+  });
