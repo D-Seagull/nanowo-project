@@ -50,3 +50,5 @@ function showMainReleases() {
       }
     }
   });
+
+  const releaseLightbox = new SimpleLightbox('.release-gallery a');
