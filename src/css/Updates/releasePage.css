@@ -57,6 +57,7 @@
 }
 
 @media only screen and (min-width: 1200px) {
+
   .release-name-wrapper,
   .release-content-wrapper {
     gap: 15px;
@@ -75,5 +76,10 @@
     flex-direction: row;
     gap:15px;
     margin-bottom: 50px;
+  }
+  .updates-reliase-img{
+    object-fit: cover;
+    max-width: 697px;
+    max-height: 384px;
   }
 }
