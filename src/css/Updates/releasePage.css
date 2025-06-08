@@ -1,6 +1,7 @@
 .release-page {
   padding-top: 30px;
   display: flex;
+  position: relative;
 }
 .release-container {
   display: flex;

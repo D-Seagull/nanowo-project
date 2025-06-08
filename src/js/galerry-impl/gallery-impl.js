@@ -33,7 +33,6 @@ function backToProjects() {
   currentGallery = [];
   loadedCount = 0;
   loadMoreBtn.classList.add('hidden');
-
 }
 
 if (impBackBtn) {
@@ -54,7 +53,7 @@ function handleCreateGallery(evt) {
 
   const buttonData = evt.currentTarget.dataset.implgallery;
   const gallery = galleriesList[buttonData];
-history.pushState({ section: 'imp-projects' }, '', '?gallery');
+  history.pushState({ section: 'imp-projects' }, '', '?gallery');
   galleryList.innerHTML = '';
 
   if (gallery && gallery.length > 0) {
@@ -69,7 +68,6 @@ history.pushState({ section: 'imp-projects' }, '', '?gallery');
     loadMoreBtn.classList.add('hidden');
   }
   setTimeout(() => {
-
     toScrollProject('implementation-gallery');
   }, 100);
 
@@ -82,11 +80,9 @@ history.pushState({ section: 'imp-projects' }, '', '?gallery');
   }
 }
 window.addEventListener('popstate', event => {
-
-
   if (event.state?.section === 'imp-projects') {
     backToProjects();
-    lightbox.close()
+    lightbox.close();
     setTimeout(() => {
       toScrollProject('imp-projects');
     }, 100);
@@ -132,6 +128,3 @@ if (loadMoreBtn) {
 let lightbox = new SimpleLightbox('.gallery a', {
   history: false,
 });
-
-
-
