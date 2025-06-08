@@ -70,6 +70,7 @@
   }
   .back-button {
     position: relative;
+     top:0;
     margin-right: auto;
     font-size: 15px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);

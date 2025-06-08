@@ -29,16 +29,38 @@
 }
 .release-gallery {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+
 }
 .gallery-item-release {
   object-fit: fill;
+  max-width: 320px;
+}
+.releaseSwiper {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.releaseSwiper .swiper-slide {
+  max-width: 100%; /* щоб не виходив за межі */
+  box-sizing: border-box;
+}
+
+
+
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 30px !important;
+   color: var(--primary-text-color) !important
+
 }
 
 @media only screen and (min-width: 768px) {
+
   .release-name-wrapper,
   .release-content-wrapper {
-    gap: 15px;
+
     margin-bottom: 30px;
   }
   .release-name {
@@ -51,9 +73,9 @@
     color: rgba(42, 49, 55, 1);
   }
   .release-gallery {
-    flex-direction: row;
-    gap:10px;
+
     margin-bottom: 30px;
+
   }
 }
 
@@ -61,7 +83,7 @@
 
   .release-name-wrapper,
   .release-content-wrapper {
-    gap: 15px;
+
     margin-bottom: 30px;
   }
   .release-name {
@@ -74,13 +96,18 @@
     color: rgba(42, 49, 55, 1);
   }
   .release-gallery {
-    flex-direction: row;
-    gap:15px;
+
     margin-bottom: 50px;
+
   }
   .updates-reliase-img{
     object-fit: cover;
     max-width: 697px;
     max-height: 384px;
+
   }
+  .gallery-item-release {
+  object-fit: fill;
+  max-width: 270px;
+}
 }

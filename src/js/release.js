@@ -1,3 +1,4 @@
+import Swiper from "swiper";
 import SimpleLightbox from 'simplelightbox';
   const releasesPage = document.querySelector("#release-content");
   const release1 = document.querySelector("#release-page1");
@@ -58,3 +59,33 @@ document.querySelectorAll('.gallery-item-release').forEach(item => {
       link.href = img.src;
     }
   });
+
+  new Swiper('.releaseSwiper', {
+  slidesPerView: 1,
+  spaceBetween: 12,
+  autoHeight: true,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.project-pagination.swiper-pagination',
+    clickable: true,
+  },
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
+   breakpoints: {
+    768: {
+      spaceBetween: 10,
+      slidesPerView: 3,
+    },
+    1200: {
+      slidesPerView: 4,
+    },
+  },
+});
+const releaseLightBox = new SimpleLightbox('.release-gallery a', {
+  history: false,
+});
