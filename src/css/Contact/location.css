@@ -29,6 +29,7 @@
   justify-content: space-between;
   max-height: 544px;
   padding: 24px 40px;
+  min-width: 350px;
 }
 
 .location-info-wrapper::after {
@@ -80,6 +81,11 @@
   width: 100%;
   height: 544px;
 }
+.info-contact-container{
+  display: flex;
+gap: 50px;
+  flex-direction: column;
+}
 
 @media only screen and (max-width: 1200px) {
   .location {
@@ -117,12 +123,11 @@
   }
   .info-contact-container{
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
-.info-contact-container{
-  display: flex;
-  justify-content: space-between;
-}
+
   .info-wrapper {
     gap: 10px;
   }
