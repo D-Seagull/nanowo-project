@@ -12,9 +12,9 @@ const LoadPageObserver = document.querySelector('.load-more');
 const observer = new IntersectionObserver((entries, observer) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
-      setTimeout(() => {
+
       renderNextImages();
-    }, 400);
+
 
     }
   });
