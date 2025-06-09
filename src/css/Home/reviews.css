@@ -102,9 +102,7 @@
   .reviews-container {
     padding-top: 25px;
   }
-  .img-background-wrapper {
-    padding-top: 150px;
-  }
+
   .review-header {
     padding-top: 30px;
     font-size: 35px;
@@ -140,6 +138,9 @@
   .review-investor {
     font-size: 14px;
   }
+   .img-background-wrapper {
+    padding-top: 50px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -149,9 +150,7 @@
   .reviews-container {
     padding-top: 50px;
   }
-  .img-background-wrapper {
-    padding-top: 50px;
-  }
+
   .review-header {
     font-size: 40px;
     line-height: 70px;
