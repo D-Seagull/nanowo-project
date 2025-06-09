@@ -304,6 +304,7 @@
     font-size: 25px;
   }
   .slide-text {
+
     font-weight: 400;
     font-size: clamp(18px, 10vw, 20px);
     line-height: 33.44px;
@@ -319,7 +320,8 @@
   }
   .slide-info {
     gap: 48px;
-    min-width: 520px;
+    min-width: 490px;
+    max-width: 510px;
     flex-direction: column;
   }
   .slider-links {

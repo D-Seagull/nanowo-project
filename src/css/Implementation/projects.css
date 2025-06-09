@@ -152,7 +152,7 @@ cursor: pointer;
     font-size: 18px;
   }
   .imp-project-info-text {
-    font-size: var(--tablet-font-size);
+ font-size: var(--mobail-font-size);
   }
   .imp-project-count {
     font-size: 35px;
@@ -196,7 +196,7 @@ cursor: pointer;
     gap: 4px;
     padding-top: clamp(10px, 3vw, 90px);
     padding-left: clamp(10px, 3vw, 90px);
-    min-height: 570px;
+    min-height: 57px;
   }
   .imp-project-iteam {
     flex-direction: column;
