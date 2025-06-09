@@ -6,7 +6,7 @@
 }
 
 .about-text {
-  padding: 15px;
+  padding: 0 15px;
   color: #515151;
   font-family: Lato;
   font-weight: 400;
@@ -37,8 +37,7 @@
     font-size: 20px;
     line-height: 24px;
     width: 768px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding: 25px 0;
   }
   .about-text br {
     display: block;
