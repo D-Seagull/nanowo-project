@@ -7,6 +7,23 @@ const impProjectsPage = document.querySelector('.hidden-wrap');
 const impGalleryPage = document.querySelector('#implementation-gallery');
 const impBackBtn = document.querySelector('#imp-gallery-back');
 const loadMoreBtn = document.querySelector('#load-more');
+const LoadPageObserver = document.querySelector('.load-more');
+
+const observer = new IntersectionObserver((entries, observer) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      setTimeout(() => {
+      renderNextImages();
+    }, 400);
+
+    }
+  });
+}, {
+  root: null,
+  rootMargin: '20px',
+  threshold: 0,
+});
+
 
 let currentGallery = [];
 let loadedCount = 0;
@@ -62,7 +79,10 @@ function handleCreateGallery(evt) {
 
     renderNextImages();
     lightbox.refresh();
-    loadMoreBtn.classList.remove('hidden');
+    // loadMoreBtn.classList.remove('hidden');
+    if (LoadPageObserver) {
+      observer.observe(LoadPageObserver);
+    }
   } else {
     galleryList.innerHTML = '<p> 🏗️ Zdjęcia tej realizacji już wkrótce!</p>';
     loadMoreBtn.classList.add('hidden');
@@ -121,9 +141,9 @@ function renderNextImages() {
     loadMoreBtn.classList.add('hidden');
   }
 }
-if (loadMoreBtn) {
-  loadMoreBtn.addEventListener('click', renderNextImages);
-}
+// if (loadMoreBtn) {
+//   loadMoreBtn.addEventListener('click', renderNextImages);
+// }
 
 let lightbox = new SimpleLightbox('.gallery a', {
   history: false,
