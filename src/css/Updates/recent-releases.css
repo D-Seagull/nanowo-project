@@ -2,11 +2,13 @@
   margin-bottom: 15px;
 }
 
-.more-relises {
+.updates-reliase-text-content .more-relises {
   color: rgba(42, 49, 55, 1);
   fill: rgba(42, 49, 55, 1);
   justify-content: center;
   border-color:rgba(42, 49, 55, 1);
+margin-right: auto;
+margin-left: 0 ;
 }
 
 .updates-reliase-list {
@@ -56,6 +58,7 @@
   line-height: 110%;
   color: rgba(42, 49, 55, 1);
   text-align: left;
+  margin-right: auto;
 }
 .updates-reliase-text {
   text-align: start;
