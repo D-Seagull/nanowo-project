@@ -3,12 +3,9 @@
 }
 
 .updates-reliase-text-content .more-relises {
-  color: rgba(42, 49, 55, 1);
-  fill: rgba(42, 49, 55, 1);
   justify-content: center;
-  border-color:rgba(42, 49, 55, 1);
-margin-right: auto;
-margin-left: 0 ;
+  border-color: inherit;
+  margin-left: 0;
 }
 
 .updates-reliase-list {
@@ -72,8 +69,8 @@ margin-left: 0 ;
 
 @media only screen and (min-width: 768px) {
   .updates-reliases {
-  margin-bottom: 25px;
-}
+    margin-bottom: 25px;
+  }
 
   .updates-reliase-text-content {
     padding: 30px;
@@ -91,8 +88,8 @@ margin-left: 0 ;
 
 @media only screen and (min-width: 1200px) {
   .updates-reliases {
-  margin-bottom: 50px;
-}
+    margin-bottom: 50px;
+  }
   .updates-reliase-item {
     flex-direction: row;
 
@@ -116,7 +113,4 @@ margin-left: 0 ;
   .updates-reliase-img {
     object-fit: contain;
   }
-
-
-
 }
