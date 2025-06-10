@@ -20,7 +20,7 @@ const observer = new IntersectionObserver((entries, observer) => {
   });
 }, {
   root: null,
-  rootMargin: '20px',
+  rootMargin: '40px',
   threshold: 0,
 });
 
@@ -49,7 +49,7 @@ function backToProjects() {
   galleryList.innerHTML = '';
   currentGallery = [];
   loadedCount = 0;
-  loadMoreBtn.classList.add('hidden');
+  // loadMoreBtn.classList.add('hidden');
 }
 
 if (impBackBtn) {
@@ -138,7 +138,11 @@ function renderNextImages() {
   loadedCount += ITEMS_PER_PAGE;
   lightbox.refresh();
   if (loadedCount >= currentGallery.length) {
-    loadMoreBtn.classList.add('hidden');
+    // loadMoreBtn.classList.add('hidden');
+     if (LoadPageObserver) {
+      observer.unobserve(LoadPageObserver);
+
+    }
   }
 }
 // if (loadMoreBtn) {
