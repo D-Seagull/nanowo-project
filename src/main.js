@@ -7,3 +7,4 @@ import './js/form';
 import './js/sendMail';
 import './js/galerry-impl/gallery-impl';
 import './js/release';
+import './js/animation';
