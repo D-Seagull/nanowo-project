@@ -76,7 +76,7 @@ gsap.matchMedia().add('(min-width: 768px) and (max-width: 1199px)', () => {
       start: 'top 65%',
       end: 'bottom 5%',
       toggleActions: 'play reverse play reverse',
-      markers: true,
+
     },
   });
 
@@ -150,7 +150,7 @@ gsap.matchMedia().add('(min-width: 1200px)', () => {
       start: 'top 65%',
       end: 'bottom 15%',
       toggleActions: 'play reverse play reverse',
-      markers: true,
+
     },
   });
 
