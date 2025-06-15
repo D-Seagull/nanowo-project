@@ -2,6 +2,7 @@
   background-color: #ffffff;
   margin-top: 15px;
   margin-bottom: 15px;
+
 }
 .turnkey-wrapper {
   display: flex;
@@ -64,6 +65,7 @@
   .turnkey-section {
     margin-top: 0;
     margin-bottom: 25px;
+
   }
   .turnkey-wrapper {
     flex-direction: row;
