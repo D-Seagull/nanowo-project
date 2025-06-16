@@ -7,19 +7,24 @@
 }
 .attitude-container {
   display: flex;
+flex-direction: column;
   padding-bottom: 40px;
-  gap: 103px;
-  justify-content: ;
+  gap: 50px;
+
+
 }
 .attitude-video-wrapper{
   width: 100%;
+}
+.attitude-container-wrapper{
+
 }
 
 .attitude-video {
   display: block;
   padding: 0;
   margin: 0;
-  max-width: 550px;
+
   width: 100%;
   aspect-ratio: 16 / 9;
 }
@@ -36,7 +41,10 @@
   font-size: var(--font-size-base);
   line-height: 1.39326;
   color: var(--section-text-color-dark);
+  text-align: justify;
+
 }
+
 
 @media only screen and (max-width: 1200px) {
   .attitude {
@@ -85,6 +93,7 @@
     text-align: center;
   }
   .attitude-text {
+      text-align: justify;
     font-size: var(--mobail-font-size);
   }
   .attitude-video {
