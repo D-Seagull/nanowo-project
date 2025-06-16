@@ -7,17 +7,13 @@
 }
 .attitude-container {
   display: flex;
-flex-direction: column;
   padding-bottom: 40px;
-  gap: 50px;
-
+  gap: 103px;
 
 }
 .attitude-video-wrapper{
-  width: 100%;
-}
-.attitude-container-wrapper{
 
+  width: 100%;
 }
 
 .attitude-video {
@@ -42,9 +38,7 @@ flex-direction: column;
   line-height: 1.39326;
   color: var(--section-text-color-dark);
   text-align: justify;
-
 }
-
 
 @media only screen and (max-width: 1200px) {
   .attitude {
@@ -67,6 +61,7 @@ flex-direction: column;
   }
   .attitude-text {
     font-size: var(--tablet-font-size);
+    text-align: justify;
   }
 }
 
@@ -93,7 +88,6 @@ flex-direction: column;
     text-align: center;
   }
   .attitude-text {
-      text-align: justify;
     font-size: var(--mobail-font-size);
   }
   .attitude-video {

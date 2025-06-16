@@ -136,6 +136,7 @@ function renderNextImages() {
   );
   galleryList.insertAdjacentHTML('beforeend', createHtmlEl(nextItems));
   loadedCount += ITEMS_PER_PAGE;
+
   lightbox.refresh();
   if (loadedCount >= currentGallery.length) {
     // loadMoreBtn.classList.add('hidden');
