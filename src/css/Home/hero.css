@@ -88,7 +88,7 @@
 }
 
 /*====================TABLET===================*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   .hero {
     margin-bottom: 25px;
     background-size: 120%;

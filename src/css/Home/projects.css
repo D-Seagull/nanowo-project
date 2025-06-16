@@ -190,7 +190,7 @@
   color: var(--primary-text-color) !important;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   .project-pagination {
     display: flex;
   }

@@ -36,17 +36,17 @@ function animationNumbers(tl) {
 }
 
 // Tablet (768px - 1199px)
-gsap.matchMedia().add('(min-width: 768px) and (max-width: 1199px)', () => {
+gsap.matchMedia().add('(min-width: 769px) and (max-width: 1199px)', () => {
   const tl = gsap.timeline();
 
-  gsap.from('.hero-undrer-text', {
-    opacity: 0,
+  gsap.to('.hero-undrer-text', {
+    opacity: 1,
     duration: 2,
     ease: 'power3.out',
   });
 
-  tl.from('.hero-headline', {
-    opacity: 0,
+  tl.to('.hero-headline', {
+    opacity: 1,
     duration: 4,
     delay: 0.7,
     ease: 'power3.out',
@@ -73,9 +73,10 @@ gsap.matchMedia().add('(min-width: 768px) and (max-width: 1199px)', () => {
   const tlTurnKey = gsap.timeline({
     scrollTrigger: {
       trigger: '.turnkey-section',
-      start: 'top 65%',
+      start: 'top 650vh',
       end: 'bottom 5%',
       toggleActions: 'play reverse play reverse',
+      markers:true,
 
     },
   });
@@ -147,10 +148,10 @@ gsap.matchMedia().add('(min-width: 1200px)', () => {
   const tlTurnKey = gsap.timeline({
     scrollTrigger: {
       trigger: '.turnkey-section',
-      start: 'top 65%',
+      start: 'top 82%',
       end: 'bottom 15%',
       toggleActions: 'play reverse play reverse',
-
+markers:true
     },
   });
 
@@ -180,5 +181,8 @@ gsap.matchMedia().add('(min-width: 1200px)', () => {
   });
 
   animationNumbers(tlTurnKey);
+  ScrollTrigger.refresh();
+});
+window.addEventListener('load', () => {
   ScrollTrigger.refresh();
 });
