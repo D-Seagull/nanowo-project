@@ -51,12 +51,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .slide-info {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  justify-content: space-between;
+
 }
 .slider-container {
   display: flex;
