@@ -103,16 +103,19 @@
   .hero-headline {
     font-size: 40px;
     font-weight: 400;
-
+opacity: 0;
     padding: 0;
   }
   .hero-undrer-text {
     text-align: center;
     font-size: 14px;
-
+opacity: 0;
     margin-bottom: 0;
     font-size: var(--font-size-base);
   }
+
+
+
   .hero-headline-wrapper {
     margin-bottom: 220px;
   }
