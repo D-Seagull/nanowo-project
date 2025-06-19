@@ -21,6 +21,45 @@ new Swiper('.projectSwiper', {
   },
 });
 
+let swiper = null;
+
+function initSwiper() {
+  const width = window.innerWidth;
+  if (width >= 769 && !swiper) {
+    swiper = new Swiper(".prodPictSlider", {
+      slidesPerView: "auto",
+      spaceBetween: 10,
+      centeredSlides: true,
+      loop: true,
+      speed: 5000,
+      allowTouchMove: false,
+      autoplay: {
+        delay: 1,
+        disableOnInteraction: false,
+      },
+    });
+  } else if (width < 769 && swiper) {
+    swiper.destroy(true, true);
+    swiper = null;
+  }
+}
+
+window.addEventListener("load", initSwiper);
+window.addEventListener("resize", initSwiper);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*=======================SwiperReviews======================*/
 new Swiper('.swiperReview', {
   slidesPerView: 1,
@@ -31,7 +70,7 @@ new Swiper('.swiperReview', {
     onlyInViewport: false,
   },
   breakpoints: {
-    768: {
+    769: {
       slidesPerView: 2,
     },
     1440: {

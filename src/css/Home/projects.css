@@ -191,6 +191,7 @@
 }
 
 @media only screen and (min-width: 769px) {
+
   .project-pagination {
     display: flex;
   }
@@ -249,11 +250,6 @@
     width: 85px;
     height: 85px;
   }
-  .smal-project-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
 
   .smal-project-text {
     color: #dddddd;
@@ -291,8 +287,8 @@
   }
   .project-img {
     padding-top: 30px;
-    height: 513px;
-    width: 803px;
+    height: auto;
+    width: auto;
   }
   .investor-slide {
     text-align: start;
@@ -340,16 +336,8 @@
     justify-content: start;
   }
 
-  .smal-project-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .project-img{
-     width: auto;
-  height: auto;
-  object-fit: contain;
-  }
+
+
 
   .smal-project-text {
     color: #dddddd;
