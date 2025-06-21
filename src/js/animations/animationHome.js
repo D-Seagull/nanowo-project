@@ -164,7 +164,7 @@ function initSlider() {
     const tlSlider = gsap.timeline({
       scrollTrigger: {
         trigger: '.projects',
-        start: 'top 80%',
+        start: 'top 75%',
         once: true,
       },
     });
