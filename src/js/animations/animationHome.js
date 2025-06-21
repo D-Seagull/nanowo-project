@@ -1,5 +1,5 @@
-import { gsap, ScrollTrigger } from 'gsap/all';
-gsap.registerPlugin(ScrollTrigger);
+import { gsap, ScrollTrigger, ScrollToPlugin } from 'gsap/all';
+gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
 function animationNumbers(tl) {
   let delay = 0.2;
@@ -39,7 +39,7 @@ function animationNumbers(tl) {
   });
 }
 
-// Tablet (768px - 1199px)
+
 gsap.matchMedia().add('(min-width: 769px) ', () => {
   const tl = gsap.timeline();
 
@@ -98,11 +98,23 @@ gsap.matchMedia().add('(min-width: 769px) ', () => {
       '-=4'
     );
 
+initTurnkeyAnimation()
+});
+
+// document.querySelectorAll('.more-link').forEach(link => {
+//   if (link) {
+//     link.addEventListener('click', () => {
+//        ScrollTrigger.getAll().forEach(trigger => trigger.disable());
+//     });
+//   }
+// });
+function initTurnkeyAnimation() {
+  setTimeout(()=>{
   const tlTurnKey = gsap.timeline({
     scrollTrigger: {
       trigger: '.turnkey-section',
       start: 'top 83%',
-
+      id: 'turnkeyTrigger',
       // toggleActions: 'play reverse play reverse',
       markers: true,
     },
@@ -137,11 +149,12 @@ gsap.matchMedia().add('(min-width: 769px) ', () => {
         duration: 1,
         ease: 'power4.out',
       },
-      `-=${itemDelay.toString()}`
+      `-=${itemDelay}`
     );
   });
 
   animationNumbers(tlTurnKey);
   ScrollTrigger.refresh();
-});
+  }, 1000)
 
+}
