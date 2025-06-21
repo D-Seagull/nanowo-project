@@ -236,7 +236,7 @@ function initBenefitsAnimation() {
     const tlBenefits = gsap.timeline({
       scrollTrigger: {
         trigger: '.benefits',
-        start: 'top 80%',
+        start: 'top 90%',
         once: true,
       },
     });
