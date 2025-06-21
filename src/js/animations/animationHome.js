@@ -1,4 +1,6 @@
-import { gsap, ScrollTrigger, ScrollToPlugin } from 'gsap/all';
+import gsap from 'gsap';
+import ScrollTrigger from 'gsap/ScrollTrigger';
+import ScrollToPlugin from 'gsap/ScrollToPlugin';
 gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
 
 function animationNumbers(tl) {
@@ -98,16 +100,10 @@ gsap.matchMedia().add('(min-width: 769px) ', () => {
     );
 
   initTurnkeyAnimation();
-  initSlider()
+  initSlider();
+initAboutAnimation ()
 });
 
-// document.querySelectorAll('.more-link').forEach(link => {
-//   if (link) {
-//     link.addEventListener('click', () => {
-//        ScrollTrigger.getAll().forEach(trigger => trigger.disable());
-//     });
-//   }
-// });
 function initTurnkeyAnimation() {
   setTimeout(() => {
     const tlTurnKey = gsap.timeline({
@@ -115,7 +111,7 @@ function initTurnkeyAnimation() {
         trigger: '.turnkey-section',
         start: 'top 83%',
         // toggleActions: 'play reverse play reverse',
-        markers: false,
+
       },
     });
 
@@ -157,63 +153,81 @@ function initTurnkeyAnimation() {
   }, 1000);
 }
 
-
 function initSlider() {
   setTimeout(() => {
     const tlSlider = gsap.timeline({
+      scrollTrigger: {
+        trigger: '.projects',
+        start: 'top 80%',
+
+      },
+    });
+
+    tlSlider
+      .from('.img-slide', {
+        scale: 0,
+        opacity: 0,
+        duration: 1.8,
+        ease: 'back.out(1.7)',
+      })
+      .from(
+        '.project-header',
+        {
+          x: -100,
+          opacity: 0,
+          duration: 1.5,
+          ease: 'power3.out',
+        },
+        '-=1.5'
+      )
+      .from(
+        '.investor-slide',
+        {
+          x: -100,
+          opacity: 0,
+          duration: 1.5,
+          ease: 'power3.out',
+        },
+        '-=1'
+      )
+      .from(
+        '.slide-text',
+        {
+          x: -100,
+          opacity: 0,
+          duration: 1.5,
+          ease: 'power3.out',
+        },
+        '-=1.4'
+      )
+      .from(
+        '.animation-btn',
+        {
+          x: -100,
+          opacity: 0,
+          duration: 1.5,
+          ease: 'power3.out',
+        },
+        '-=1.4'
+      );
+    ScrollTrigger.refresh();
+  }, 1000);
+}
+
+function initAboutAnimation () {
+  setTimeout(()=>{
+ gsap.from('.about-text', {
   scrollTrigger: {
-    trigger: '.projects',
-    start: 'top 80%',
-    markers: true,
+    trigger: '.about-us-home',
+    start: 'top 83%',
+    markers: true, // видалити, коли не потрібно
   },
+  x: 200,
+  opacity: 0,
+  duration: 1.5,
+  ease: 'power3.out',
 });
 
-tlSlider
-  .from('.img-slide', {
-    scale: 0,
-    opacity: 0,
-    duration: 1.8,
-    ease: 'back.out(1.7)',
-  })
-  .from(
-    '.project-header',
-    {
-      x: -100,
-      opacity: 0,
-      duration: 1.5,
-      ease: 'power3.out',
-    },
-    '-=1.5'
-  )
-  .from(
-    '.investor-slide',
-    {
-      x: -100,
-      opacity: 0,
-      duration: 1.5,
-      ease: 'power3.out',
-    },
-    '-=1'
-  )
-  .from(
-    '.slide-text',
-    {
-      x: -100,
-      opacity: 0,
-      duration: 1.5,
-      ease: 'power3.out',
-    },
-'-=1.4'
-  )
-.from(
-    '.animation-btn',
-    {
-      x: -100,
-      opacity: 0,
-      duration: 1.5,
-      ease: 'power3.out',
-    },
-'-=1.4'
-  )
 
-  },1000)}
+  },1000)
+}
