@@ -25,9 +25,7 @@ padding-top: 15px;
   }
 
 }
-.hero-gs1, .hero-gs2, .hero-gs3{
-  opacity: 0;
-}
+
 
 .hero-section {
   position: relative;
@@ -93,6 +91,9 @@ padding-top: 15px;
 
 /*====================TABLET===================*/
 @media only screen and (min-width: 769px) {
+  .hero-gs1, .hero-gs2, .hero-gs3{
+  opacity: 0;
+}
   .hero {
     margin-bottom: 25px;
     background-size: 120%;
