@@ -332,11 +332,6 @@
     margin-left: 0;
     cursor: pointer;
   }
-  .smal-project-list {
-    display: flex;
-    gap: 30px;
-    justify-content: start;
-  }
 
 
 

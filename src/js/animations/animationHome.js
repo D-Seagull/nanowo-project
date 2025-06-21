@@ -39,7 +39,6 @@ function animationNumbers(tl) {
   });
 }
 
-
 gsap.matchMedia().add('(min-width: 769px) ', () => {
   const tl = gsap.timeline();
 
@@ -98,7 +97,8 @@ gsap.matchMedia().add('(min-width: 769px) ', () => {
       '-=4'
     );
 
-initTurnkeyAnimation()
+  initTurnkeyAnimation();
+  initSlider()
 });
 
 // document.querySelectorAll('.more-link').forEach(link => {
@@ -109,52 +109,111 @@ initTurnkeyAnimation()
 //   }
 // });
 function initTurnkeyAnimation() {
-  setTimeout(()=>{
-  const tlTurnKey = gsap.timeline({
-    scrollTrigger: {
-      trigger: '.turnkey-section',
-      start: 'top 83%',
-      id: 'turnkeyTrigger',
-      // toggleActions: 'play reverse play reverse',
-      markers: true,
-    },
-  });
-
-  tlTurnKey
-    .from('.turnkey-img-wrap', {
-      scale: 0,
-      opacity: 0,
-      duration: 1.8,
-      ease: 'back.out(1.7)',
-    })
-    .from(
-      '.turnkey-header',
-      {
-        x: -100,
-        opacity: 0,
-        duration: 1.5,
-        ease: 'power3.out',
+  setTimeout(() => {
+    const tlTurnKey = gsap.timeline({
+      scrollTrigger: {
+        trigger: '.turnkey-section',
+        start: 'top 83%',
+        // toggleActions: 'play reverse play reverse',
+        markers: false,
       },
-      '-=1.8'
-    );
+    });
 
-  let itemDelay = 1;
-  document.querySelectorAll('.turnkey-iteam').forEach(item => {
-    itemDelay -= 0.1;
-    tlTurnKey.from(
-      item,
-      {
-        x: -100,
+    tlTurnKey
+      .from('.turnkey-img-wrap', {
+        scale: 0,
         opacity: 0,
-        duration: 1,
-        ease: 'power4.out',
-      },
-      `-=${itemDelay}`
-    );
-  });
+        duration: 1.8,
+        ease: 'back.out(1.7)',
+      })
+      .from(
+        '.turnkey-header',
+        {
+          x: -100,
+          opacity: 0,
+          duration: 1.5,
+          ease: 'power3.out',
+        },
+        '-=1.8'
+      );
 
-  animationNumbers(tlTurnKey);
-  ScrollTrigger.refresh();
-  }, 1000)
+    let itemDelay = 1;
+    document.querySelectorAll('.turnkey-iteam').forEach(item => {
+      itemDelay -= 0.1;
+      tlTurnKey.from(
+        item,
+        {
+          x: -100,
+          opacity: 0,
+          duration: 1,
+          ease: 'power4.out',
+        },
+        `-=${itemDelay}`
+      );
+    });
 
+    animationNumbers(tlTurnKey);
+    ScrollTrigger.refresh();
+  }, 1000);
 }
+
+
+function initSlider() {
+  setTimeout(() => {
+    const tlSlider = gsap.timeline({
+  scrollTrigger: {
+    trigger: '.projects',
+    start: 'top 80%',
+    markers: true,
+  },
+});
+
+tlSlider
+  .from('.img-slide', {
+    scale: 0,
+    opacity: 0,
+    duration: 1.8,
+    ease: 'back.out(1.7)',
+  })
+  .from(
+    '.project-header',
+    {
+      x: -100,
+      opacity: 0,
+      duration: 1.5,
+      ease: 'power3.out',
+    },
+    '-=1.5'
+  )
+  .from(
+    '.investor-slide',
+    {
+      x: -100,
+      opacity: 0,
+      duration: 1.5,
+      ease: 'power3.out',
+    },
+    '-=1'
+  )
+  .from(
+    '.slide-text',
+    {
+      x: -100,
+      opacity: 0,
+      duration: 1.5,
+      ease: 'power3.out',
+    },
+'-=1.4'
+  )
+.from(
+    '.animation-btn',
+    {
+      x: -100,
+      opacity: 0,
+      duration: 1.5,
+      ease: 'power3.out',
+    },
+'-=1.4'
+  )
+
+  },1000)}
