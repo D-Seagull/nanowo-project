@@ -104,6 +104,7 @@ gsap.matchMedia().add('(min-width: 769px) ', () => {
   initAboutAnimation();
   initBenefitsAnimation();
   initReviewsAnimation();
+  initNewsAnimation()
 });
 
 function initTurnkeyAnimation() {
@@ -321,7 +322,12 @@ function initReviewsAnimation() {
   }, 1000);
 }
 
-const tlNews = gsap.timeline({
+
+
+
+function initNewsAnimation() {
+  setTimeout(() => {
+    const tlNews = gsap.timeline({
   scrollTrigger: {
     trigger: '.whats-new',
     start: 'top 80%',
@@ -329,7 +335,6 @@ const tlNews = gsap.timeline({
     markers: true,
   },
 });
-
 tlNews.from('.news-btn-animation', {
   y: 100,
   opacity: 0,
@@ -387,5 +392,5 @@ tlNews
     },
     '-=1.3'
   );
-
+  },1000)};
 
