@@ -101,7 +101,9 @@ gsap.matchMedia().add('(min-width: 769px) ', () => {
 
   initTurnkeyAnimation();
   initSlider();
-initAboutAnimation ()
+  initAboutAnimation();
+  initBenefitsAnimation();
+  initReviewsAnimation();
 });
 
 function initTurnkeyAnimation() {
@@ -110,8 +112,8 @@ function initTurnkeyAnimation() {
       scrollTrigger: {
         trigger: '.turnkey-section',
         start: 'top 83%',
+        once: true,
         // toggleActions: 'play reverse play reverse',
-
       },
     });
 
@@ -159,7 +161,7 @@ function initSlider() {
       scrollTrigger: {
         trigger: '.projects',
         start: 'top 80%',
-
+        once: true,
       },
     });
 
@@ -168,7 +170,7 @@ function initSlider() {
         scale: 0,
         opacity: 0,
         duration: 1.8,
-       ease: 'power4.out',
+        ease: 'power4.out',
       })
       .from(
         '.project-header',
@@ -214,20 +216,176 @@ function initSlider() {
   }, 1000);
 }
 
-function initAboutAnimation () {
-  setTimeout(()=>{
- gsap.from('.about-text', {
+function initAboutAnimation() {
+  setTimeout(() => {
+    gsap.from('.about-text', {
+      scrollTrigger: {
+        trigger: '.about-us-home',
+        start: 'top 83%',
+        once: true,
+      },
+      x: 200,
+      opacity: 0,
+      duration: 1.5,
+      ease: 'power3.out',
+    });
+  }, 1000);
+}
+function initBenefitsAnimation() {
+  setTimeout(() => {
+    const tlBenefits = gsap.timeline({
+      scrollTrigger: {
+        trigger: '.benefits',
+        start: 'top 80%',
+        once: true,
+      },
+    });
+
+    tlBenefits
+      .from('.benefits-head ', {
+        x: -100,
+        opacity: 0,
+        duration: 1.5,
+        ease: 'power3.out',
+      })
+      .from(
+        ' .benefits-item-head',
+        {
+          x: -100,
+          opacity: 0,
+          duration: 1.5,
+          ease: 'power3.out',
+        },
+        '0'
+      )
+      .from(
+        '.icon-benefits',
+        {
+          scale: 0,
+          opacity: 0,
+          duration: 1.8,
+          ease: 'power4.out',
+        },
+        '-=1.5'
+      )
+      .from(
+        '.benefits-text',
+        {
+          y: 100,
+          opacity: 0,
+          duration: 1.5,
+          ease: 'power3.out',
+        },
+        '-=1.5'
+      )
+      .from(
+        '.benefits-btn-animation',
+        {
+          y: 100,
+          opacity: 0,
+          duration: 1.5,
+          ease: 'power3.out',
+        },
+        '0'
+      );
+  }, 1000);
+}
+
+function initReviewsAnimation() {
+  setTimeout(() => {
+    const tlReviews = gsap.timeline({
+      scrollTrigger: {
+        trigger: '.review',
+        start: 'top 80%',
+        once: true,
+      },
+    });
+
+    tlReviews
+      .from('.review-header', {
+        y: 100,
+        opacity: 0,
+        duration: 1.5,
+        ease: 'power3.out',
+      })
+      .from(
+        '.review-header-name',
+        {
+          y: 100,
+          opacity: 0,
+          duration: 1.5,
+          ease: 'power3.out',
+        },
+        '0.2'
+      );
+  }, 1000);
+}
+
+const tlNews = gsap.timeline({
   scrollTrigger: {
-    trigger: '.about-us-home',
-    start: 'top 83%',
-    markers: true, // видалити, коли не потрібно
+    trigger: '.whats-new',
+    start: 'top 80%',
+    once: true,
+    markers: true,
   },
-  x: 200,
+});
+
+tlNews.from('.news-btn-animation', {
+  y: 100,
   opacity: 0,
   duration: 1.5,
   ease: 'power3.out',
 });
+tlNews
+  .from(
+    '.news-header-container',
+    {
+      x: -100,
+      opacity: 0,
+      duration: 1.5,
+      ease: 'power3.out',
+    },
+    '0.2'
+  )
+  .from(
+    '.updates-reliase-img',
+    {
+      scale: 0,
+      opacity: 0,
+      duration: 1.5,
+      ease: 'power3.out',
+    },
+    '0.2'
+  )
+  .from(
+    '.news-iteam-header',
+    {
+      x: 100,
+      opacity: 0,
+      duration: 1.5,
+      ease: 'power3.out',
+    },
+    '0.2'
+  )
+  .from(
+    '.news-iteam-text',
+    {
+      x: 100,
+      opacity: 0,
+      duration: 1.5,
+      ease: 'power3.out',
+    },
+    '-=1.3'
+  )
+  .from(
+    '.more-link-news-animation',
+    {
+      x: 100,
+      opacity: 0,
+      duration: 1.5,
+      ease: 'power3.out',
+    },
+    '-=1.3'
+  );
 
 
-  },1000)
-}

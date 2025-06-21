@@ -64,11 +64,14 @@
   margin-bottom: 20px;
   background-color: transparent;
 }
+.news-btn-animation{
+  margin: auto;
+}
 .more-link-news {
   color: rgba(42, 49, 55, 1);
   fill: rgba(42, 49, 55, 1);
-  justify-content: center;
-  margin-left: 0;
+
+
   border-color: rgba(42, 49, 55, 1);
   font-size: var(--mobail-font-size);
 
