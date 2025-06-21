@@ -120,7 +120,7 @@ function initTurnkeyAnimation() {
         scale: 0,
         opacity: 0,
         duration: 1.8,
-        ease: 'back.out(1.7)',
+        ease: 'power4.out',
       })
       .from(
         '.turnkey-header',
@@ -168,7 +168,7 @@ function initSlider() {
         scale: 0,
         opacity: 0,
         duration: 1.8,
-        ease: 'back.out(1.7)',
+       ease: 'power4.out',
       })
       .from(
         '.project-header',
