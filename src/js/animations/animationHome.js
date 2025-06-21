@@ -42,6 +42,16 @@ function animationNumbers(tl) {
 }
 
 gsap.matchMedia().add('(min-width: 769px) ', () => {
+  initHeroAnimation();
+  initTurnkeyAnimation();
+  initSlider();
+  initAboutAnimation();
+  initBenefitsAnimation();
+  initReviewsAnimation();
+  initNewsAnimation();
+});
+
+function initHeroAnimation() {
   const tl = gsap.timeline();
 
   gsap.fromTo(
@@ -98,14 +108,7 @@ gsap.matchMedia().add('(min-width: 769px) ', () => {
       },
       '-=4'
     );
-
-  initTurnkeyAnimation();
-  initSlider();
-  initAboutAnimation();
-  initBenefitsAnimation();
-  initReviewsAnimation();
-  initNewsAnimation()
-});
+}
 
 function initTurnkeyAnimation() {
   setTimeout(() => {
@@ -322,75 +325,72 @@ function initReviewsAnimation() {
   }, 1000);
 }
 
-
-
-
 function initNewsAnimation() {
   setTimeout(() => {
     const tlNews = gsap.timeline({
-  scrollTrigger: {
-    trigger: '.whats-new',
-    start: 'top 80%',
-    once: true,
-    markers: true,
-  },
-});
-tlNews.from('.news-btn-animation', {
-  y: 100,
-  opacity: 0,
-  duration: 1.5,
-  ease: 'power3.out',
-});
-tlNews
-  .from(
-    '.news-header-container',
-    {
-      x: -100,
+      scrollTrigger: {
+        trigger: '.whats-new',
+        start: 'top 80%',
+        once: true,
+        markers: true,
+      },
+    });
+    tlNews.from('.news-btn-animation', {
+      y: 100,
       opacity: 0,
       duration: 1.5,
       ease: 'power3.out',
-    },
-    '0.2'
-  )
-  .from(
-    '.updates-reliase-img',
-    {
-      scale: 0,
-      opacity: 0,
-      duration: 1.5,
-      ease: 'power3.out',
-    },
-    '0.2'
-  )
-  .from(
-    '.news-iteam-header',
-    {
-      x: 100,
-      opacity: 0,
-      duration: 1.5,
-      ease: 'power3.out',
-    },
-    '0.2'
-  )
-  .from(
-    '.news-iteam-text',
-    {
-      x: 100,
-      opacity: 0,
-      duration: 1.5,
-      ease: 'power3.out',
-    },
-    '-=1.3'
-  )
-  .from(
-    '.more-link-news-animation',
-    {
-      x: 100,
-      opacity: 0,
-      duration: 1.5,
-      ease: 'power3.out',
-    },
-    '-=1.3'
-  );
-  },1000)};
-
+    });
+    tlNews
+      .from(
+        '.news-header-container',
+        {
+          x: -100,
+          opacity: 0,
+          duration: 1.5,
+          ease: 'power3.out',
+        },
+        '0.2'
+      )
+      .from(
+        '.img-news',
+        {
+          scale: 0,
+          opacity: 0,
+          duration: 1.5,
+          ease: 'power3.out',
+        },
+        '0.2'
+      )
+      .from(
+        '.news-iteam-header',
+        {
+          x: 100,
+          opacity: 0,
+          duration: 1.5,
+          ease: 'power3.out',
+        },
+        '0.2'
+      )
+      .from(
+        '.news-iteam-text',
+        {
+          x: 100,
+          opacity: 0,
+          duration: 1.5,
+          ease: 'power3.out',
+        },
+        '-=1.3'
+      )
+      .from(
+        '.more-link-news-animation',
+        {
+          x: 100,
+          opacity: 0,
+          duration: 1.5,
+          ease: 'power3.out',
+        },
+        '-=1.3'
+      );
+  }, 1000);
+}

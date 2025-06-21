@@ -25,6 +25,9 @@ padding-top: 15px;
   }
 
 }
+.hero-gs1, .hero-gs2, .hero-gs3{
+  opacity: 0;
+}
 
 .hero-section {
   position: relative;
