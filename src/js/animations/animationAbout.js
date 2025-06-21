@@ -106,7 +106,7 @@ export function initContactAboutAnimation() {
     trigger: '.contact-us',
     start: 'top 70%',
     toggleActions: 'play none none none',
-    markers: true,
+
   },
 });
 
