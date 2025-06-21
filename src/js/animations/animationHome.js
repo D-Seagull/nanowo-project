@@ -1,7 +1,7 @@
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
-import ScrollToPlugin from 'gsap/ScrollToPlugin';
-gsap.registerPlugin(ScrollTrigger, ScrollToPlugin);
+
+gsap.registerPlugin(ScrollTrigger);
 
 function animationNumbers(tl) {
   let delay = 0.2;
@@ -41,17 +41,9 @@ function animationNumbers(tl) {
   });
 }
 
-gsap.matchMedia().add('(min-width: 769px) ', () => {
-  initHeroAnimation();
-  initTurnkeyAnimation();
-  initSlider();
-  initAboutAnimation();
-  initBenefitsAnimation();
-  initReviewsAnimation();
-  initNewsAnimation();
-});
 
-function initHeroAnimation() {
+
+export function initHeroAnimation() {
   const tl = gsap.timeline();
 
   gsap.fromTo(
@@ -110,7 +102,7 @@ function initHeroAnimation() {
     );
 }
 
-function initTurnkeyAnimation() {
+export function initTurnkeyAnimation() {
   setTimeout(() => {
     const tlTurnKey = gsap.timeline({
       scrollTrigger: {
@@ -159,7 +151,7 @@ function initTurnkeyAnimation() {
   }, 1000);
 }
 
-function initSlider() {
+export function initSlider() {
   setTimeout(() => {
     const tlSlider = gsap.timeline({
       scrollTrigger: {
@@ -220,7 +212,7 @@ function initSlider() {
   }, 1000);
 }
 
-function initAboutAnimation() {
+export function initAboutAnimation() {
   setTimeout(() => {
     gsap.from('.about-text', {
       scrollTrigger: {
@@ -235,7 +227,7 @@ function initAboutAnimation() {
     });
   }, 1000);
 }
-function initBenefitsAnimation() {
+export function initBenefitsAnimation() {
   setTimeout(() => {
     const tlBenefits = gsap.timeline({
       scrollTrigger: {
@@ -295,7 +287,7 @@ function initBenefitsAnimation() {
   }, 1000);
 }
 
-function initReviewsAnimation() {
+export function initReviewsAnimation() {
   setTimeout(() => {
     const tlReviews = gsap.timeline({
       scrollTrigger: {
@@ -325,14 +317,14 @@ function initReviewsAnimation() {
   }, 1000);
 }
 
-function initNewsAnimation() {
+export function initNewsAnimation() {
   setTimeout(() => {
     const tlNews = gsap.timeline({
       scrollTrigger: {
         trigger: '.whats-new',
         start: 'top 80%',
         once: true,
-        markers: true,
+
       },
     });
     tlNews.from('.news-btn-animation', {

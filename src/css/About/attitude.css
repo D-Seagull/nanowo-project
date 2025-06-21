@@ -12,8 +12,11 @@
 
 }
 .attitude-video-wrapper{
-
+opacity: 0;
   width: 100%;
+}
+.attitude-container-wrapper{
+  opacity: 0;
 }
 
 .attitude-video {
@@ -44,6 +47,8 @@
   .attitude {
     margin-bottom: 25px;
   }
+
+
 
   .attitude-container {
     display: flex;
@@ -94,4 +99,12 @@
     max-width: 500px;
     aspect-ratio: 16 / 9;
   }
+  .attitude-video-wrapper{
+opacity: 1;
+  width: 100%;
+}
+.attitude-container-wrapper{
+  opacity: 1;
+}
+
 }

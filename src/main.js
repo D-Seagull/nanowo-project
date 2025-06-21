@@ -10,4 +10,4 @@ import './js/release';
 
 
 /*==========animations================ */
-import './js/animations/animationHome';
+import './js/animations/mainAnimation';
