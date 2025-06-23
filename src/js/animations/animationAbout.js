@@ -89,7 +89,7 @@ let itemDelay =0;
           x: -100,
           opacity: 0,
           duration: 0.8,
-          ease: 'power4.out',
+            ease: 'power3.out',
         },
         itemDelay
       );
@@ -133,7 +133,7 @@ document.querySelectorAll('.contacts-list-item').forEach(item => {
     x: -100,
     opacity: 0,
     duration: 0.8,
-    ease: 'power4.out',
+       ease: 'power3.out',
   }, '<');
 });
 

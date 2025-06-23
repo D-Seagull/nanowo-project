@@ -36,10 +36,12 @@
 }
 .reviews-img {
 text-align: center;
-  height: 25px;
+  height: 40px;
   margin: 0 auto;
   margin-bottom: 20px;
 }
+
+
 .reviews-pagination-container {
   z-index: 15;
   display: flex;
@@ -102,7 +104,7 @@ min-height: 200px;
 
   .reviews-img {
 
-    height: 50px;
+    height: 60px;
   }
   .slide-reviews {
   padding: 40px;
@@ -143,7 +145,7 @@ height: 240px;
 
   .reviews-img {
 
-    height: 50px;
+    height: 80px;
   }
 
 
