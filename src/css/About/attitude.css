@@ -83,7 +83,7 @@
   }
   .attitude-text {
     max-width: 300px;
-    text-align: center;
+    text-align: start;
   }
   .attitude-container {
     padding-bottom: 15px;
@@ -94,7 +94,7 @@
     font-size: 28px;
     line-height: 1;
     margin-bottom: 18px;
-    text-align: center;
+    text-align: start;
   }
   .attitude-text {
     font-size: var(--mobail-font-size);

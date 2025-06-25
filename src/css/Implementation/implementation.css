@@ -16,7 +16,7 @@
 .implementation-header {
   color: var(--primary-text-color);
   font-family: var(--font-family-second);
-  text-align: center;
+  text-align: start;
   font-weight: 400;
   font-size: 25px;
   line-height: 100%;
@@ -25,7 +25,7 @@
 .implementation-text {
   color: #ffffff;
   opacity: 0.7;
-  text-align: center;
+  text-align: start;
   font-size: var(--mobail-font-size);
 }
 

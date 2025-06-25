@@ -4,7 +4,7 @@
 .updates-hero-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   padding: 15px 0;
 }
 .update-hero-list {
@@ -15,7 +15,7 @@
 .update-herro-link {
   font-family: var(--font-family-second);
   font-weight: 400;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 100%;
   color: rgba(117, 130, 133, 1);
 }

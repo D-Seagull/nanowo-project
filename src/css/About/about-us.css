@@ -1,7 +1,7 @@
 .about-us-about {
   margin-bottom: 50px;
   height: 850px;
-  background-image: url(../../img/About/main-bg-jpeg-1x-min.jpg);
+  background-image: url(../../img/About/background.jpg);
   background-position: center 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,7 +15,7 @@
 
 @media (min-resolution: 192dpi) {
   .about-us-about {
-    background-image: url(../../img/About/main-bg-jpeg-2x-min.jpg);
+    background-image: url(../../img/About/background-2x.jpg);
   }
 }
 
