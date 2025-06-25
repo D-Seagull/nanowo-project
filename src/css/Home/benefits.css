@@ -2,13 +2,15 @@
   background-color: var(--second-background-color);
   display: flex;
   flex-direction: column;
+
 }
 .benefits {
   background-color: var(--second-background-color);
   padding-bottom: 15px;
+  padding-top: 15px;
 }
 .icon-benefits {
-  margin: 0 auto;
+  margin: 0 ;
   width: 83px;
   height: 65px;
   fill: none;
@@ -20,7 +22,8 @@
   font-family: var(--font-family-second);
   color: #ffffff;
   font-size: 30px;
-  text-align: center;
+  text-align: start;
+  line-height: 30px;
 }
 .benefits-list {
   display: flex;
@@ -38,11 +41,11 @@
   font-family: var(--font-family-base);
   color: var(--primary-text-color);
   font-size: 24px;
-  text-align: center;
+  text-align: start;
 }
 .benefits-text {
   color: var(--primary-svg-fill);
-  text-align: center;
+  text-align: start;
   font-size: var(--mobail-font-size);
 }
 .benefits-btn {

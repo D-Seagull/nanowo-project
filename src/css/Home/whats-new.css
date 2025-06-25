@@ -4,19 +4,20 @@
 .news-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+
 }
 .news-header-container {
   margin-bottom: 15px;
 }
 .news-header {
-  text-align: center;
+text-align: left;
+
   font-family: var(--font-family-second);
   font-family: Poiret One;
   font-weight: 400;
   font-size: 30px;
   line-height: 30px;
-  margin-bottom: 10px;
+
 }
 .news-header-text {
   font-size: 16px;
@@ -35,7 +36,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   background-color: #ffffff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 8px 16px rgba(0, 0, 0, 0.08),
     0px 16px 32px rgba(0, 0, 0, 0.1);
@@ -61,7 +62,7 @@
   color: var(--second-background-color);
   margin: 0 auto;
   border: 1px solid var(--second-background-color);
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   background-color: transparent;
 }
 .news-btn-animation{
@@ -89,7 +90,7 @@
   .news-header {
     font-size: 50px;
     line-height: 50px;
-    margin-bottom: 30px;
+
   }
   .news-header-text {
     font-size: 18px;
@@ -103,7 +104,7 @@
   }
   .news-iteam {
     gap: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
   .news-iteam-header {
     font-size: 45px;

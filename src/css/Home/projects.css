@@ -1,7 +1,8 @@
 .project-container {
   background-color: var(--second-background-color);
   display: flex;
-  padding-top: 25px;
+  padding-top: 15px;
+
 }
 .project-header {
   display: flex;
@@ -15,13 +16,13 @@
   font-weight: 400;
   font-size: 30px;
   line-height: 30px;
-  text-align: center;
+  text-align: start;
 }
 .project-text {
   color: #dddddd;
   font-size: var(--mobail-font-size);
   line-height: 24px;
-  text-align: center;
+   text-align: start;
 }
 /*============projectSlider=============*/
 .swiper-slide .project-slide {
@@ -38,11 +39,12 @@
 .investor-slide {
   color: #dddddd;
   font-family: var(--font-family-second);
-  text-align: center;
+  text-align: start;
   font-size: 25px;
+  margin-bottom: 15px;
 }
 .slide-text {
-  text-align: center;
+   text-align: start;
   color: #dddddd;
   font-size: var(--mobail-font-size);
   margin-bottom: 15px;
