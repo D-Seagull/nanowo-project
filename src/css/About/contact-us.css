@@ -257,7 +257,7 @@ justify-content: space-between;
 
   .about-contact-header-text {
     margin-bottom: 25px;
-    font-size: 30px;
+    font-size: 27px;
   }
 
   .contact-info::before {
@@ -300,7 +300,7 @@ justify-content: space-between;
   }
   .about-contact-header-text {
     margin-bottom: 15px;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .form-label {
