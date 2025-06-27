@@ -11,30 +11,20 @@ const galleriesList = {
       '2x': `${base}gallery-impl/Naowo-Indonezyjska/2x/Indonezyjska-2.jpg`,
     },
 
-
     {
       '1x': `${base}gallery-impl/Naowo-Indonezyjska/1x/Indonezyjska-5.jpg`,
       '2x': `${base}gallery-impl/Naowo-Indonezyjska/2x/Indonezyjska-5.jpg`,
     },
-
-
-
-
-
-
 
     {
       '1x': `${base}gallery-impl/Naowo-Indonezyjska/1x/Indonezyjska-14.jpg`,
       '2x': `${base}gallery-impl/Naowo-Indonezyjska/2x/Indonezyjska-14.jpg`,
     },
 
-
-
     {
       '1x': `${base}gallery-impl/Naowo-Indonezyjska/1x/Indonezyjska-24.jpg`,
       '2x': `${base}gallery-impl/Naowo-Indonezyjska/2x/Indonezyjska-24.jpg`,
     },
-
 
     {
       '1x': `${base}gallery-impl/Naowo-Indonezyjska/1x/Indonezyjska-23.jpg`,
@@ -49,8 +39,6 @@ const galleriesList = {
       '1x': `${base}gallery-impl/Naowo-Indonezyjska/1x/Indonezyjska-26.jpg`,
       '2x': `${base}gallery-impl/Naowo-Indonezyjska/2x/Indonezyjska-26.jpg`,
     },
-
-
   ],
   2: [
     {
@@ -192,13 +180,10 @@ const galleriesList = {
       '2x': `${base}gallery-impl/DM_Mieszkania-strona/2x/DMmieszkania2.jpg`,
     },
 
-
-
     {
       '1x': `${base}gallery-impl/DM_Mieszkania-strona/1x/DMmieszkania6.jpg`,
       '2x': `${base}gallery-impl/DM_Mieszkania-strona/2x/DMmieszkania6.jpg`,
     },
-
 
     {
       '1x': `${base}gallery-impl/DM_Mieszkania-strona/1x/DMmieszkania10.jpg`,
@@ -208,11 +193,10 @@ const galleriesList = {
       '1x': `${base}gallery-impl/DM_Mieszkania-strona/1x/DMmieszkania11.jpg`,
       '2x': `${base}gallery-impl/DM_Mieszkania-strona/2x/DMmieszkania11.jpg`,
     },
-       {
+    {
       '1x': `${base}gallery-impl/DM_Mieszkania-strona/1x/DMmieszkania20.jpg`,
       '2x': `${base}gallery-impl/DM_Mieszkania-strona/2x/DMmieszkania20.jpg`,
     },
-
 
     {
       '1x': `${base}gallery-impl/DM_Mieszkania-strona/1x/DMmieszkania16.jpg`,
@@ -237,7 +221,6 @@ const galleriesList = {
       '2x': `${base}gallery-impl/DM_Mieszkania-strona/2x/DMmieszkania22.jpg`,
     },
 
-
     {
       '1x': `${base}gallery-impl/DM_Mieszkania-strona/1x/DMmieszkania26.jpg`,
       '2x': `${base}gallery-impl/DM_Mieszkania-strona/2x/DMmieszkania26.jpg`,
@@ -251,7 +234,6 @@ const galleriesList = {
       '2x': `${base}gallery-impl/DM_Mieszkania-strona/2x/DMmieszkania32.jpg`,
     },
 
-
     {
       '1x': `${base}gallery-impl/DM_Mieszkania-strona/1x/DMmieszkania31.jpg`,
       '2x': `${base}gallery-impl/DM_Mieszkania-strona/2x/DMmieszkania31.jpg`,
@@ -260,8 +242,6 @@ const galleriesList = {
       '1x': `${base}gallery-impl/DM_Mieszkania-strona/1x/DMmieszkania28.jpg`,
       '2x': `${base}gallery-impl/DM_Mieszkania-strona/2x/DMmieszkania28.jpg`,
     },
-
-
 
     {
       '1x': `${base}gallery-impl/DM_Mieszkania-strona/1x/DMmieszkania36.jpg`,
@@ -274,26 +254,6 @@ const galleriesList = {
     },
 
 
-
-
-
-    {
-      '1x': `${base}gallery-impl/DM_Mieszkania-strona/1x/DMmieszkania44.JPG`,
-      '2x': `${base}gallery-impl/DM_Mieszkania-strona/2x/DMmieszkania44.JPG`,
-    },
-    {
-      '1x': `${base}gallery-impl/DM_Mieszkania-strona/1x/DMmieszkania45.JPG`,
-      '2x': `${base}gallery-impl/DM_Mieszkania-strona/2x/DMmieszkania45.JPG`,
-    },
-    {
-      '1x': `${base}gallery-impl/DM_Mieszkania-strona/1x/DMmieszkania46.JPG`,
-      '2x': `${base}gallery-impl/DM_Mieszkania-strona/2x/DMmieszkania46.JPG`,
-    },
-    {
-      '1x': `${base}gallery-impl/DM_Mieszkania-strona/1x/DMmieszkania47.JPG`,
-      '2x': `${base}gallery-impl/DM_Mieszkania-strona/2x/DMmieszkania47.JPG`,
-    },
-
   ],
 
   5: [
@@ -301,7 +261,6 @@ const galleriesList = {
       '1x': `${base}gallery-impl/Buforowa_89-strona/1x/buforowa1.jpg`,
       '2x': `${base}gallery-impl/Buforowa_89-strona/2x/buforowa1.jpg`,
     },
-
 
     {
       '1x': `${base}gallery-impl/Buforowa_89-strona/1x/buforowa5.jpg`,
@@ -316,32 +275,25 @@ const galleriesList = {
       '1x': `${base}gallery-impl/Buforowa_89-strona/1x/buforowa11.jpg`,
       '2x': `${base}gallery-impl/Buforowa_89-strona/2x/buforowa11.jpg`,
     },
-     {
+    {
       '1x': `${base}gallery-impl/Buforowa_89-strona/1x/buforowa19.jpg`,
       '2x': `${base}gallery-impl/Buforowa_89-strona/2x/buforowa19.jpg`,
     },
-
 
     {
       '1x': `${base}gallery-impl/Buforowa_89-strona/1x/buforowa22.jpg`,
       '2x': `${base}gallery-impl/Buforowa_89-strona/2x/buforowa22.jpg`,
     },
 
-
     {
       '1x': `${base}gallery-impl/Buforowa_89-strona/1x/buforowa14.jpg`,
       '2x': `${base}gallery-impl/Buforowa_89-strona/2x/buforowa14.jpg`,
     },
 
-
     {
       '1x': `${base}gallery-impl/Buforowa_89-strona/1x/buforowa18.jpg`,
       '2x': `${base}gallery-impl/Buforowa_89-strona/2x/buforowa18.jpg`,
     },
-
-
-
-
   ],
 };
 

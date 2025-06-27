@@ -144,6 +144,9 @@
 .footer__policy:focus {
   color: #2294db;
 }
+.footer-address{
+  display: none;
+}
 
 /* Responsive Styles */
 @media (min-width: 768px) {
@@ -161,6 +164,7 @@
   .footer__social {
 
   justify-content: space-between;
+
 }
 
   .footer__bottom {
@@ -168,6 +172,12 @@
     justify-content: space-between;
     padding-top: 25px;
   }
+  .footer-address{
+  display: block;
+}
+.mob-footer-address{
+  display: none;
+}
 }
 @media (min-width: 1200px) {
   .footer__logo-img{

@@ -221,6 +221,8 @@
   .slider-container {
     gap: 20;
     justify-content: space-between;
+    padding-bottom: 25px;
+    margin: 0;
   }
   .project-head {
     text-align: start;

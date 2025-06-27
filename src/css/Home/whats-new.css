@@ -88,7 +88,7 @@ text-align: left;
     margin-bottom: 25px;
   }
   .news-header {
-    font-size: 50px;
+    font-size: 40px;
     line-height: 50px;
 
   }
@@ -107,7 +107,7 @@ text-align: left;
     padding-bottom: 20px;
   }
   .news-iteam-header {
-    font-size: 45px;
+    font-size: 40px;
   }
   .news-iteam-text {
     font-size: var(--tablet-font-size);
