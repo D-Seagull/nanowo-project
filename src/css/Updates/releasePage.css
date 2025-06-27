@@ -69,7 +69,7 @@
   }
   .release-text {
     text-align: start;
-    font-size: var(--tablet-font-size);
+
     color: rgba(42, 49, 55, 1);
   }
   .release-gallery {
