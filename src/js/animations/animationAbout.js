@@ -111,8 +111,8 @@ export function initContactAboutAnimation() {
 });
 
 
-tlContact.from('.about-form-abimation', {
-  scale: 0,
+tlContact.from('.about-form-animation', {
+  x: -100,
   opacity: 0,
   duration: 1.5,
   ease: 'power3.out',
@@ -121,7 +121,7 @@ tlContact.from('.about-form-abimation', {
 
 
 tlContact.from('.about-contact-header-text', {
-  y: -100,
+  y: 100,
   opacity: 0,
   duration: 1.5,
   ease: 'power3.out',
@@ -130,7 +130,7 @@ tlContact.from('.about-contact-header-text', {
 
 document.querySelectorAll('.contacts-list-item').forEach(item => {
   tlContact.from(item, {
-    x: -100,
+    x: 100,
     opacity: 0,
     duration: 0.8,
        ease: 'power3.out',
