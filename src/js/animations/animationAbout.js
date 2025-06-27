@@ -111,7 +111,7 @@ export function initContactAboutAnimation() {
 });
 
 
-tlContact.from('.contact-form', {
+tlContact.from('.about-form-abimation', {
   scale: 0,
   opacity: 0,
   duration: 1.5,
