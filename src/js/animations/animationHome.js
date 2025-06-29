@@ -213,7 +213,7 @@ export function initSlider() {
 }
 
 export function initAboutAnimation() {
-
+  setTimeout(() => {
     gsap.from('.about-text', {
       scrollTrigger: {
         trigger: '.about-us-home',
@@ -225,7 +225,7 @@ export function initAboutAnimation() {
       duration: 1.5,
       ease: 'power3.out',
     });
-
+  }, 1000);
 }
 export function initBenefitsAnimation() {
   setTimeout(() => {
