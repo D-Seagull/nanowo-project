@@ -115,3 +115,20 @@ window.addEventListener('popstate', event => {
     showMainReleases();
   }
 });
+document.addEventListener('DOMContentLoaded', () => {
+  const hash = window.location.hash;
+
+  if (hash) {
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        const target = document.querySelector(hash);
+        if (target) {
+          const yOffset = -80; // висота хедера
+          const y = target.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+          window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+      }, 300);
+    });
+  }
+});
