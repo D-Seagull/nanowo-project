@@ -10,6 +10,7 @@ import {
   initTurnkeyAnimation,
 } from './animationHome';
 import { initAttitudeAnimation, initContactAboutAnimation, initServisesAnimation, initTeamAnimation } from './animationAbout';
+import { initImplGalleryAnimation } from './animationImpl';
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.matchMedia().add('(min-width: 769px) ', () => {
@@ -27,4 +28,6 @@ gsap.matchMedia().add('(min-width: 769px) ', () => {
   initTeamAnimation();
   initServisesAnimation()
   initContactAboutAnimation()
+
+  initImplGalleryAnimation()
 });

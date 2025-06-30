@@ -66,7 +66,7 @@
   .back-button {
   position: absolute; /* змінено з fixed */
   top: 50%;
-  left: 100px;
+  left: 50px;
   transform: translateY(-50%);
   font-size: 25px;
 }
