@@ -46,7 +46,7 @@
   border-top: 1px solid #ddd;
   width: 100%;
   font-weight: var(--font-weight-base);
-  font-size: var(--font-size-base);
+  font-size: 19px;
   line-height: 1.4;
   color: var(--section-text-color-dark);
 }
