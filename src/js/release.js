@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
           window.scrollTo({ top: y, behavior: 'smooth' });
         }
-      }, 300);
+      }, 500);
     });
   }
 });
