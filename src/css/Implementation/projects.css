@@ -130,6 +130,7 @@ cursor: pointer;
 
   .imp-projects-header {
     margin-bottom: 25px;
+  opacity: 0;
 
   }
   .imp-project-iteam {
@@ -137,12 +138,15 @@ cursor: pointer;
     width: 100%;
     justify-content: space-between;
     padding: 0 40px;
+
   }
   .imp-project-info {
     max-width: 261px;
   }
   .imp-project-main-item {
     gap: 20px;
+     transform: scale(0);
+  opacity: 0;
   }
 
   .imp-project-info-street {
@@ -197,6 +201,8 @@ cursor: pointer;
     padding-top: clamp(10px, 3vw, 90px);
     padding-left: clamp(10px, 3vw, 90px);
     min-height: 575px;
+     transform: scale(0);
+  opacity: 0;
   }
   .imp-project-iteam {
     flex-direction: column;
@@ -218,6 +224,7 @@ cursor: pointer;
     text-align: start;
     margin-bottom: 15px;
 
+  opacity: 0;
     margin-bottom: 30px;
   }
   .imp-project-info-header {

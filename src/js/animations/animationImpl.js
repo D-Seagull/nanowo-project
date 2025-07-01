@@ -4,29 +4,30 @@ import ScrollTrigger from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 export function initImplGalleryAnimation() {
-  setTimeout(() => {
- gsap.from('.imp-projects-header', {
+
+ gsap.fromTo('.imp-projects-header',{
+x:-100,
+ }, {
       scrollTrigger: {
         trigger: '.imp-projects',
         start: 'top 80%',
         once: true,
       },
-      x: -100,
-      opacity: 0,
+x:0,
+      opacity: 1,
       duration: 1.5,
       ease: 'power3.out',
     });
-    gsap.from('.imp-project-main-item', {
+    gsap.to('.imp-project-main-item', {
       scrollTrigger: {
         trigger: '.imp-project-list',
         start: 'top 80%',
         toggleActions: 'play none none none',
         matches:true
       },
-      scale: 0,
-      opacity: 0,
+      scale: 1,
+      opacity: 1,
       duration: 1.5,
       ease: 'power3.out',
     });
-  }, 1000);
-}
+  }

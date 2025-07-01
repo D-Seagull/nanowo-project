@@ -10,7 +10,7 @@
   line-height: 1;
   color: var(--section-text-color-dark);
 }
-.team-list-card-pic{
+.team-list-card-pic {
   height: 255px;
 
   object-fit: cover;
@@ -32,6 +32,8 @@
   background: #fff;
   max-width: calc((100% - 12px * 2) / 3);
   min-height: 480px;
+  transform: scale(0);
+  opacity: 0;
 }
 .team-list-card-info-wrapper {
   margin-top: 31px;
@@ -60,14 +62,11 @@
   .team {
     margin-bottom: 25px;
   }
-  .team-list-card-pic{
-  max-height: 255px;
+  .team-list-card-pic {
+    max-height: 255px;
 
-  object-fit: cover;
-}
-
-
-
+    object-fit: cover;
+  }
 
   .team-title {
     margin-bottom: 28px;
@@ -81,6 +80,8 @@
     padding-bottom: 36px;
     max-width: calc((100% - 12px) / 2);
     min-height: 100%;
+    transform: scale(0);
+    opacity: 0;
   }
   .team-list-card-info-wrapper {
     margin-top: 24px;

@@ -4,7 +4,7 @@ import ScrollTrigger from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 export function initAttitudeAnimation() {
-  setTimeout(() => {
+
    gsap.fromTo(
   '.attitude-container-wrapper',
   {
@@ -41,11 +41,11 @@ export function initAttitudeAnimation() {
         ease: 'power3.out',
       }
     );
-  }, 1000);
+
 }
 
 export function initTeamAnimation() {
-  setTimeout(() => {
+
     gsap.from('.team-title', {
       scrollTrigger: {
         trigger: '.team-container',
@@ -57,22 +57,22 @@ export function initTeamAnimation() {
       duration: 1.5,
       ease: 'power3.out',
     });
-    gsap.from('.team-list-item', {
+    gsap.to('.team-list-item', {
       scrollTrigger: {
         trigger: '.team-container',
         start: 'top 80%',
         toggleActions: 'play none none none',
       },
-      scale: 0,
-      opacity: 0,
+      scale: 1,
+      opacity: 1,
       duration: 1.5,
       ease: 'power3.out',
     });
-  }, 1000);
+
 }
 
 export function initServisesAnimation() {
-  setTimeout(() => {
+
     const tlServises = gsap.timeline({
       scrollTrigger: {
         trigger: '.services-container',
@@ -96,11 +96,11 @@ let itemDelay =0;
 
       itemDelay += 0.2; // Поступове нарощування затримки
     });
-  }, 1000);
+
 }
 
 export function initContactAboutAnimation() {
-  setTimeout(() => {
+
   const tlContact = gsap.timeline({
   scrollTrigger: {
     trigger: '.contact-us',
@@ -137,5 +137,5 @@ document.querySelectorAll('.contacts-list-item').forEach(item => {
   }, '<');
 });
 
-  }, 1000);
-}
+
+};

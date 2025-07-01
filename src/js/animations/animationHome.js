@@ -103,7 +103,7 @@ export function initHeroAnimation() {
 }
 
 export function initTurnkeyAnimation() {
-  setTimeout(() => {
+
     const tlTurnKey = gsap.timeline({
       scrollTrigger: {
         trigger: '.turnkey-section',
@@ -148,11 +148,11 @@ export function initTurnkeyAnimation() {
 
     animationNumbers(tlTurnKey);
     ScrollTrigger.refresh();
-  }, 1000);
+
 }
 
 export function initSlider() {
-  setTimeout(() => {
+
     const tlSlider = gsap.timeline({
       scrollTrigger: {
         trigger: '.projects',
@@ -209,11 +209,11 @@ export function initSlider() {
         '-=1.4'
       );
     ScrollTrigger.refresh();
-  }, 1000);
+
 }
 
 export function initAboutAnimation() {
-  setTimeout(() => {
+
     gsap.from('.about-text', {
       scrollTrigger: {
         trigger: '.about-us-home',
@@ -225,13 +225,13 @@ export function initAboutAnimation() {
       duration: 1.5,
       ease: 'power3.out',
     });
-  }, 1000);
+
 }
 export function initBenefitsAnimation() {
-  setTimeout(() => {
+
     const tlBenefits = gsap.timeline({
       scrollTrigger: {
-        trigger: '.benefits',
+        trigger: '.benefits-head',
         start: 'top 90%',
         once: true,
       },
@@ -284,11 +284,11 @@ export function initBenefitsAnimation() {
         },
         '0'
       );
-  }, 1000);
+
 }
 
 export function initReviewsAnimation() {
-  setTimeout(() => {
+
     const tlReviews = gsap.timeline({
       scrollTrigger: {
         trigger: '.review',
@@ -314,11 +314,11 @@ export function initReviewsAnimation() {
         },
         '0.2'
       );
-  }, 1000);
+
 }
 
 export function initNewsAnimation() {
-  setTimeout(() => {
+
     const tlNews = gsap.timeline({
       scrollTrigger: {
         trigger: '.whats-new',
@@ -384,5 +384,5 @@ export function initNewsAnimation() {
         },
         '-=1.3'
       );
-  }, 1000);
-}
+
+};
