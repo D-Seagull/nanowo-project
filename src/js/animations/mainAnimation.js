@@ -20,6 +20,7 @@ import {
   initImplGalleryAnimation,
   initImplHeaderAnimation,
 } from './animationImpl';
+import { initNewsHeaderAnimation, initReliaseeAnimation } from './animationNews';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -43,4 +44,7 @@ gsap.matchMedia().add('(min-width: 769px) ', () => {
   initImplHeaderAnimation();
   initImplGalleryAnimation();
   initImplContactAnimation();
+
+  initNewsHeaderAnimation()
+  initReliaseeAnimation()
 });

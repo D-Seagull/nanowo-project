@@ -71,6 +71,9 @@
   .updates-reliases {
     margin-bottom: 25px;
   }
+  .reliase-animation{
+    opacity: 0;
+  }
 
   .updates-reliase-text-content {
     padding: 30px;

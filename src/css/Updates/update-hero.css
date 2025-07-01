@@ -44,6 +44,9 @@
     line-height: 100%;
     color: rgba(117, 130, 133, 1);
   }
+  .news-header-animation{
+    opacity: 0;
+  }
   .update-herro-text {
     font-weight: 400;
     font-size: 18px;
