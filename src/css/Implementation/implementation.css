@@ -39,6 +39,7 @@
     background-size: 47%;
     background-position: left;
     padding-bottom: 25px;
+    opacity: 0;
   }
   .implementation-wrapper {
     max-width: 345px;
