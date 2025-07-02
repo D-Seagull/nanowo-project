@@ -61,9 +61,9 @@ export function initImplGalleryAnimation() {
   gsap.to('.imp-project-main-item', {
     scrollTrigger: {
       trigger: '.imp-project-list',
-      start: 'top 80%',
+      start: 'top 75%',
       toggleActions: 'play none none none',
-
+markers:true,
     },
     scale: 1,
     opacity: 1,
