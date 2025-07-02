@@ -48,7 +48,7 @@ export function initImplGalleryAnimation() {
     },
     {
       scrollTrigger: {
-        trigger: '.imp-projects',
+        trigger: '.imp-project-list',
         start: 'top 80%',
         once: true,
       },
@@ -63,7 +63,7 @@ export function initImplGalleryAnimation() {
       trigger: '.imp-project-list',
       start: 'top 75%',
       toggleActions: 'play none none none',
-markers:true,
+
     },
     scale: 1,
     opacity: 1,

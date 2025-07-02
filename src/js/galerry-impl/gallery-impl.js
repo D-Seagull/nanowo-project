@@ -9,21 +9,20 @@ const impBackBtn = document.querySelector('#imp-gallery-back');
 const loadMoreBtn = document.querySelector('#load-more');
 const LoadPageObserver = document.querySelector('.load-more');
 
-const observer = new IntersectionObserver((entries, observer) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-
-      renderNextImages();
-
-
-    }
-  });
-}, {
-  root: null,
-  rootMargin: '40px',
-  threshold: 0,
-});
-
+const observer = new IntersectionObserver(
+  (entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        renderNextImages();
+      }
+    });
+  },
+  {
+    root: null,
+    rootMargin: '40px',
+    threshold: 0,
+  }
+);
 
 let currentGallery = [];
 let loadedCount = 0;
@@ -140,9 +139,8 @@ function renderNextImages() {
   lightbox.refresh();
   if (loadedCount >= currentGallery.length) {
     // loadMoreBtn.classList.add('hidden');
-     if (LoadPageObserver) {
+    if (LoadPageObserver) {
       observer.unobserve(LoadPageObserver);
-
     }
   }
 }

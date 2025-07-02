@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
       setTimeout(() => {
         const target = document.querySelector(hash);
         if (target) {
-          const yOffset = -80; // висота хедера
+          const yOffset = -120; // висота хедера
           const y = target.getBoundingClientRect().top + window.pageYOffset + yOffset;
 
           window.scrollTo({ top: y, behavior: 'smooth' });
