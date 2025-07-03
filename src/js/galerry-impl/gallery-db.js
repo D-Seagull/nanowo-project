@@ -252,10 +252,7 @@ const galleriesList = {
       '1x': `${base}gallery-impl/DM_Mieszkania-strona/1x/DMmieszkania38.jpg`,
       '2x': `${base}gallery-impl/DM_Mieszkania-strona/2x/DMmieszkania38.jpg`,
     },
-
-
   ],
-
   5: [
     {
       '1x': `${base}gallery-impl/Buforowa_89-strona/1x/buforowa1.jpg`,
@@ -294,7 +291,133 @@ const galleriesList = {
       '1x': `${base}gallery-impl/Buforowa_89-strona/1x/buforowa18.jpg`,
       '2x': `${base}gallery-impl/Buforowa_89-strona/2x/buforowa18.jpg`,
     },
+
   ],
+  6: [
+    {
+      '1x': `${base}gallery-impl/Nowomiejska-Gdańsk/1x/Nanowo-Nowomiejska-Gdansk1.jpg`,
+      '2x': `${base}gallery-impl/Nowomiejska-Gdansk/2x/Nanowo-Nowomiejska-Gdańsk1-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Nowomiejska-Gdańsk/1x/Nanowo-Nowomiejska-Gdańsk2.jpg`,
+      '2x': `${base}gallery-impl/Nowomiejska-Gdańsk/2x/Nanowo-Nowomiejska-Gdańs2-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Nowomiejska-Gdańsk/1x/Nanowo-Nowomiejska-Gdańsk4.jpg`,
+      '2x': `${base}gallery-impl/Nowomiejska-Gdańsk/2x/Nanowo-Nowomiejska-Gdańs4-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Nowomiejska-Gdańsk/1x/Nanowo-Nowomiejska-Gdańsk7.jpg`,
+      '2x': `${base}gallery-impl/Nowomiejska-Gdańsk/2x/Nanowo-Nowomiejska-Gdańs7-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Nowomiejska-Gdańsk/1x/Nanowo-Nowomiejska-Gdańsk9.jpg`,
+      '2x': `${base}gallery-impl/Nowomiejska-Gdańsk/2x/Nanowo-Nowomiejska-Gdańs9-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Nowomiejska-Gdańsk/1x/Nanowo-Nowomiejska-Gdańsk11.jpg`,
+      '2x': `${base}gallery-impl/Nowomiejska-Gdańsk/2x/Nanowo-Nowomiejska-Gdańs11-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Nowomiejska-Gdańsk/1x/Nanowo-Nowomiejska-Gdańsk13.jpg`,
+      '2x': `${base}gallery-impl/Nowomiejska-Gdańsk/2x/Nanowo-Nowomiejska-Gdańs13-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Nowomiejska-Gdańsk/1x/Nanowo-Nowomiejska-Gdańsk14.jpg`,
+      '2x': `${base}gallery-impl/Nowomiejska-Gdańsk/2x/Nanowo-Nowomiejska-Gdańs14-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Nowomiejska-Gdańsk/1x/Nanowo-Nowomiejska-Gdańsk16.jpg`,
+      '2x': `${base}gallery-impl/Nowomiejska-Gdańsk/2x/Nanowo-Nowomiejska-Gdańs16-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Nowomiejska-Gdańsk/1x/Nanowo-Nowomiejska-Gdańsk21.jpg`,
+      '2x': `${base}gallery-impl/Nowomiejska-Gdańsk/2x/Nanowo-Nowomiejska-Gdańs21-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Nowomiejska-Gdańsk/1x/Nanowo-Nowomiejska-Gdańsk22.jpg`,
+      '2x': `${base}gallery-impl/Nowomiejska-Gdańsk/2x/Nanowo-Nowomiejska-Gdańs22-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Nowomiejska-Gdańsk/1x/Nanowo-Nowomiejska-Gdańsk23.jpg`,
+      '2x': `${base}gallery-impl/Nowomiejska-Gdańsk/2x/Nanowo-Nowomiejska-Gdańs23-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Nowomiejska-Gdańsk/1x/Nanowo-Nowomiejska-Gdańsk30.jpg`,
+      '2x': `${base}gallery-impl/Nowomiejska-Gdańsk/2x/Nanowo-Nowomiejska-Gdańs30-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Nowomiejska-Gdańsk/1x/Nanowo-Nowomiejska-Gdańsk33.jpg`,
+      '2x': `${base}gallery-impl/Nowomiejska-Gdańsk/2x/Nanowo-Nowomiejska-Gdańs33-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Nowomiejska-Gdańsk/1x/Nanowo-Nowomiejska-Gdańsk34.jpg`,
+      '2x': `${base}gallery-impl/Nowomiejska-Gdańsk/2x/Nanowo-Nowomiejska-Gdańs34-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Nowomiejska-Gdańsk/1x/Nanowo-Nowomiejska-Gdańsk35.jpg`,
+      '2x': `${base}gallery-impl/Nowomiejska-Gdańsk/2x/Nanowo-Nowomiejska-Gdańs35-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Nowomiejska-Gdańsk/1x/Nanowo-Nowomiejska-Gdańsk36.jpg`,
+      '2x': `${base}gallery-impl/Nowomiejska-Gdańsk/2x/Nanowo-Nowomiejska-Gdańs36-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Nowomiejska-Gdańsk/1x/Nanowo-Nowomiejska-Gdańsk38.jpg`,
+      '2x': `${base}gallery-impl/Nowomiejska-Gdańsk/2x/Nanowo-Nowomiejska-Gdańsk38-2x.jpg`,
+    },
+  ],
+7:[
+  {
+    '1x': `${base}gallery-impl/Strachowicka/1x/Strachowicka1.jpg`,
+    '2x': `${base}gallery-impl/Strachowicka/2x/Strachowicka1-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Strachowicka/1x/Strachowicka2.jpg`,
+    '2x': `${base}gallery-impl/Strachowicka/2x/Strachowicka2-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Strachowicka/1x/Strachowicka3.jpg`,
+    '2x': `${base}gallery-impl/Strachowicka/2x/Strachowicka3-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Strachowicka/1x/Strachowicka4.jpg`,
+    '2x': `${base}gallery-impl/Strachowicka/2x/Strachowicka4-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Strachowicka/1x/Strachowicka5.jpg`,
+    '2x': `${base}gallery-impl/Strachowicka/2x/Strachowicka5-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Strachowicka/1x/Strachowicka6.jpg`,
+    '2x': `${base}gallery-impl/Strachowicka/2x/Strachowicka6-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Strachowicka/1x/Strachowicka7.jpg`,
+    '2x': `${base}gallery-impl/Strachowicka/2x/Strachowicka7-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Strachowicka/1x/Strachowicka8.jpg`,
+    '2x': `${base}gallery-impl/Strachowicka/2x/Strachowicka8-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Strachowicka/1x/Strachowicka9.jpg`,
+    '2x': `${base}gallery-impl/Strachowicka/2x/Strachowicka9-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Strachowicka/1x/Strachowicka10.jpg`,
+    '2x': `${base}gallery-impl/Strachowicka/2x/Strachowicka10-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Strachowicka/1x/Strachowicka11.jpg`,
+    '2x': `${base}gallery-impl/Strachowicka/2x/Strachowicka11-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Strachowicka/1x/Strachowicka12.jpg`,
+    '2x': `${base}gallery-impl/Strachowicka/2x/Strachowicka12-2x.jpg`,
+  },
+]
+
 };
 
 export default galleriesList;
