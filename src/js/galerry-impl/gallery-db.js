@@ -295,8 +295,8 @@ const galleriesList = {
   ],
   6: [
     {
-      '1x': `${base}gallery-impl/Nowomiejska-Gdańsk/1x/Nanowo-Nowomiejska-Gdansk1.jpg`,
-      '2x': `${base}gallery-impl/Nowomiejska-Gdansk/2x/Nanowo-Nowomiejska-Gdańsk1-2x.jpg`,
+      '1x': `${base}gallery-impl/Nowomiejska-Gdańsk/1x/Nanowo-Nowomiejska-Gdańsk1.jpg`,
+      '2x': `${base}gallery-impl/Nowomiejska-Gdańsk/2x/Nanowo-Nowomiejska-Gdańsk1-2x.jpg`,
     },
     {
       '1x': `${base}gallery-impl/Nowomiejska-Gdańsk/1x/Nanowo-Nowomiejska-Gdańsk2.jpg`,
