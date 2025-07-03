@@ -416,6 +416,80 @@ const galleriesList = {
       '2x': `${base}gallery-impl/Strachowicka/2x/Strachowicka12-2x.jpg`,
     },
   ],
+  8:[
+  {
+    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina1.jpg`,
+    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina1-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina2.jpg`,
+    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina2-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina3.jpg`,
+    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina3-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina4.jpg`,
+    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina4-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina5.jpg`,
+    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina5-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina6.jpg`,
+    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina6-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina7.jpg`,
+    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina7-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina8.jpg`,
+    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina8-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina9.jpg`,
+    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina9-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina10.jpg`,
+    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina10-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina11.jpg`,
+    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina11-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina12.jpg`,
+    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina12-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina13.jpg`,
+    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina13-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina14.jpg`,
+    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina14-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina15.jpg`,
+    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina15-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina16.jpg`,
+    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina16-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina17.jpg`,
+    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina17-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina18.jpg`,
+    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina18-2x.jpg`,
+  },
+],
 };
 
 export default galleriesList;
