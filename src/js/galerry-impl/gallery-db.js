@@ -490,6 +490,33 @@ const galleriesList = {
     '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina18-2x.jpg`,
   },
 ],
+9:[
+  {
+    '1x': `${base}gallery-impl/Anny-Jantar/1x/Loka-uslugowy1.jpg`,
+    '2x': `${base}gallery-impl/Anny-Jantar/2x/Loka-uslugowy1-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Anny-Jantar/1x/Loka-uslugowy2.jpg`,
+    '2x': `${base}gallery-impl/Anny-Jantar/2x/Loka-uslugowy2-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Anny-Jantar/1x/Loka-uslugowy3.jpg`,
+    '2x': `${base}gallery-impl/Anny-Jantar/2x/Loka-uslugowy3-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Anny-Jantar/1x/Loka-uslugowy4.jpg`,
+    '2x': `${base}gallery-impl/Anny-Jantar/2x/Loka-uslugowy4-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Anny-Jantar/1x/Loka-uslugowy5.jpg`,
+    '2x': `${base}gallery-impl/Anny-Jantar/2x/Loka-uslugowy5-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Anny-Jantar/1x/Loka-uslugowy6.jpg`,
+    '2x': `${base}gallery-impl/Anny-Jantar/2x/Loka-uslugowy6-2x.jpg`,
+  }
+],
+
 };
 
 export default galleriesList;
