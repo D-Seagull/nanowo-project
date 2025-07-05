@@ -67,7 +67,7 @@
   position: absolute; /* змінено з fixed */
   top: 50%;
   left: 50px;
-  transform: translateY(-50%);
+  transform: translateY(-1%);
   font-size: 25px;
 }
 }
