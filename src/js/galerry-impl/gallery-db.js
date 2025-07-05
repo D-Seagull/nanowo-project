@@ -796,6 +796,190 @@ const galleriesList = {
       '2x': `${base}gallery-impl/Wichrowa/2x/Wichrowa-24-2x.jpg`,
     },
   ],
+  16: [
+    {
+      '1x': `${base}gallery-impl/Lubomierska/1x/Lubomierska1.jpg`,
+      '2x': `${base}gallery-impl/Lubomierska/2x/Lubomierska1-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Lubomierska/1x/Lubomierska2.jpg`,
+      '2x': `${base}gallery-impl/Lubomierska/2x/Lubomierska2-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Lubomierska/1x/Lubomierska3.jpg`,
+      '2x': `${base}gallery-impl/Lubomierska/2x/Lubomierska3-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Lubomierska/1x/Lubomierska4.jpg`,
+      '2x': `${base}gallery-impl/Lubomierska/2x/Lubomierska4-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Lubomierska/1x/Lubomierska5.jpg`,
+      '2x': `${base}gallery-impl/Lubomierska/2x/Lubomierska5-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Lubomierska/1x/Lubomierska6.jpg`,
+      '2x': `${base}gallery-impl/Lubomierska/2x/Lubomierska6-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Lubomierska/1x/Lubomierska7.jpg`,
+      '2x': `${base}gallery-impl/Lubomierska/2x/Lubomierska7-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Lubomierska/1x/Lubomierska8.jpg`,
+      '2x': `${base}gallery-impl/Lubomierska/2x/Lubomierska8-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Lubomierska/1x/Lubomierska9.jpg`,
+      '2x': `${base}gallery-impl/Lubomierska/2x/Lubomierska9-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Lubomierska/1x/Lubomierska10.jpg`,
+      '2x': `${base}gallery-impl/Lubomierska/2x/Lubomierska10-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Lubomierska/1x/Lubomierska11.jpg`,
+      '2x': `${base}gallery-impl/Lubomierska/2x/Lubomierska11-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Lubomierska/1x/Lubomierska12.jpg`,
+      '2x': `${base}gallery-impl/Lubomierska/2x/Lubomierska12-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Lubomierska/1x/Lubomierska13.jpg`,
+      '2x': `${base}gallery-impl/Lubomierska/2x/Lubomierska13-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Lubomierska/1x/Lubomierska14.jpg`,
+      '2x': `${base}gallery-impl/Lubomierska/2x/Lubomierska14-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Lubomierska/1x/Lubomierska15.jpg`,
+      '2x': `${base}gallery-impl/Lubomierska/2x/Lubomierska15-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Lubomierska/1x/Lubomierska16.jpg`,
+      '2x': `${base}gallery-impl/Lubomierska/2x/Lubomierska16-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Lubomierska/1x/Lubomierska17.jpg`,
+      '2x': `${base}gallery-impl/Lubomierska/2x/Lubomierska17-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Lubomierska/1x/Lubomierska18.jpg`,
+      '2x': `${base}gallery-impl/Lubomierska/2x/Lubomierska18-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Lubomierska/1x/Lubomierska19.jpg`,
+      '2x': `${base}gallery-impl/Lubomierska/2x/Lubomierska19-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Lubomierska/1x/Lubomierska20.jpg`,
+      '2x': `${base}gallery-impl/Lubomierska/2x/Lubomierska20-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Lubomierska/1x/Lubomierska21.jpg`,
+      '2x': `${base}gallery-impl/Lubomierska/2x/Lubomierska21-2x.jpg`,
+    },
+  ],
+  17: [
+  {
+    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny1.jpg`,
+    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny1-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny2.jpg`,
+    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny2-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny3.jpg`,
+    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny3-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny4.jpg`,
+    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny4-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny5.jpg`,
+    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny5-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny6.jpg`,
+    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny6-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny7.jpg`,
+    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny7-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny8.jpg`,
+    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny8-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny9.jpg`,
+    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny9-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny10.jpg`,
+    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny10-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny11.jpg`,
+    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny11-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny12.jpg`,
+    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny12-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny13.jpg`,
+    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny13-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny14.jpg`,
+    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny14-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny15.jpg`,
+    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny15-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny16.jpg`,
+    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny16-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny17.jpg`,
+    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny17-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny18.jpg`,
+    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny18-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny19.jpg`,
+    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny19-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny20.jpg`,
+    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny20-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny21.jpg`,
+    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny21-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny22.jpg`,
+    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny22-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny23.jpg`,
+    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny23-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny24.jpg`,
+    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny24-2x.jpg`,
+  },
+],
 };
 
 export default galleriesList;
