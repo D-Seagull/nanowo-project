@@ -516,6 +516,114 @@ const galleriesList = {
     '2x': `${base}gallery-impl/Anny-Jantar/2x/Loka-uslugowy6-2x.jpg`,
   }
 ],
+10: [
+  {
+    '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-1.jpg`,
+    '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-1-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-2.jpg`,
+    '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-2-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-3.jpg`,
+    '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-3-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-4.jpg`,
+    '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-4-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-5.jpg`,
+    '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-5-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-6.jpg`,
+    '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-6-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-7.jpg`,
+    '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-7-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-8.jpg`,
+    '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-8-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-9.jpg`,
+    '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-9-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-10.jpg`,
+    '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-10-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-11.jpg`,
+    '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-11-2x.jpg`,
+  },
+],
+11:[
+  {
+    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-1.jpg`,
+    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-1-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-2.jpg`,
+    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-2-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-3.jpg`,
+    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-3-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-4.jpg`,
+    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-4-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-5.jpg`,
+    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-5-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-6.jpg`,
+    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-6-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-7.jpg`,
+    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-7-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-8.jpg`,
+    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-8-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-9.jpg`,
+    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-9-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-10.jpg`,
+    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-10-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-11.jpg`,
+    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-11-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-12.jpg`,
+    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-12-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-13.jpg`,
+    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-13-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-14.jpg`,
+    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-14-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-15.jpg`,
+    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-15-2x.jpg`,
+  },
+]
 
 };
 
