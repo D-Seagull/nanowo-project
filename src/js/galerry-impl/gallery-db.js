@@ -980,6 +980,104 @@ const galleriesList = {
     '2x': `${base}gallery-impl/Awicenny/2x/Awicenny24-2x.jpg`,
   },
 ],
+18:[
+  {
+    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-1.jpg`,
+    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-1-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-2.jpg`,
+    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-2-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-3.jpg`,
+    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-3-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-4.jpg`,
+    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-4-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-5.jpg`,
+    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-5-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-6.jpg`,
+    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-6-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-7.jpg`,
+    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-7-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-8.jpg`,
+    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-8-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-9.jpg`,
+    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-9-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-10.jpg`,
+    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-10-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-11.jpg`,
+    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-11-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-12.jpg`,
+    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-12-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-13.jpg`,
+    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-13-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-14.jpg`,
+    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-14-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-15.jpg`,
+    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-15-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-16.jpg`,
+    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-16-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-17.jpg`,
+    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-17-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-18.jpg`,
+    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-18-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-19.jpg`,
+    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-19-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-20.jpg`,
+    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-20-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-21.jpg`,
+    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-21-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-22.jpg`,
+    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-22-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-23.jpg`,
+    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-23-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-24.jpg`,
+    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-24-2x.jpg`,
+  },
+]
 };
 
 export default galleriesList;
