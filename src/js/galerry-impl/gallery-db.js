@@ -883,201 +883,299 @@ const galleriesList = {
     },
   ],
   17: [
-  {
-    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny1.jpg`,
-    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny1-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny2.jpg`,
-    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny2-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny3.jpg`,
-    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny3-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny4.jpg`,
-    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny4-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny5.jpg`,
-    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny5-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny6.jpg`,
-    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny6-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny7.jpg`,
-    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny7-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny8.jpg`,
-    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny8-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny9.jpg`,
-    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny9-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny10.jpg`,
-    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny10-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny11.jpg`,
-    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny11-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny12.jpg`,
-    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny12-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny13.jpg`,
-    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny13-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny14.jpg`,
-    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny14-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny15.jpg`,
-    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny15-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny16.jpg`,
-    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny16-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny17.jpg`,
-    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny17-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny18.jpg`,
-    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny18-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny19.jpg`,
-    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny19-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny20.jpg`,
-    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny20-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny21.jpg`,
-    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny21-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny22.jpg`,
-    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny22-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny23.jpg`,
-    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny23-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Awicenny/1x/Awicenny24.jpg`,
-    '2x': `${base}gallery-impl/Awicenny/2x/Awicenny24-2x.jpg`,
-  },
-],
-18:[
-  {
-    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-1.jpg`,
-    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-1-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-2.jpg`,
-    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-2-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-3.jpg`,
-    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-3-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-4.jpg`,
-    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-4-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-5.jpg`,
-    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-5-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-6.jpg`,
-    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-6-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-7.jpg`,
-    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-7-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-8.jpg`,
-    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-8-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-9.jpg`,
-    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-9-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-10.jpg`,
-    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-10-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-11.jpg`,
-    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-11-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-12.jpg`,
-    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-12-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-13.jpg`,
-    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-13-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-14.jpg`,
-    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-14-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-15.jpg`,
-    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-15-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-16.jpg`,
-    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-16-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-17.jpg`,
-    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-17-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-18.jpg`,
-    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-18-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-19.jpg`,
-    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-19-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-20.jpg`,
-    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-20-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-21.jpg`,
-    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-21-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-22.jpg`,
-    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-22-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-23.jpg`,
-    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-23-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-24.jpg`,
-    '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-24-2x.jpg`,
-  },
-]
+    {
+      '1x': `${base}gallery-impl/Awicenny/1x/Awicenny1.jpg`,
+      '2x': `${base}gallery-impl/Awicenny/2x/Awicenny1-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Awicenny/1x/Awicenny2.jpg`,
+      '2x': `${base}gallery-impl/Awicenny/2x/Awicenny2-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Awicenny/1x/Awicenny3.jpg`,
+      '2x': `${base}gallery-impl/Awicenny/2x/Awicenny3-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Awicenny/1x/Awicenny4.jpg`,
+      '2x': `${base}gallery-impl/Awicenny/2x/Awicenny4-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Awicenny/1x/Awicenny5.jpg`,
+      '2x': `${base}gallery-impl/Awicenny/2x/Awicenny5-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Awicenny/1x/Awicenny6.jpg`,
+      '2x': `${base}gallery-impl/Awicenny/2x/Awicenny6-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Awicenny/1x/Awicenny7.jpg`,
+      '2x': `${base}gallery-impl/Awicenny/2x/Awicenny7-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Awicenny/1x/Awicenny8.jpg`,
+      '2x': `${base}gallery-impl/Awicenny/2x/Awicenny8-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Awicenny/1x/Awicenny9.jpg`,
+      '2x': `${base}gallery-impl/Awicenny/2x/Awicenny9-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Awicenny/1x/Awicenny10.jpg`,
+      '2x': `${base}gallery-impl/Awicenny/2x/Awicenny10-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Awicenny/1x/Awicenny11.jpg`,
+      '2x': `${base}gallery-impl/Awicenny/2x/Awicenny11-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Awicenny/1x/Awicenny12.jpg`,
+      '2x': `${base}gallery-impl/Awicenny/2x/Awicenny12-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Awicenny/1x/Awicenny13.jpg`,
+      '2x': `${base}gallery-impl/Awicenny/2x/Awicenny13-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Awicenny/1x/Awicenny14.jpg`,
+      '2x': `${base}gallery-impl/Awicenny/2x/Awicenny14-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Awicenny/1x/Awicenny15.jpg`,
+      '2x': `${base}gallery-impl/Awicenny/2x/Awicenny15-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Awicenny/1x/Awicenny16.jpg`,
+      '2x': `${base}gallery-impl/Awicenny/2x/Awicenny16-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Awicenny/1x/Awicenny17.jpg`,
+      '2x': `${base}gallery-impl/Awicenny/2x/Awicenny17-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Awicenny/1x/Awicenny18.jpg`,
+      '2x': `${base}gallery-impl/Awicenny/2x/Awicenny18-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Awicenny/1x/Awicenny19.jpg`,
+      '2x': `${base}gallery-impl/Awicenny/2x/Awicenny19-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Awicenny/1x/Awicenny20.jpg`,
+      '2x': `${base}gallery-impl/Awicenny/2x/Awicenny20-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Awicenny/1x/Awicenny21.jpg`,
+      '2x': `${base}gallery-impl/Awicenny/2x/Awicenny21-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Awicenny/1x/Awicenny22.jpg`,
+      '2x': `${base}gallery-impl/Awicenny/2x/Awicenny22-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Awicenny/1x/Awicenny23.jpg`,
+      '2x': `${base}gallery-impl/Awicenny/2x/Awicenny23-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Awicenny/1x/Awicenny24.jpg`,
+      '2x': `${base}gallery-impl/Awicenny/2x/Awicenny24-2x.jpg`,
+    },
+  ],
+  18: [
+    {
+      '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-1.jpg`,
+      '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-1-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-2.jpg`,
+      '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-2-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-3.jpg`,
+      '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-3-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-4.jpg`,
+      '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-4-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-5.jpg`,
+      '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-5-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-6.jpg`,
+      '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-6-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-7.jpg`,
+      '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-7-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-8.jpg`,
+      '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-8-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-9.jpg`,
+      '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-9-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-10.jpg`,
+      '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-10-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-11.jpg`,
+      '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-11-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-12.jpg`,
+      '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-12-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-13.jpg`,
+      '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-13-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-14.jpg`,
+      '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-14-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-15.jpg`,
+      '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-15-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-16.jpg`,
+      '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-16-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-17.jpg`,
+      '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-17-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-18.jpg`,
+      '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-18-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-19.jpg`,
+      '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-19-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-20.jpg`,
+      '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-20-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-21.jpg`,
+      '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-21-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-22.jpg`,
+      '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-22-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-23.jpg`,
+      '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-23-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Kamienna/1x/Nanowo-Kamienna-24.jpg`,
+      '2x': `${base}gallery-impl/Kamienna/2x/Nanowo-Kamienna-24-2x.jpg`,
+    },
+  ],
+  19: [
+    {
+      '1x': `${base}gallery-impl/Vespucciego/1x/Nanowo-Vespucciego-1.jpg`,
+      '2x': `${base}gallery-impl/Vespucciego/2x/Nanowo-Vespucciego-1-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Vespucciego/1x/Nanowo-Vespucciego-2.jpg`,
+      '2x': `${base}gallery-impl/Vespucciego/2x/Nanowo-Vespucciego-2-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Vespucciego/1x/Nanowo-Vespucciego-3.jpg`,
+      '2x': `${base}gallery-impl/Vespucciego/2x/Nanowo-Vespucciego-3-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Vespucciego/1x/Nanowo-Vespucciego-4.jpg`,
+      '2x': `${base}gallery-impl/Vespucciego/2x/Nanowo-Vespucciego-4-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Vespucciego/1x/Nanowo-Vespucciego-5.jpg`,
+      '2x': `${base}gallery-impl/Vespucciego/2x/Nanowo-Vespucciego-5-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Vespucciego/1x/Nanowo-Vespucciego-6.jpg`,
+      '2x': `${base}gallery-impl/Vespucciego/2x/Nanowo-Vespucciego-6-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Vespucciego/1x/Nanowo-Vespucciego-7.jpg`,
+      '2x': `${base}gallery-impl/Vespucciego/2x/Nanowo-Vespucciego-7-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Vespucciego/1x/Nanowo-Vespucciego-8.jpg`,
+      '2x': `${base}gallery-impl/Vespucciego/2x/Nanowo-Vespucciego-8-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Vespucciego/1x/Nanowo-Vespucciego-9.jpg`,
+      '2x': `${base}gallery-impl/Vespucciego/2x/Nanowo-Vespucciego-9-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Vespucciego/1x/Nanowo-Vespucciego-10.jpg`,
+      '2x': `${base}gallery-impl/Vespucciego/2x/Nanowo-Vespucciego-10-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Vespucciego/1x/Nanowo-Vespucciego-11.jpg`,
+      '2x': `${base}gallery-impl/Vespucciego/2x/Nanowo-Vespucciego-11-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Vespucciego/1x/Nanowo-Vespucciego-12.jpg`,
+      '2x': `${base}gallery-impl/Vespucciego/2x/Nanowo-Vespucciego-12-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Vespucciego/1x/Nanowo-Vespucciego-13.jpg`,
+      '2x': `${base}gallery-impl/Vespucciego/2x/Nanowo-Vespucciego-13-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Vespucciego/1x/Nanowo-Vespucciego-14.jpg`,
+      '2x': `${base}gallery-impl/Vespucciego/2x/Nanowo-Vespucciego-14-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Vespucciego/1x/Nanowo-Vespucciego-15.jpg`,
+      '2x': `${base}gallery-impl/Vespucciego/2x/Nanowo-Vespucciego-15-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Vespucciego/1x/Nanowo-Vespucciego-16.jpg`,
+      '2x': `${base}gallery-impl/Vespucciego/2x/Nanowo-Vespucciego-16-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Vespucciego/1x/Nanowo-Vespucciego-17.jpg`,
+      '2x': `${base}gallery-impl/Vespucciego/2x/Nanowo-Vespucciego-17-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Vespucciego/1x/Nanowo-Vespucciego-18.jpg`,
+      '2x': `${base}gallery-impl/Vespucciego/2x/Nanowo-Vespucciego-18-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Vespucciego/1x/Nanowo-Vespucciego-19.jpg`,
+      '2x': `${base}gallery-impl/Vespucciego/2x/Nanowo-Vespucciego-19-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Vespucciego/1x/Nanowo-Vespucciego-20.jpg`,
+      '2x': `${base}gallery-impl/Vespucciego/2x/Nanowo-Vespucciego-20-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Vespucciego/1x/Nanowo-Vespucciego-21.jpg`,
+      '2x': `${base}gallery-impl/Vespucciego/2x/Nanowo-Vespucciego-21-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Vespucciego/1x/Nanowo-Vespucciego-22.jpg`,
+      '2x': `${base}gallery-impl/Vespucciego/2x/Nanowo-Vespucciego-22-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Vespucciego/1x/Nanowo-Vespucciego-23.jpg`,
+      '2x': `${base}gallery-impl/Vespucciego/2x/Nanowo-Vespucciego-23-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Vespucciego/1x/Nanowo-Vespucciego-24.jpg`,
+      '2x': `${base}gallery-impl/Vespucciego/2x/Nanowo-Vespucciego-24-2x.jpg`,
+    },
+  ],
 };
 
 export default galleriesList;
