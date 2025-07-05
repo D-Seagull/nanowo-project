@@ -37,19 +37,15 @@ function toScrollProject(id) {
     const elementPosition = target.getBoundingClientRect().top;
     const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
-    setTimeout(() => {
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth',
-      });
-    }, 400);
+    if (LoadPageObserver) observer.unobserve(LoadPageObserver); // Відключаємо observer
 
     setTimeout(() => {
       window.scrollTo({
         top: offsetPosition,
         behavior: 'smooth',
       });
-    }, 900);
+      if (LoadPageObserver) observer.observe(LoadPageObserver); // Знову вмикаємо
+    }, 600);
   }
 }
 function backToProjects() {
