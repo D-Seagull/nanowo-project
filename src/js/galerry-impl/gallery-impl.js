@@ -19,15 +19,16 @@ const observer = new IntersectionObserver(
   },
   {
     root: null,
-    rootMargin: '40px',
+    rootMargin: '200px',
     threshold: 0,
   }
 );
 
+
 let currentGallery = [];
 let loadedCount = 0;
 
-const ITEMS_PER_PAGE = 6;
+const ITEMS_PER_PAGE = 12;
 
 function toScrollProject(id) {
   const target = document.querySelector(`#${id}`);
@@ -79,9 +80,12 @@ function handleCreateGallery(evt) {
     renderNextImages();
     lightbox.refresh();
     // loadMoreBtn.classList.remove('hidden');
-    if (LoadPageObserver) {
-      observer.observe(LoadPageObserver);
-    }
+  if (LoadPageObserver) {
+  observer.observe(LoadPageObserver);
+  setTimeout(() => {
+    checkIfNeedMore();
+  }, 300); // Перевіряємо, чи треба ще підвантажити
+}
   } else {
     galleryList.innerHTML = '<p> 🏗️ Zdjęcia tej realizacji już wkrótce!</p>';
     loadMoreBtn.classList.add('hidden');
@@ -144,6 +148,16 @@ function renderNextImages() {
     }
   }
 }
+function checkIfNeedMore() {
+  const rect = LoadPageObserver.getBoundingClientRect();
+  if (rect.top < window.innerHeight) {
+    renderNextImages();
+  }
+}
+
+window.addEventListener('load', () => {
+  setTimeout(checkIfNeedMore, 300); // трохи почекати після рендеру
+});
 // if (loadMoreBtn) {
 //   loadMoreBtn.addEventListener('click', renderNextImages);
 // }
