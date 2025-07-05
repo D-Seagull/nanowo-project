@@ -685,19 +685,117 @@ const galleriesList = {
     },
   ],
   14: [
-  {
-    '1x': `${base}gallery-impl/Drobnera/1x/Nanowo-Drobnera-1.jpg`,
-    '2x': `${base}gallery-impl/Drobnera/2x/Nanowo-Drobnera-1-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Drobnera/1x/Nanowo-Drobnera-2.jpg`,
-    '2x': `${base}gallery-impl/Drobnera/2x/Nanowo-Drobnera-2-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Drobnera/1x/Nanowo-Drobnera-3.jpg`,
-    '2x': `${base}gallery-impl/Drobnera/2x/Nanowo-Drobnera-3-2x.jpg`,
-  },
-],
+    {
+      '1x': `${base}gallery-impl/Drobnera/1x/Nanowo-Drobnera-1.jpg`,
+      '2x': `${base}gallery-impl/Drobnera/2x/Nanowo-Drobnera-1-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Drobnera/1x/Nanowo-Drobnera-2.jpg`,
+      '2x': `${base}gallery-impl/Drobnera/2x/Nanowo-Drobnera-2-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Drobnera/1x/Nanowo-Drobnera-3.jpg`,
+      '2x': `${base}gallery-impl/Drobnera/2x/Nanowo-Drobnera-3-2x.jpg`,
+    },
+  ],
+  15: [
+    {
+      '1x': `${base}gallery-impl/Wichrowa/1x/Wichrowa-1.jpg`,
+      '2x': `${base}gallery-impl/Wichrowa/2x/Wichrowa-1-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Wichrowa/1x/Wichrowa-2.jpg`,
+      '2x': `${base}gallery-impl/Wichrowa/2x/Wichrowa-2-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Wichrowa/1x/Wichrowa-3.jpg`,
+      '2x': `${base}gallery-impl/Wichrowa/2x/Wichrowa-3-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Wichrowa/1x/Wichrowa-4.jpg`,
+      '2x': `${base}gallery-impl/Wichrowa/2x/Wichrowa-4-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Wichrowa/1x/Wichrowa-5.jpg`,
+      '2x': `${base}gallery-impl/Wichrowa/2x/Wichrowa-5-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Wichrowa/1x/Wichrowa-6.jpg`,
+      '2x': `${base}gallery-impl/Wichrowa/2x/Wichrowa-6-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Wichrowa/1x/Wichrowa-7.jpg`,
+      '2x': `${base}gallery-impl/Wichrowa/2x/Wichrowa-7-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Wichrowa/1x/Wichrowa-8.jpg`,
+      '2x': `${base}gallery-impl/Wichrowa/2x/Wichrowa-8-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Wichrowa/1x/Wichrowa-9.jpg`,
+      '2x': `${base}gallery-impl/Wichrowa/2x/Wichrowa-9-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Wichrowa/1x/Wichrowa-10.jpg`,
+      '2x': `${base}gallery-impl/Wichrowa/2x/Wichrowa-10-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Wichrowa/1x/Wichrowa-11.jpg`,
+      '2x': `${base}gallery-impl/Wichrowa/2x/Wichrowa-11-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Wichrowa/1x/Wichrowa-12.jpg`,
+      '2x': `${base}gallery-impl/Wichrowa/2x/Wichrowa-12-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Wichrowa/1x/Wichrowa-13.jpg`,
+      '2x': `${base}gallery-impl/Wichrowa/2x/Wichrowa-13-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Wichrowa/1x/Wichrowa-14.jpg`,
+      '2x': `${base}gallery-impl/Wichrowa/2x/Wichrowa-14-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Wichrowa/1x/Wichrowa-15.jpg`,
+      '2x': `${base}gallery-impl/Wichrowa/2x/Wichrowa-15-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Wichrowa/1x/Wichrowa-16.jpg`,
+      '2x': `${base}gallery-impl/Wichrowa/2x/Wichrowa-16-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Wichrowa/1x/Wichrowa-17.jpg`,
+      '2x': `${base}gallery-impl/Wichrowa/2x/Wichrowa-17-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Wichrowa/1x/Wichrowa-18.jpg`,
+      '2x': `${base}gallery-impl/Wichrowa/2x/Wichrowa-18-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Wichrowa/1x/Wichrowa-19.jpg`,
+      '2x': `${base}gallery-impl/Wichrowa/2x/Wichrowa-19-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Wichrowa/1x/Wichrowa-20.jpg`,
+      '2x': `${base}gallery-impl/Wichrowa/2x/Wichrowa-20-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Wichrowa/1x/Wichrowa-21.jpg`,
+      '2x': `${base}gallery-impl/Wichrowa/2x/Wichrowa-21-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Wichrowa/1x/Wichrowa-22.jpg`,
+      '2x': `${base}gallery-impl/Wichrowa/2x/Wichrowa-22-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Wichrowa/1x/Wichrowa-23.jpg`,
+      '2x': `${base}gallery-impl/Wichrowa/2x/Wichrowa-23-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Wichrowa/1x/Wichrowa-24.jpg`,
+      '2x': `${base}gallery-impl/Wichrowa/2x/Wichrowa-24-2x.jpg`,
+    },
+  ],
 };
 
 export default galleriesList;
