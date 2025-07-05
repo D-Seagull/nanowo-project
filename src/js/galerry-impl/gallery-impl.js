@@ -33,7 +33,7 @@ const ITEMS_PER_PAGE = 12;
 function toScrollProject(id) {
   const target = document.querySelector(`#${id}`);
   if (target) {
-    const headerOffset = 60;
+    const headerOffset = 80;
     const elementPosition = target.getBoundingClientRect().top;
     const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
@@ -54,8 +54,7 @@ function backToProjects() {
 
 if (impBackBtn) {
   impBackBtn.addEventListener('click', () => {
-    backToProjects();
-    toScrollProject('imp-projects');
+    history.back(); // Тригеримо popstate — і спрацює scroll
   });
 }
 
@@ -65,12 +64,15 @@ implLinkBtn.forEach(btn => {
 
 function handleCreateGallery(evt) {
   evt.preventDefault();
-  impProjectsPage.classList.add('hidden');
-  impGalleryPage.classList.remove('hidden');
+  // Зберігаємо scrollY перед переходом
+const scrollY = window.scrollY;
+history.replaceState({ section: 'imp-projects', scrollY }, '', location.href);
 
-  const buttonData = evt.currentTarget.dataset.implgallery;
-  const gallery = galleriesList[buttonData];
-  history.pushState({ section: 'imp-projects' }, '', '?gallery');
+impProjectsPage.classList.add('hidden');
+impGalleryPage.classList.remove('hidden');
+
+const buttonData = evt.currentTarget.dataset.implgallery;
+const gallery = galleriesList[buttonData];
   galleryList.innerHTML = '';
 
   if (gallery && gallery.length > 0) {
@@ -107,11 +109,17 @@ window.addEventListener('popstate', event => {
     backToProjects();
     lightbox.close();
     setTimeout(() => {
-      toScrollProject('imp-projects');
-    }, 100);
+      if (event.state.scrollY !== undefined) {
+        window.scrollTo({
+          top: event.state.scrollY,
+          behavior: 'smooth',
+        });
+      } else {
+        toScrollProject('imp-projects');
+      }
+    }, 400);
   }
 });
-
 function createHtmlEl(arr) {
   return arr
     .map(
