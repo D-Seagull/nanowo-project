@@ -416,215 +416,274 @@ const galleriesList = {
       '2x': `${base}gallery-impl/Strachowicka/2x/Strachowicka12-2x.jpg`,
     },
   ],
-  8:[
-  {
-    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina1.jpg`,
-    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina1-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina2.jpg`,
-    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina2-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina3.jpg`,
-    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina3-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina4.jpg`,
-    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina4-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina5.jpg`,
-    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina5-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina6.jpg`,
-    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina6-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina7.jpg`,
-    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina7-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina8.jpg`,
-    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina8-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina9.jpg`,
-    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina9-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina10.jpg`,
-    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina10-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina11.jpg`,
-    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina11-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina12.jpg`,
-    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina12-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina13.jpg`,
-    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina13-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina14.jpg`,
-    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina14-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina15.jpg`,
-    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina15-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina16.jpg`,
-    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina16-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina17.jpg`,
-    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina17-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina18.jpg`,
-    '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina18-2x.jpg`,
-  },
-],
-9:[
-  {
-    '1x': `${base}gallery-impl/Anny-Jantar/1x/Loka-uslugowy1.jpg`,
-    '2x': `${base}gallery-impl/Anny-Jantar/2x/Loka-uslugowy1-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Anny-Jantar/1x/Loka-uslugowy2.jpg`,
-    '2x': `${base}gallery-impl/Anny-Jantar/2x/Loka-uslugowy2-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Anny-Jantar/1x/Loka-uslugowy3.jpg`,
-    '2x': `${base}gallery-impl/Anny-Jantar/2x/Loka-uslugowy3-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Anny-Jantar/1x/Loka-uslugowy4.jpg`,
-    '2x': `${base}gallery-impl/Anny-Jantar/2x/Loka-uslugowy4-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Anny-Jantar/1x/Loka-uslugowy5.jpg`,
-    '2x': `${base}gallery-impl/Anny-Jantar/2x/Loka-uslugowy5-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Anny-Jantar/1x/Loka-uslugowy6.jpg`,
-    '2x': `${base}gallery-impl/Anny-Jantar/2x/Loka-uslugowy6-2x.jpg`,
-  }
-],
-10: [
-  {
-    '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-1.jpg`,
-    '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-1-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-2.jpg`,
-    '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-2-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-3.jpg`,
-    '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-3-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-4.jpg`,
-    '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-4-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-5.jpg`,
-    '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-5-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-6.jpg`,
-    '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-6-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-7.jpg`,
-    '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-7-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-8.jpg`,
-    '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-8-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-9.jpg`,
-    '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-9-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-10.jpg`,
-    '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-10-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-11.jpg`,
-    '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-11-2x.jpg`,
-  },
-],
-11:[
-  {
-    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-1.jpg`,
-    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-1-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-2.jpg`,
-    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-2-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-3.jpg`,
-    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-3-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-4.jpg`,
-    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-4-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-5.jpg`,
-    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-5-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-6.jpg`,
-    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-6-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-7.jpg`,
-    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-7-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-8.jpg`,
-    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-8-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-9.jpg`,
-    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-9-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-10.jpg`,
-    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-10-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-11.jpg`,
-    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-11-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-12.jpg`,
-    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-12-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-13.jpg`,
-    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-13-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-14.jpg`,
-    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-14-2x.jpg`,
-  },
-  {
-    '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-15.jpg`,
-    '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-15-2x.jpg`,
-  },
-]
-
+  8: [
+    {
+      '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina1.jpg`,
+      '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina1-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina2.jpg`,
+      '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina2-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina3.jpg`,
+      '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina3-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina4.jpg`,
+      '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina4-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina5.jpg`,
+      '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina5-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina6.jpg`,
+      '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina6-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina7.jpg`,
+      '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina7-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina8.jpg`,
+      '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina8-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina9.jpg`,
+      '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina9-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina10.jpg`,
+      '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina10-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina11.jpg`,
+      '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina11-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina12.jpg`,
+      '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina12-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina13.jpg`,
+      '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina13-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina14.jpg`,
+      '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina14-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina15.jpg`,
+      '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina15-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina16.jpg`,
+      '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina16-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina17.jpg`,
+      '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina17-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Nowa-Lacina/1x/Nowa-Lacina18.jpg`,
+      '2x': `${base}gallery-impl/VD-Nowa-Lacina/2x/Nowa-Lacina18-2x.jpg`,
+    },
+  ],
+  9: [
+    {
+      '1x': `${base}gallery-impl/Anny-Jantar/1x/Loka-uslugowy1.jpg`,
+      '2x': `${base}gallery-impl/Anny-Jantar/2x/Loka-uslugowy1-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Anny-Jantar/1x/Loka-uslugowy2.jpg`,
+      '2x': `${base}gallery-impl/Anny-Jantar/2x/Loka-uslugowy2-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Anny-Jantar/1x/Loka-uslugowy3.jpg`,
+      '2x': `${base}gallery-impl/Anny-Jantar/2x/Loka-uslugowy3-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Anny-Jantar/1x/Loka-uslugowy4.jpg`,
+      '2x': `${base}gallery-impl/Anny-Jantar/2x/Loka-uslugowy4-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Anny-Jantar/1x/Loka-uslugowy5.jpg`,
+      '2x': `${base}gallery-impl/Anny-Jantar/2x/Loka-uslugowy5-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Anny-Jantar/1x/Loka-uslugowy6.jpg`,
+      '2x': `${base}gallery-impl/Anny-Jantar/2x/Loka-uslugowy6-2x.jpg`,
+    },
+  ],
+  10: [
+    {
+      '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-1.jpg`,
+      '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-1-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-2.jpg`,
+      '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-2-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-3.jpg`,
+      '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-3-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-4.jpg`,
+      '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-4-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-5.jpg`,
+      '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-5-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-6.jpg`,
+      '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-6-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-7.jpg`,
+      '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-7-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-8.jpg`,
+      '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-8-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-9.jpg`,
+      '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-9-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-10.jpg`,
+      '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-10-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/VD-Anny Jantar/1x/VD-Anny Jantar-11.jpg`,
+      '2x': `${base}gallery-impl/VD-Anny Jantar/2x/VD-Anny Jantar-11-2x.jpg`,
+    },
+  ],
+  11: [
+    {
+      '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-1.jpg`,
+      '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-1-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-2.jpg`,
+      '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-2-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-3.jpg`,
+      '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-3-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-4.jpg`,
+      '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-4-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-5.jpg`,
+      '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-5-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-6.jpg`,
+      '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-6-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-7.jpg`,
+      '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-7-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-8.jpg`,
+      '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-8-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-9.jpg`,
+      '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-9-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-10.jpg`,
+      '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-10-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-11.jpg`,
+      '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-11-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-12.jpg`,
+      '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-12-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-13.jpg`,
+      '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-13-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-14.jpg`,
+      '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-14-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Romuald-Olbrych-Browarna/1x/Browarna-15.jpg`,
+      '2x': `${base}gallery-impl/Romuald-Olbrych-Browarna/2x/Browarna-15-2x.jpg`,
+    },
+  ],
+  12: [
+    {
+      '1x': `${base}gallery-impl/Pulaskiego/1x/Pulaskiego-1.jpg`,
+      '2x': `${base}gallery-impl/Pulaskiego/2x/Pulaskiego-1-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Pulaskiego/1x/Pulaskiego-2.jpg`,
+      '2x': `${base}gallery-impl/Pulaskiego/2x/Pulaskiego-2-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Pulaskiego/1x/Pulaskiego-3.jpg`,
+      '2x': `${base}gallery-impl/Pulaskiego/2x/Pulaskiego-3-2x.jpg`,
+    },
+  ],
+  13: [
+    {
+      '1x': `${base}gallery-impl/Soltysowicka/1x/Nanowo-Soltysowicka-1.jpg`,
+      '2x': `${base}gallery-impl/Soltysowicka/2x/Nanowo-Soltysowicka-1-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Soltysowicka/1x/Nanowo-Soltysowicka-2.jpg`,
+      '2x': `${base}gallery-impl/Soltysowicka/2x/Nanowo-Soltysowicka-2-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Soltysowicka/1x/Nanowo-Soltysowicka-3.jpg`,
+      '2x': `${base}gallery-impl/Soltysowicka/2x/Nanowo-Soltysowicka-3-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Soltysowicka/1x/Nanowo-Soltysowicka-4.jpg`,
+      '2x': `${base}gallery-impl/Soltysowicka/2x/Nanowo-Soltysowicka-4-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Soltysowicka/1x/Nanowo-Soltysowicka-5.jpg`,
+      '2x': `${base}gallery-impl/Soltysowicka/2x/Nanowo-Soltysowicka-5-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Soltysowicka/1x/Nanowo-Soltysowicka-6.jpg`,
+      '2x': `${base}gallery-impl/Soltysowicka/2x/Nanowo-Soltysowicka-6-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Soltysowicka/1x/Nanowo-Soltysowicka-7.jpg`,
+      '2x': `${base}gallery-impl/Soltysowicka/2x/Nanowo-Soltysowicka-7-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Soltysowicka/1x/Nanowo-Soltysowicka-8.jpg`,
+      '2x': `${base}gallery-impl/Soltysowicka/2x/Nanowo-Soltysowicka-8-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Soltysowicka/1x/Nanowo-Soltysowicka-9.jpg`,
+      '2x': `${base}gallery-impl/Soltysowicka/2x/Nanowo-Soltysowicka-9-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Soltysowicka/1x/Nanowo-Soltysowicka-10.jpg`,
+      '2x': `${base}gallery-impl/Soltysowicka/2x/Nanowo-Soltysowicka-10-2x.jpg`,
+    },
+    {
+      '1x': `${base}gallery-impl/Soltysowicka/1x/Nanowo-Soltysowicka-11.jpg`,
+      '2x': `${base}gallery-impl/Soltysowicka/2x/Nanowo-Soltysowicka-11-2x.jpg`,
+    },
+  ],
 };
 
 export default galleriesList;
