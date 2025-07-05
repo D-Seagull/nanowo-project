@@ -26,8 +26,8 @@ let swiper = null;
 function initSwiper() {
   const width = window.innerWidth;
   if (width >= 769 && !swiper) {
-    swiper = new Swiper(".prodPictSlider", {
-      slidesPerView: "auto",
+    swiper = new Swiper('.prodPictSlider', {
+      slidesPerView: 'auto',
       spaceBetween: 10,
       centeredSlides: true,
       loop: true,
@@ -44,21 +44,8 @@ function initSwiper() {
   }
 }
 
-window.addEventListener("load", initSwiper);
-window.addEventListener("resize", initSwiper);
-
-
-
-
-
-
-
-
-
-
-
-
-
+window.addEventListener('load', initSwiper);
+window.addEventListener('resize', initSwiper);
 
 /*=======================SwiperReviews======================*/
 new Swiper('.swiperReview', {

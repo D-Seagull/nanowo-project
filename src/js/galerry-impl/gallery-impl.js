@@ -33,14 +33,23 @@ const ITEMS_PER_PAGE = 12;
 function toScrollProject(id) {
   const target = document.querySelector(`#${id}`);
   if (target) {
-    const headerOffset = 80;
+    const headerOffset = window.innerWidth <= 1024 ? 100 : 80;
     const elementPosition = target.getBoundingClientRect().top;
     const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
-    window.scrollTo({
-      top: offsetPosition,
-      behavior: 'smooth',
-    });
+    setTimeout(() => {
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth',
+      });
+    }, 400);
+
+    setTimeout(() => {
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth',
+      });
+    }, 900);
   }
 }
 function backToProjects() {
