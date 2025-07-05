@@ -684,6 +684,20 @@ const galleriesList = {
       '2x': `${base}gallery-impl/Soltysowicka/2x/Nanowo-Soltysowicka-11-2x.jpg`,
     },
   ],
+  14: [
+  {
+    '1x': `${base}gallery-impl/Drobnera/1x/Nanowo-Drobnera-1.jpg`,
+    '2x': `${base}gallery-impl/Drobnera/2x/Nanowo-Drobnera-1-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Drobnera/1x/Nanowo-Drobnera-2.jpg`,
+    '2x': `${base}gallery-impl/Drobnera/2x/Nanowo-Drobnera-2-2x.jpg`,
+  },
+  {
+    '1x': `${base}gallery-impl/Drobnera/1x/Nanowo-Drobnera-3.jpg`,
+    '2x': `${base}gallery-impl/Drobnera/2x/Nanowo-Drobnera-3-2x.jpg`,
+  },
+],
 };
 
 export default galleriesList;
