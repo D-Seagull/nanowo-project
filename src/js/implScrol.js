@@ -40,6 +40,6 @@ window.addEventListener('load', () => {
       // Робимо кілька спроб скролу (на випадок до-пізнього завантаження зображень)
       const scrollInterval = setInterval(tryScroll, 500);
       // Стоп через 5 сек
-      setTimeout(() => clearInterval(scrollInterval), 5000);
+      setTimeout(() => clearInterval(scrollInterval), 1500);
     }, 500); // трішки дочекатися після window.onload
   });
