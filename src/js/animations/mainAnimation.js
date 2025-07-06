@@ -25,7 +25,7 @@ import { initContactAnimation, initContactPageFormAnimation } from './animationC
 
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.matchMedia().add('(min-width: 769px) ', () => {
+gsap.matchMedia().add('(min-width: 768px) ', () => {
   // =============HOME==============//
   initHeroAnimation();
   initTurnkeyAnimation();
