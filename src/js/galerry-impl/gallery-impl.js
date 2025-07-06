@@ -28,8 +28,13 @@ const observer = new IntersectionObserver(
 let currentGallery = [];
 let loadedCount = 0;
 
-const ITEMS_PER_PAGE = 6;
+let ITEMS_PER_PAGE;
 
+if (window.innerWidth >= 1200) {
+  ITEMS_PER_PAGE = 6;
+} else {
+  ITEMS_PER_PAGE = 12;
+}
 
 function backToProjects() {
   impProjectsPage.classList.remove('hidden');
