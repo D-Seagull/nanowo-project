@@ -28,33 +28,9 @@ const observer = new IntersectionObserver(
 let currentGallery = [];
 let loadedCount = 0;
 
-const ITEMS_PER_PAGE = 12;
+const ITEMS_PER_PAGE = 6;
 
-function toScrollProject(id) {
-  const target = document.querySelector(`#${id}`);
-  if (target) {
-    const headerOffset = window.innerWidth <= 1024 ? 100 : 80;
 
-    // Вимкнення observer перед scroll
-    if (LoadPageObserver) observer.unobserve(LoadPageObserver);
-
-    // Дочекайся повного рендеру елемента
-    setTimeout(() => {
-      const elementPosition = target.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth',
-      });
-
-      // Після scroll знову активуємо observer (опційно)
-      setTimeout(() => {
-        if (LoadPageObserver) observer.observe(LoadPageObserver);
-      }, 1000); // даємо час scroll'у завершитися
-    }, 300); // даємо час контенту завантажитися
-  }
-}
 function backToProjects() {
   impProjectsPage.classList.remove('hidden');
   impGalleryPage.classList.add('hidden');
