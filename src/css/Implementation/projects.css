@@ -200,7 +200,7 @@ cursor: pointer;
     gap: 4px;
     padding-top: clamp(10px, 3vw, 90px);
     padding-left: clamp(10px, 3vw, 90px);
-    min-height: 575px;
+    min-height: 615px;
      transform: scale(0);
   opacity: 0;
   }
@@ -232,9 +232,11 @@ cursor: pointer;
   }
   .imp-project-info-street {
     font-size: 30px;
+
   }
   .imp-project-info-text {
     font-size: var(--mobail-font-size);
+height: 100px;
   }
   .imp-project-count {
     font-size: 50px;
