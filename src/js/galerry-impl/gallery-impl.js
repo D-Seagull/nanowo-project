@@ -34,18 +34,25 @@ function toScrollProject(id) {
   const target = document.querySelector(`#${id}`);
   if (target) {
     const headerOffset = window.innerWidth <= 1024 ? 100 : 80;
-    const elementPosition = target.getBoundingClientRect().top;
-    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
-    if (LoadPageObserver) observer.unobserve(LoadPageObserver); // Відключаємо observer
+    // Вимкнення observer перед scroll
+    if (LoadPageObserver) observer.unobserve(LoadPageObserver);
 
+    // Дочекайся повного рендеру елемента
     setTimeout(() => {
+      const elementPosition = target.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
       window.scrollTo({
         top: offsetPosition,
         behavior: 'smooth',
       });
-      if (LoadPageObserver) observer.observe(LoadPageObserver); // Знову вмикаємо
-    }, 600);
+
+      // Після scroll знову активуємо observer (опційно)
+      setTimeout(() => {
+        if (LoadPageObserver) observer.observe(LoadPageObserver);
+      }, 1000); // даємо час scroll'у завершитися
+    }, 300); // даємо час контенту завантажитися
   }
 }
 function backToProjects() {
