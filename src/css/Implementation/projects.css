@@ -231,7 +231,7 @@ cursor: pointer;
     font-size: 20px;
   }
   .imp-project-info-street {
-    font-size: 30px;
+    font-size: 27px;
 
   }
   .imp-project-info-text {
@@ -239,13 +239,13 @@ cursor: pointer;
 height: 100px;
   }
   .imp-project-count {
-    font-size: 50px;
+    font-size: 40px;
   }
   .imp-project-count-text {
     font-size: var(--tablet-font-size);
   }
   .imp-project-year {
-    font-size: 50px;
+    font-size: 40px;
   }
   .imp-project-year-text {
     font-size: var(--tablet-font-size);
