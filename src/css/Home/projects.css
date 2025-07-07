@@ -299,6 +299,7 @@
   .investor-slide {
     text-align: start;
     margin-top: 20px;
+    margin-bottom: 0;
     font-size: clamp(30px, 10vw, 40px);
   }
   .investor-slide {
@@ -306,7 +307,7 @@
     font-size: 25px;
   }
   .slide-text {
-
+margin-bottom: 0;
     font-weight: 400;
     font-size: clamp(18px, 10vw, 20px);
     line-height: 33.44px;
