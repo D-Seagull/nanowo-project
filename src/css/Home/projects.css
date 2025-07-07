@@ -3,6 +3,7 @@
   display: flex;
   padding-top: 15px;
 
+
 }
 .project-header {
   display: flex;
@@ -22,7 +23,7 @@
   color: #dddddd;
   font-size: var(--mobail-font-size);
   line-height: 24px;
-   text-align: start;
+  text-align: start;
 }
 /*============projectSlider=============*/
 .swiper-slide .project-slide {
@@ -44,7 +45,7 @@
   margin-bottom: 15px;
 }
 .slide-text {
-   text-align: start;
+  text-align: start;
   color: #dddddd;
   font-size: var(--mobail-font-size);
   margin-bottom: 15px;
@@ -53,14 +54,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .slide-info {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
 }
 .slider-container {
   display: flex;
@@ -186,7 +185,6 @@
 .swiper-navigation-bottom .project-button-next {
   width: 5px;
   height: 5px;
-
 }
 .swiper-button-prev::after,
 .swiper-button-next::after {
@@ -195,7 +193,6 @@
 }
 
 @media only screen and (min-width: 769px) {
-
   .project-pagination {
     display: flex;
   }
@@ -208,13 +205,16 @@
   }
   .project-header {
     padding-bottom: 24px;
+    opacity: 0;
   }
   .investor-slide {
     text-align: start;
     font-size: 30px;
+    opacity: 0;
   }
   .slide-text {
     text-align: start;
+    opacity: 0;
 
     font-size: var(--tablet-font-size);
   }
@@ -223,6 +223,8 @@
     justify-content: space-between;
     padding-bottom: 25px;
     margin: 0;
+     overflow: hidden;
+  position: relative;
   }
   .project-head {
     text-align: start;
@@ -231,6 +233,9 @@
   .project-text {
     text-align: start;
     font-size: var(--tablet-font-size);
+  }
+  .animation-btn {
+    opacity: 0;
   }
 
   .slider-links {
@@ -285,6 +290,8 @@
     justify-content: space-between;
     gap: 0;
     justify-content: space-between;
+    overflow: hidden;
+  position: relative;
   }
 
   .project-pagination .swiper-pagination-bullet {
@@ -295,6 +302,7 @@
     padding-top: 30px;
     height: auto;
     width: auto;
+
   }
   .investor-slide {
     text-align: start;
@@ -307,7 +315,7 @@
     font-size: 25px;
   }
   .slide-text {
-margin-bottom: 0;
+    margin-bottom: 0;
     font-weight: 400;
     font-size: clamp(18px, 10vw, 20px);
     line-height: 33.44px;
@@ -337,9 +345,6 @@ margin-bottom: 0;
     margin-left: 0;
     cursor: pointer;
   }
-
-
-
 
   .smal-project-text {
     color: #dddddd;

@@ -41,8 +41,6 @@ function animationNumbers(tl) {
   });
 }
 
-
-
 export function initHeroAnimation() {
   const tl = gsap.timeline();
 
@@ -103,286 +101,281 @@ export function initHeroAnimation() {
 }
 
 export function initTurnkeyAnimation() {
+  const tlTurnKey = gsap.timeline({
+    scrollTrigger: {
+      trigger: '.turnkey-section',
+      start: 'top 83%',
+      once: true,
+      // toggleActions: 'play reverse play reverse',
+    },
+  });
 
-    const tlTurnKey = gsap.timeline({
-      scrollTrigger: {
-        trigger: '.turnkey-section',
-        start: 'top 83%',
-        once: true,
-        // toggleActions: 'play reverse play reverse',
-      },
-    });
-
-    tlTurnKey
-      .from('.turnkey-img-wrap', {
-        scale: 0,
-        opacity: 0,
-        duration: 1.8,
-        ease: 'power4.out',
-      })
-      .from(
-        '.turnkey-header',
-        {
-          x: -100,
-          opacity: 0,
-          duration: 1.5,
-          ease: 'power3.out',
-        },
-        '-=1.8'
-      );
-
-    let itemDelay = 1;
-    document.querySelectorAll('.turnkey-iteam').forEach(item => {
-      itemDelay -= 0.1;
-      tlTurnKey.from(
-        item,
-        {
-          x: -100,
-          opacity: 0,
-          duration: 1,
-          ease: 'power4.out',
-        },
-        `-=${itemDelay}`
-      );
-    });
-
-    animationNumbers(tlTurnKey);
-    ScrollTrigger.refresh();
-
-}
-
-export function initSlider() {
-
-    const tlSlider = gsap.timeline({
-      scrollTrigger: {
-        trigger: '.projects',
-        start: 'top 75%',
-        once: true,
-      },
-    });
-
-    tlSlider
-      .from('.img-slide', {
-        scale: 0,
-        opacity: 0,
-        duration: 1.8,
-        ease: 'power4.out',
-      })
-      .from(
-        '.project-header',
-        {
-          x: -100,
-          opacity: 0,
-          duration: 1.5,
-          ease: 'power3.out',
-        },
-        '-=1.5'
-      )
-      .from(
-        '.investor-slide',
-        {
-          x: -100,
-          opacity: 0,
-          duration: 1.5,
-          ease: 'power3.out',
-        },
-        '-=1'
-      )
-      .from(
-        '.slide-text',
-        {
-          x: -100,
-          opacity: 0,
-          duration: 1.5,
-          ease: 'power3.out',
-        },
-        '-=1.4'
-      )
-      .from(
-        '.animation-btn',
-        {
-          x: -100,
-          opacity: 0,
-          duration: 1.5,
-          ease: 'power3.out',
-        },
-        '-=1.4'
-      );
-    ScrollTrigger.refresh();
-
-}
-
-export function initAboutAnimation() {
-
-    gsap.from('.about-text', {
-      scrollTrigger: {
-        trigger: '.about-us-home',
-        start: 'top 83%',
-        once: true,
-      },
-      x: 200,
+  tlTurnKey
+    .from('.turnkey-img-wrap', {
+      scale: 0,
       opacity: 0,
-      duration: 1.5,
-      ease: 'power3.out',
-    });
-
-}
-export function initBenefitsAnimation() {
-
-    const tlBenefits = gsap.timeline({
-      scrollTrigger: {
-        trigger: '.benefits-head',
-        start: 'top 90%',
-        once: true,
-      },
-    });
-
-    tlBenefits
-      .from('.benefits-head ', {
+      duration: 1.8,
+      ease: 'power4.out',
+    })
+    .from(
+      '.turnkey-header',
+      {
         x: -100,
         opacity: 0,
         duration: 1.5,
         ease: 'power3.out',
-      })
-      .from(
-        ' .benefits-item-head',
-        {
-          x: -100,
-          opacity: 0,
-          duration: 1.5,
-          ease: 'power3.out',
-        },
-        '0'
-      )
-      .from(
-        '.icon-benefits',
-        {
-          scale: 0,
-          opacity: 0,
-          duration: 1.8,
-          ease: 'power4.out',
-        },
-        '-=1.5'
-      )
-      .from(
-        '.benefits-text',
-        {
-          y: 100,
-          opacity: 0,
-          duration: 1.5,
-          ease: 'power3.out',
-        },
-        '-=1.5'
-      )
-      .from(
-        '.benefits-btn-animation',
-        {
-          y: 100,
-          opacity: 0,
-          duration: 1.5,
-          ease: 'power3.out',
-        },
-        '0'
-      );
+      },
+      '-=1.8'
+    );
 
+  let itemDelay = 1;
+  document.querySelectorAll('.turnkey-iteam').forEach(item => {
+    itemDelay -= 0.1;
+    tlTurnKey.from(
+      item,
+      {
+        x: -100,
+        opacity: 0,
+        duration: 1,
+        ease: 'power4.out',
+      },
+      `-=${itemDelay}`
+    );
+  });
+
+  animationNumbers(tlTurnKey);
+  ScrollTrigger.refresh();
 }
 
-export function initReviewsAnimation() {
+export function initSlider() {
+  const tlSlider = gsap.timeline({
+    scrollTrigger: {
+      trigger: '.projects',
+      start: 'top 75%',
+      once: true,
+    },
+  });
 
-    const tlReviews = gsap.timeline({
-      scrollTrigger: {
-        trigger: '.review',
-        start: 'top 80%',
-        once: true,
+  tlSlider
+    .from(
+      '.img-slide',
+
+      {
+        scale: 0,
+        opacity: 0,
+        duration: 1.8,
+        ease: 'power4.out',
+      }
+    )
+    .fromTo(
+      '.project-header',
+      { opacity: 0, x: -100 },
+      {
+        x: 0,
+        opacity: 1,
+        duration: 1.5,
+        ease: 'power3.out',
       },
-    });
+      '-=1.5'
+    )
+    .fromTo(
+      '.investor-slide',
+      { opacity: 0, x: -100 },
+      {
+        x: 0,
+        opacity: 1,
+        duration: 1.5,
+        ease: 'power3.out',
+      },
+      '-=1'
+    )
+    .fromTo(
+      '.slide-text',
+      { opacity: 0, x: -100 },
+      {
+      x: 0,
+        opacity: 1,
+        duration: 1.5,
+        ease: 'power3.out',
+      },
+      '-=1.4'
+    )
+    .fromTo(
+      '.animation-btn',
+      { opacity: 0, x: -100 },
+      {
+        x: 0,
+        opacity: 1,
+        duration: 1.5,
+        ease: 'power3.out',
+      },
+      '-=1.4'
+    );
+  ScrollTrigger.refresh();
+}
 
-    tlReviews
-      .from('.review-header', {
+export function initAboutAnimation() {
+  gsap.from('.about-text', {
+    scrollTrigger: {
+      trigger: '.about-us-home',
+      start: 'top 83%',
+      once: true,
+    },
+    x: 200,
+    opacity: 0,
+    duration: 1.5,
+    ease: 'power3.out',
+  });
+}
+export function initBenefitsAnimation() {
+  const tlBenefits = gsap.timeline({
+    scrollTrigger: {
+      trigger: '.benefits-head',
+      start: 'top 90%',
+      once: true,
+    },
+  });
+
+  tlBenefits
+    .from('.benefits-head ', {
+      x: -100,
+      opacity: 0,
+      duration: 1.5,
+      ease: 'power3.out',
+    })
+    .from(
+      ' .benefits-item-head',
+      {
+        x: -100,
+        opacity: 0,
+        duration: 1.5,
+        ease: 'power3.out',
+      },
+      '0'
+    )
+    .from(
+      '.icon-benefits',
+      {
+        scale: 0,
+        opacity: 0,
+        duration: 1.8,
+        ease: 'power4.out',
+      },
+      '-=1.5'
+    )
+    .from(
+      '.benefits-text',
+      {
         y: 100,
         opacity: 0,
         duration: 1.5,
         ease: 'power3.out',
-      })
-      .from(
-        '.review-header-name',
-        {
-          y: 100,
-          opacity: 0,
-          duration: 1.5,
-          ease: 'power3.out',
-        },
-        '0.2'
-      );
-
+      },
+      '-=1.5'
+    )
+    .from(
+      '.benefits-btn-animation',
+      {
+        y: 100,
+        opacity: 0,
+        duration: 1.5,
+        ease: 'power3.out',
+      },
+      '0'
+    );
 }
 
-export function initNewsAnimation() {
+export function initReviewsAnimation() {
+  const tlReviews = gsap.timeline({
+    scrollTrigger: {
+      trigger: '.review',
+      start: 'top 80%',
+      once: true,
+    },
+  });
 
-    const tlNews = gsap.timeline({
-      scrollTrigger: {
-        trigger: '.whats-new',
-        start: 'top 80%',
-        once: true,
-
-      },
-    });
-    tlNews.from('.news-btn-animation', {
+  tlReviews
+    .from('.review-header', {
       y: 100,
       opacity: 0,
       duration: 1.5,
       ease: 'power3.out',
-    });
-    tlNews
-      .from(
-        '.news-header-container',
-        {
-          x: -100,
-          opacity: 0,
-          duration: 1.5,
-          ease: 'power3.out',
-        },
-        '0.2'
-      )
-      .from(
-        '.img-news',
-        {
-          scale: 0,
-          opacity: 0,
-          duration: 1.5,
-          ease: 'power3.out',
-        },
-        '0.2'
-      )
-      .from(
-        '.news-iteam-header',
-        {
-          x: 100,
-          opacity: 0,
-          duration: 1.5,
-          ease: 'power3.out',
-        },
-        '0.2'
-      )
-      .from(
-        '.news-iteam-text',
-        {
-          x: 100,
-          opacity: 0,
-          duration: 1.5,
-          ease: 'power3.out',
-        },
-        '-=1.3'
-      )
-      .from(
-        '.more-link-news-animation',
-        {
-          x: 100,
-          opacity: 0,
-          duration: 1.5,
-          ease: 'power3.out',
-        },
-        '-=1.3'
-      );
+    })
+    .from(
+      '.review-header-name',
+      {
+        y: 100,
+        opacity: 0,
+        duration: 1.5,
+        ease: 'power3.out',
+      },
+      '0.2'
+    );
+}
 
-};
+export function initNewsAnimation() {
+  const tlNews = gsap.timeline({
+    scrollTrigger: {
+      trigger: '.whats-new',
+      start: 'top 80%',
+      once: true,
+    },
+  });
+  tlNews.from('.news-btn-animation', {
+    y: 100,
+    opacity: 0,
+    duration: 1.5,
+    ease: 'power3.out',
+  });
+  tlNews
+    .from(
+      '.news-header-container',
+      {
+        x: -100,
+        opacity: 0,
+        duration: 1.5,
+        ease: 'power3.out',
+      },
+      '0.2'
+    )
+    .from(
+      '.img-news',
+      {
+        scale: 0,
+        opacity: 0,
+        duration: 1.5,
+        ease: 'power3.out',
+      },
+      '0.2'
+    )
+    .from(
+      '.news-iteam-header',
+      {
+        x: 100,
+        opacity: 0,
+        duration: 1.5,
+        ease: 'power3.out',
+      },
+      '0.2'
+    )
+    .from(
+      '.news-iteam-text',
+      {
+        x: 100,
+        opacity: 0,
+        duration: 1.5,
+        ease: 'power3.out',
+      },
+      '-=1.3'
+    )
+    .from(
+      '.more-link-news-animation',
+      {
+        x: 100,
+        opacity: 0,
+        duration: 1.5,
+        ease: 'power3.out',
+      },
+      '-=1.3'
+    );
+}
