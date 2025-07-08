@@ -1,0 +1,83 @@
+/* Контейнер модалки з обмеженою висотою та прокруткою */
+.privacy-modal__container {
+  background-color: #fff;
+  max-width: 600px;
+  width: 90%;
+  max-height: 80vh; /* обмежуємо висоту модалки 80% від висоти вікна */
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  position: relative;
+
+  overflow-y: auto; /* додаємо вертикальну прокрутку, якщо контент більший за max-height */
+  -webkit-overflow-scrolling: touch; /* плавний скрол на iOS */
+}
+
+
+
+/* Стандартний стиль для решти */
+.privacy-modal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 1000;
+}
+
+.privacy-modal.is-open {
+  display: block;
+}
+
+.privacy-modal__overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden; /* запобігає випадковому скролу фону */
+}
+
+.modal__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  line-height: 1;
+}
+
+
+ .privacy-modal__container {
+  background-color: #fff;
+  max-width: 600px;
+  width: 90%;
+  max-height: 80vh;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  position: relative;
+
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+
+
+/* Опціонально: стиль для параграфа */
+.privacy-modal__container p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.privacy-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.privacy-header{
+  text-align: center;
+}

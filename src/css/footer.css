@@ -178,6 +178,9 @@
 .mob-footer-address{
   display: none;
 }
+.footer__policy{
+  margin-right: 15px;
+}
 }
 @media (min-width: 1200px) {
   .footer__logo-img{
