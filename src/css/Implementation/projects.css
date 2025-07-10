@@ -236,7 +236,10 @@ cursor: pointer;
   }
   .imp-project-info-text {
     font-size: var(--mobail-font-size);
-height: 100px;
+height: 120px;
+  }
+  .imp-project-info-text-TALGO{
+    height: 80px;
   }
   .imp-project-count {
     font-size: 40px;
