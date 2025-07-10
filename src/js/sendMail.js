@@ -9,7 +9,7 @@ export const sendMail = async ({ name,company, email,telephone, message }) => {
     message,
   };
   await emailjs
-    .send('service_zn3aqae', 'template_3o02fkr', params)
+    .send("service_wz8n3nc","template_141rh3o", params)
     .then(() =>
       iziToast.success({
         title: 'Wysłane!',
@@ -20,7 +20,7 @@ export const sendMail = async ({ name,company, email,telephone, message }) => {
         messageColor: '#1B1B1B',
         titleColor: '#1B1B1B',
         progressBar: false,
-        timeout: 4000,
+        timeout: 2000,
         layout: 2,
         transitionIn: 'fadeInDown',
         transitionOut: 'fadeOutUp',

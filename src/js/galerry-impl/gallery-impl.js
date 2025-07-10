@@ -141,11 +141,11 @@ function renderNextImages() {
   galleryList.insertAdjacentHTML('beforeend', createHtmlEl(nextItems));
   loadedCount += ITEMS_PER_PAGE;
 
-  lightbox.refresh();
   if (loadedCount >= currentGallery.length) {
     // loadMoreBtn.classList.add('hidden');
     if (LoadPageObserver) {
       observer.unobserve(LoadPageObserver);
+
     }
   }
 }
@@ -153,7 +153,9 @@ function checkIfNeedMore() {
   const rect = LoadPageObserver.getBoundingClientRect();
   if (rect.top < window.innerHeight) {
     renderNextImages();
+
   }
+
 }
 
 window.addEventListener('load', () => {
