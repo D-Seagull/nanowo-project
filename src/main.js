@@ -10,6 +10,3 @@ import './js/release';
 import './js/privacy.modal';
 /*==========animations================ */
 import './js/animations/mainAnimation';
-
-/*==========CSS================ */
-import './css/styles.css';
