@@ -9,7 +9,7 @@ import SortCss from 'postcss-sort-media-queries';
 const inputs = glob.sync('./src/*.html').map(file => path.resolve(file));
 
 export default defineConfig(({ command }) => ({
-  base: '/nanowo-project/',
+  base:   './',
   define: {
     [command === 'serve' ? 'global' : '_global']: {},
   },
